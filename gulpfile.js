@@ -3,6 +3,7 @@ const gulp         = require("gulp"),
       sass         = require('gulp-sass'),
       autoprefixer = require('gulp-autoprefixer'),
       cssmin       = require('gulp-cssmin'),
+      rename       = require('gulp-rename'),
       watch        = require('gulp-watch'),
       uglify       = require('gulp-uglify'),
       concat       = require('gulp-concat'),
@@ -61,8 +62,14 @@ gulp.task('css.prefixer', function() {
 });
 
 gulp.task('css.min', function() {
-  return gulp.src([CSS_FILES])
+  return gulp.src([
+      CSS_FILES,
+      '!' + PUBLIC_PATH + '/css/**/*min.css'
+    ])
     .pipe(cssmin())
+    .pipe(rename({
+      suffix: '.min'
+    }))
     .pipe(gulp.dest(PUBLIC_PATH + '/css'));
 });
 
