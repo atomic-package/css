@@ -1,0 +1,36 @@
+{
+  "name": "@atomic-package/css",
+  "version": "0.0.1",
+  "description": "atomic-package - css",
+  "main": "dist/atomic-package.css",
+  "scripts": {
+    "test": "$(npm bin)/mocha test/** -r test/spec_setup.js",
+    "test:watch": "$(npm bin)/mocha -w test/** -r test/spec_setup.js",
+    "start": "gulp",
+    "build": "gulp dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:atomic-package/css.git"
+  },
+  "author": "daisuke.takayama",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "cssmin": "^0.4.3",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-mocha": "^4.3.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^2.1.2",
+    "gulp-watch": "^4.3.11",
+    "path": "^0.12.7",
+    "run-sequence": "^1.2.2"
+  },
+  "dependencies": {
+  }
+}
