@@ -686,3 +686,83 @@ select {
     font-size: 18px;
   }
 }
+
+/*
+ * Textarea Style
+*/
+textarea {
+  box-sizing: border-box;
+  padding: 8px;
+  border: #ccc 1px solid;
+  border-radius: 4px;
+  box-shadow: inset rgba(222, 222, 222, 0.5) 0 2px 0 0;
+  font-size: 14px;
+  color: #555;
+  line-height: 1.5;
+
+  /* State */
+  // size width
+  &.narrow {
+    width: 50px;
+  }
+  &.short {
+    width: 100px;
+  }
+  &.long {
+    width: 300px;
+  }
+  &.wide {
+    width: 450px;
+  }
+  &.free {
+    width: 100%;
+  }
+
+  // size height
+  &.lower {
+    height: 30px;
+    font-size: 10px;
+    line-height: 1.2;
+  }
+  &.low {
+    height: 50px;
+    font-size: 12px;
+    line-height: 1.4;
+  }
+  &.high {
+    height: 125px;
+  }
+  &.lofty {
+    height: 200px;
+  }
+
+  // size width x height
+  &.mini {
+    width: 50px;
+    height: 30px;
+    font-size: 10px;
+    line-height: 1.2;
+  }
+  &.small {
+    width: 100px;
+    height: 50px;
+    font-size: 12px;
+    line-height: 1.4;
+  }
+  &.large {
+    width: 300px;
+    height: 125px;
+  }
+  &.big {
+    width: 450px;
+    height: 200px;
+  }
+
+  /* State */
+  // color
+  @include borderColorClass;
+
+  &.resize {
+    resize: both;
+  }
+}

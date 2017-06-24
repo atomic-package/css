@@ -31,3 +31,21 @@
     font-size: $size * 2;
   }
 }
+
+@mixin borderColorClass {
+  &.primary {
+    border-color: $colorPrimary;
+  }
+  &.green {
+    border-color: $colorGreen;
+  }
+  &.blue {
+    border-color: $colorBlue;
+  }
+  &.orange {
+    border-color: $colorOrange;
+  }
+  &.red {
+    border-color: $colorRed;
+  }
+}

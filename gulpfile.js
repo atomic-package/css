@@ -28,6 +28,10 @@ const SASS_SRC_PATH = path.join(SRC_PATH, 'scss');
 const SASS_FILES    = path.join(SASS_SRC_PATH, './**/*.scss');
 const CSS_FILES     = path.join(PUBLIC_PATH, './css/**/*.css');
 
+// Image
+const IMG_SRC_PATH = path.join(SRC_PATH, 'image');
+const IMG_FILES    = path.join(IMG_SRC_PATH, './**/*.{jpg,gif,png,ico}');
+
 // Clean Task
 gulp.task('clean.release', function() {
   return del([CSS_FILES], {force: true});
@@ -62,6 +66,11 @@ gulp.task('css.min', function() {
     .pipe(gulp.dest(PUBLIC_PATH + '/css'));
 });
 
+// Image
+gulp.task('image', function() {
+  return gulp.src([IMG_FILES]).pipe(gulp.dest(PUBLIC_PATH + '/image'));
+});
+
 // ファイル更新監視
 gulp.task('watch', function() {
   // HTML
@@ -86,7 +95,7 @@ gulp.task('browser-sync', function() {
  **/
 gulp.task('build.ui', function(callback) {
   return runSequence(
-    ['html', 'build.css'],
+    ['html', 'build.css', 'image'],
     callback
   );
 });
