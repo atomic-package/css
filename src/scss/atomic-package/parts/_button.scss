@@ -282,6 +282,46 @@ $btnLofty: 50px;
       margin: 0px 6px -11px -34px;
     }
   }
+
+  /* Module */
+  &.close {
+    position: relative;
+
+    &::before,
+    &::after {
+      @include createStyle;
+      top: 4px;
+      width: 14px;
+      height: 2px;
+      background: #B8B8B8;
+      transform: rotate(45deg);
+    }
+    &::after {
+      transform: rotate(-45deg);
+    }
+
+    /* Skin */
+    &.primary::before,
+    &.primary::after {
+      background: #2C3D50;
+    }
+    &.blue::before,
+    &.blue::after {
+      background: #31708F;
+    }
+    &.green::before,
+    &.green::after {
+      background: #3C763D;
+    }
+    &.orange::before,
+    &.orange::after {
+      background: #8A6D3B;
+    }
+    &.red::before,
+    &.red::after {
+      background: #8E3534;
+    }
+  }
 }
 
 a,

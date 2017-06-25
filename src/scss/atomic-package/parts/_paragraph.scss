@@ -333,11 +333,15 @@ img.thumbnail {
 
 /* alert */
 .alert {
-  padding: 10px;
-  border: #B2CFDD 1px solid;
+  box-sizing: border-box;
+  padding: 12px 18px;
+  //border: #B2CFDD 1px solid;
   border-radius: 4px;
-  background: #EBF7FD;
-  color: #47829E;
+  //background: #EBF7FD;
+  background: #D9EDF7;
+  //color: #47829E;
+  color: #31708F;
+  line-height: 1.5;
 
   & > .text {
     color: #47829E;
@@ -346,8 +350,10 @@ img.thumbnail {
   /* Skin */
   &.green {
     border-color: #C8DFA5;
-    background: #F2FAE3;
-    color: #659F13;
+    //background: #F2FAE3;
+    //color: #659F13;
+    background: #DFF0D8;
+    color: #3C763D;
 
     & > .text {
       color: #659F13;
@@ -355,10 +361,12 @@ img.thumbnail {
   }
 
   /* Skin */
-  &.yellow {
+  &.orange {
     border-color: #F6D8B0;
-    background: #FFFCEB;
-    color: #E28327;
+    //background: #FFFCEB;
+    //color: #E28327;
+    background: #FCF8E3;
+    color: #8A6D3B;
 
     & > .text {
       color: #E28327;
@@ -368,8 +376,10 @@ img.thumbnail {
   /* Skin */
   &.red {
     border-color: #F3C1B7;
-    background: #FFF1F0;
-    color: #D85030;
+    //background: #FFF1F0;
+    //color: #D85030;
+    background: #F2DEDE;
+    color: #8E3534;
 
     & > .text {
       color: #D85030;

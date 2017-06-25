@@ -2284,11 +2284,13 @@ img.thumbnail.free.round {
 
 /* alert */
 .alert {
-  padding: 10px;
-  border: #B2CFDD 1px solid;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 12px 18px;
   border-radius: 4px;
-  background: #EBF7FD;
-  color: #47829E;
+  background: #D9EDF7;
+  color: #31708F;
+  line-height: 1.5;
   /* Skin */
   /* Skin */
   /* Skin */
@@ -2300,28 +2302,28 @@ img.thumbnail.free.round {
 
 .alert.green {
   border-color: #C8DFA5;
-  background: #F2FAE3;
-  color: #659F13;
+  background: #DFF0D8;
+  color: #3C763D;
 }
 
 .alert.green > .text {
   color: #659F13;
 }
 
-.alert.yellow {
+.alert.orange {
   border-color: #F6D8B0;
-  background: #FFFCEB;
-  color: #E28327;
+  background: #FCF8E3;
+  color: #8A6D3B;
 }
 
-.alert.yellow > .text {
+.alert.orange > .text {
   color: #E28327;
 }
 
 .alert.red {
   border-color: #F3C1B7;
-  background: #FFF1F0;
-  color: #D85030;
+  background: #F2DEDE;
+  color: #8E3534;
 }
 
 .alert.red > .text {
@@ -3826,6 +3828,7 @@ dl.menuList dd + dd {
   /* Skin */
   /* State */
   /* Atomic */
+  /* Module */
 }
 
 .btn > a,
@@ -4174,6 +4177,62 @@ dl.menuList dd + dd {
 .btn .icon.social,
 .btn:not(a) .icon.social {
   margin: 0px 6px -11px -34px;
+}
+
+.btn.close,
+.btn:not(a).close {
+  position: relative;
+  /* Skin */
+}
+
+.btn.close::before, .btn.close::after,
+.btn:not(a).close::before,
+.btn:not(a).close::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 4px;
+  width: 14px;
+  height: 2px;
+  background: #B8B8B8;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.btn.close::after,
+.btn:not(a).close::after {
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.btn.close.primary::before, .btn.close.primary::after,
+.btn:not(a).close.primary::before,
+.btn:not(a).close.primary::after {
+  background: #2C3D50;
+}
+
+.btn.close.blue::before, .btn.close.blue::after,
+.btn:not(a).close.blue::before,
+.btn:not(a).close.blue::after {
+  background: #31708F;
+}
+
+.btn.close.green::before, .btn.close.green::after,
+.btn:not(a).close.green::before,
+.btn:not(a).close.green::after {
+  background: #3C763D;
+}
+
+.btn.close.orange::before, .btn.close.orange::after,
+.btn:not(a).close.orange::before,
+.btn:not(a).close.orange::after {
+  background: #8A6D3B;
+}
+
+.btn.close.red::before, .btn.close.red::after,
+.btn:not(a).close.red::before,
+.btn:not(a).close.red::after {
+  background: #8E3534;
 }
 
 a.btn,
