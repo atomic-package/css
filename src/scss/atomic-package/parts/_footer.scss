@@ -3,10 +3,9 @@ footer {
   /* Atomic */
   &.footer {
     box-sizing: border-box;
-    min-height: 140px;
     background: #F8F8F8;
 
-    // state
+    /* State */
     &.center .top,
     &.center .main,
     &.center .bottom,
@@ -19,7 +18,7 @@ footer {
       text-align: center;
     }
 
-    // module
+    /* Module */
     .top,
     .main,
     .bottom {
@@ -50,6 +49,7 @@ footer {
       }
     }
 
+    /* Module */
     .top {
       min-height: 50px;
       padding: 10px 60px;
@@ -57,6 +57,37 @@ footer {
     .main {
       min-height: 140px;
       padding: 20px 60px;
+
+      &.mini {
+        min-height: 35px;
+
+        .title.footer {
+          font-size: 12px;
+          & + .subTitle.footer {
+            margin-top: 8px;
+          }
+        }
+        .subTitle.footer {
+          font-size: 10px;
+        }
+      }
+      &.small {
+        min-height: 35px;
+
+        .title.footer {
+          font-size: 20px;
+
+          & + .subTitle.footer {
+            margin-top: 8px;
+          }
+        }
+      }
+      &.large {
+        min-height: 250px;
+      }
+      &.big {
+        min-height: 350px;
+      }
     }
     .bottom {
       min-height: 50px;
@@ -66,6 +97,10 @@ footer {
     .title.footer {
       & + .subTitle.footer {
         margin-top: 12px;
+      }
+
+      & + .menuList {
+        margin-top: 35px;
       }
     }
 
@@ -90,13 +125,61 @@ footer {
         }
       }
     }
-  }
 
-  .copyright {
-    font-size: 12px;
+    .copyright {
+      font-size: 12px;
 
-    &.center {
-      text-align: center;
+      &.center {
+        text-align: center;
+      }
+    }
+
+    /* State */
+    // size
+    &.mini {
+      min-height: 35px;
+
+      .main {
+        min-height: 35px;
+      }
+      .title.footer {
+        font-size: 12px;
+
+        & + .subTitle.footer {
+          margin-top: 8px;
+        }
+      }
+      .subTitle.footer {
+        font-size: 10px;
+      }
+    }
+    &.small {
+      min-height: 70px;
+
+      .main {
+        min-height: 35px;
+      }
+      .title.footer {
+        font-size: 20px;
+
+        & + .subTitle.footer {
+          margin-top: 8px;
+        }
+      }
+    }
+    &.large {
+      min-height: 250px;
+
+      .main {
+        min-height: 250px;
+      }
+    }
+    &.big {
+      min-height: 350px;
+
+      .main {
+        min-height: 350px;
+      }
     }
   }
 }
