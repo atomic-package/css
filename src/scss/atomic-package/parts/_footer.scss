@@ -116,13 +116,11 @@ footer {
     // Top & Bottom
     .top,
     .bottom {
-
       /* State */
       // size
       &.mini,
       &.lower {
         min-height: 10px;
-
         .title.footer {
           font-size: 12px;
           & + .subTitle.footer {
@@ -136,10 +134,8 @@ footer {
       &.small,
       &.low {
         min-height: 20px;
-
         .title.footer {
           font-size: 20px;
-
           & + .subTitle.footer {
             margin-top: 8px;
           }
@@ -154,11 +150,9 @@ footer {
         min-height: 100px;
       }
     }
-
     .subTitle.footer {
       color: #696969;
     }
-
     .menuList,
     .menuList a {
       color: #696969;
@@ -251,6 +245,72 @@ footer {
       .bottom {
         min-height: 100px;
       }
+    }
+  }
+
+  /* Skin */
+  &.primary {
+    background: $colorPrimary;
+    color: #fff;
+    .title.footer,
+    .subTitle.footer {
+      color: #fff;
+    }
+    .menuList,
+    .menuList a {
+      color: #fff;
+    }
+  }
+
+  &.green {
+    background: $colorGreen;
+    color: #fff;
+    .title.footer,
+    .subTitle.footer {
+      color: #fff;
+    }
+    .menuList,
+    .menuList a {
+      color: #fff;
+    }
+  }
+
+  &.blue {
+    background: $colorBlue;
+    color: #fff;
+    .title.footer,
+    .subTitle.footer {
+      color: #fff;
+    }
+    .menuList,
+    .menuList a {
+      color: #fff;
+    }
+  }
+
+  &.orange {
+    background: $colorOrange;
+    color: #fff;
+    .title.footer,
+    .subTitle.footer {
+      color: #fff;
+    }
+    .menuList,
+    .menuList a {
+      color: #fff;
+    }
+  }
+
+  &.red {
+    background: $colorRed;
+    color: #fff;
+    .title.footer,
+    .subTitle.footer {
+      color: #fff;
+    }
+    .menuList,
+    .menuList a {
+      color: #fff;
     }
   }
 }
