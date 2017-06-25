@@ -58,7 +58,8 @@ footer {
       min-height: 140px;
       padding: 20px 60px;
 
-      &.mini {
+      &.mini,
+      &.lower {
         min-height: 35px;
 
         .title.footer {
@@ -71,7 +72,8 @@ footer {
           font-size: 10px;
         }
       }
-      &.small {
+      &.small,
+      &.low {
         min-height: 35px;
 
         .title.footer {
@@ -82,10 +84,12 @@ footer {
           }
         }
       }
-      &.large {
+      &.large,
+      &.high {
         min-height: 250px;
       }
-      &.big {
+      &.big,
+      &.lofty {
         min-height: 350px;
       }
     }
@@ -136,7 +140,8 @@ footer {
 
     /* State */
     // size
-    &.mini {
+    &.mini,
+    &.lower {
       min-height: 35px;
 
       .main {
@@ -153,7 +158,8 @@ footer {
         font-size: 10px;
       }
     }
-    &.small {
+    &.small,
+    &.low {
       min-height: 70px;
 
       .main {
@@ -167,14 +173,16 @@ footer {
         }
       }
     }
-    &.large {
+    &.large,
+    &.high {
       min-height: 250px;
 
       .main {
         min-height: 250px;
       }
     }
-    &.big {
+    &.big,
+    &.lofty {
       min-height: 350px;
 
       .main {
