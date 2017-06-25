@@ -333,6 +333,7 @@ img.thumbnail {
 
 /* alert */
 .alert {
+  position: relative;
   box-sizing: border-box;
   padding: 12px 18px;
   //border: #B2CFDD 1px solid;
@@ -383,6 +384,22 @@ img.thumbnail {
 
     & > .text {
       color: #D85030;
+    }
+  }
+
+  .btn.close {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    margin-top: -4px;
+
+    &.mini {
+    }
+    &.small {
+    }
+    &.large {
+    }
+    &.big {
     }
   }
 }

@@ -286,6 +286,8 @@ $btnLofty: 50px;
   /* Module */
   &.close {
     position: relative;
+    min-width: 15px;
+    min-height: 12px;
 
     &::before,
     &::after {
@@ -320,6 +322,41 @@ $btnLofty: 50px;
     &.red::before,
     &.red::after {
       background: #8E3534;
+    }
+
+    /* State */
+    // size
+    &.mini {
+      min-width: 9px;
+      &::before,
+      &::after {
+        width: 7px;
+      }
+    }
+    &.small {
+      min-width: 11px;
+      &::before,
+      &::after {
+        width: 10px;
+      }
+    }
+    &.large {
+      min-width: 26px;
+      min-height: 22px;
+      &::before,
+      &::after {
+        top: 9px;
+        width: 25px;
+      }
+    }
+    &.big {
+      min-width: 51px;
+      min-height: 44px;
+      &::before,
+      &::after {
+        top: 19px;
+        width: 50px;
+      }
     }
   }
 }
