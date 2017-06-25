@@ -4,8 +4,59 @@ footer {
   &.footer {
     box-sizing: border-box;
     min-height: 140px;
-    padding: 40px 60px;
     background: #F8F8F8;
+
+    // state
+    &.center .top,
+    &.center .main,
+    &.center .bottom,
+    .top.center,
+    .main.center,
+    .bottom.center {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    // module
+    .top,
+    .main,
+    .bottom {
+      box-sizing: border-box;
+
+      // state color
+      &.gray {
+        background: #F2F2F2;
+      }
+
+      // state Layout
+      &.flex {
+        display: flex;
+
+        .wrap {
+          flex: 1;
+
+          &.right {
+            display: flex;
+            justify-content: flex-end;
+          }
+        }
+      }
+    }
+
+    .top {
+      min-height: 50px;
+      padding: 10px 60px;
+    }
+    .main {
+      min-height: 140px;
+      padding: 20px 60px;
+    }
+    .bottom {
+      min-height: 50px;
+      padding: 10px 60px;
+    }
 
     .title.footer {
       & + .subTitle.footer {
@@ -17,9 +68,13 @@ footer {
       color: #696969;
     }
 
+    .menuList,
+    .menuList a {
+      color: #696969;
+    }
+
     dl.menuList {
       min-width: 140px;
-      color: #696969;
 
       a {
         color: #696969;
@@ -28,17 +83,6 @@ footer {
 
     .text.copy {
       text-align: center;
-    }
-
-    &.center {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-
-      .wrap {
-
-      }
     }
   }
 

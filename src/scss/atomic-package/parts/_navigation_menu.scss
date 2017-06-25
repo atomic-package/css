@@ -5,6 +5,26 @@
 /*
  * Menu
 */
+.menuList {
+  & > li {
+    & + li {
+      margin-top: 8px;
+    }
+  }
+
+  &.align {
+    display: flex;
+
+    & > li {
+      padding: 0 20px;
+
+      & + li {
+        margin-top: 0px;
+      }
+    }
+  }
+}
+
 dl.menuList {
   color: $fontMainColor;
 
