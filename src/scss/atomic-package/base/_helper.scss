@@ -2,11 +2,46 @@
  * Helper Style
 */
 
-.ml-5 { margin-left: 5px; }
-.ml-10 { margin-left: 10px; }
-.ml-15 { margin-left: 15px; }
-.ml-20 { margin-left: 20px; }
-.ml-25 { margin-left: 25px; }
-.ml-30 { margin-left: 30px; }
-.ml-35 { margin-left: 35px; }
-.ml-40 { margin-left: 40px; }
+@for $i from 0 through 40 {
+  // margin
+  .m-#{$i * 5} {
+    margin:#{$i * 5}px;
+  }
+
+  .mt-#{$i * 5} {
+    margin-top:#{$i * 5}px;
+  }
+
+  .mr-#{$i * 5} {
+    margin-right:#{$i * 5}px;
+  }
+
+  .mb-#{$i * 5} {
+    margin-bottom:#{$i * 5}px;
+  }
+
+  .ml-#{$i * 5} {
+    margin-left:#{$i * 5}px;
+  }
+
+  // padding
+  .p-#{$i * 5} {
+    padding:#{$i * 5}px;
+  }
+
+  .pt-#{$i * 5} {
+    padding-top:#{$i * 5}px;
+  }
+
+  .pr-#{$i * 5} {
+    padding-right:#{$i * 5}px;
+  }
+
+  .pb-#{$i * 5} {
+    padding-bottom:#{$i * 5}px;
+  }
+
+  .pl-#{$i * 5} {
+    padding-left:#{$i * 5}px;
+  }
+}
