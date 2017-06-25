@@ -5,15 +5,36 @@
 /*
  * Menu
 */
-.menuList {
+dl.menuList {
+  color: $fontMainColor;
 
+  a {
+    color: $fontMainColor;
+  }
+
+  dt {
+    margin-bottom: 20px;
+    font-size: 14px;
+
+  }
+
+  dd {
+    font-size: 13px;
+
+    & + dd {
+      margin-top: 8px;
+    }
+  }
 }
+
 
 .menu {
   flex: 1;
+
   .menuList {
     display: flex;
     padding: 0 20px;
+
     > li {
       a {
         display: inline-block;
@@ -322,11 +343,9 @@ $paginationBigFont: 16px;
         background: $colorHoverRed;
       }
     }
-
   }
-
-
 }
+
 
 /*
  * TabMenu
@@ -723,14 +742,16 @@ $navLofty: 50px;
     width: 100%;
     justify-content: center;
   }
-
 }
+
 
 .navBarList {
   @include clearfix;
+
   > li {
     position: relative;
     float: left;
+
     > a {
       display: block;
       box-sizing: border-box;
@@ -740,7 +761,7 @@ $navLofty: 50px;
       line-height: 40px;
       color: #666;
       font-size: 14px;
-      font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-weight: 400;
       margin-top: -1px;
       margin-left: -1px;
