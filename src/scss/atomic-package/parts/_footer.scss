@@ -33,14 +33,19 @@ footer {
       // state Layout
       &.flex {
         display: flex;
-
         .wrap {
           flex: 1;
-
           &.right {
             display: flex;
             justify-content: flex-end;
           }
+        }
+      }
+
+      & > .wrap {
+        &.flex {
+          display: flex;
+          align-items: center;
         }
       }
     }
@@ -80,10 +85,5 @@ footer {
         color: #696969;
       }
     }
-
-    .text.copy {
-      text-align: center;
-    }
   }
-
 }

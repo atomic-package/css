@@ -112,7 +112,22 @@
 
 
 .textList {
+  & > li {
+    & + li {
+      margin-top: 8px;
+    }
+  }
 
+  &.align {
+    display: flex;
+
+    & > li {
+      & + li {
+        margin-top: 0px;
+        padding-left: 12px;
+      }
+    }
+  }
 }
 
 .thumbnailList {
