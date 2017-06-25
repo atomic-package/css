@@ -19,6 +19,7 @@ const gulp         = require("gulp"),
 const ROOT        = __dirname;
 const SRC_PATH    = path.join(ROOT, './src');
 const PUBLIC_PATH = path.join(ROOT, './public');
+const DIST_PATH   = path.join(ROOT, './dist');
 
 // HTML
 const HTML_SRC_PATH = path.join(SRC_PATH, 'html');
@@ -73,6 +74,15 @@ gulp.task('css.min', function() {
     .pipe(gulp.dest(PUBLIC_PATH + '/css'));
 });
 
+gulp.task('css.copy.dist', function() {
+  return gulp.src([
+    PUBLIC_PATH + '/css/atomic-package/*.css',
+    PUBLIC_PATH + '/css/atomic-package-theme/*.css'
+  ])
+    .pipe(gulp.dest(DIST_PATH));
+});
+
+
 // Image
 gulp.task('image', function() {
   return gulp.src([IMG_FILES]).pipe(gulp.dest(PUBLIC_PATH + '/image'));
@@ -122,6 +132,7 @@ gulp.task('build.css', function(callback) {
 gulp.task('dist', function(callback) {
   return runSequence(
     'build.ui',
+    'css.copy.dist',
     callback
   );
 });
