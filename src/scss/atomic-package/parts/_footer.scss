@@ -83,7 +83,20 @@ footer {
 
       a {
         color: #696969;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
       }
+    }
+  }
+
+  .copyright {
+    font-size: 12px;
+
+    &.center {
+      text-align: center;
     }
   }
 }

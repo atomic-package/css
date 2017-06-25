@@ -695,6 +695,7 @@ select {
   /* State */
   // color
   @include borderColorClass;
+  @include textColorClass;
 }
 
 /*

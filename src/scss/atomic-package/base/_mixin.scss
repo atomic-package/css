@@ -49,3 +49,21 @@
     border-color: $colorRed;
   }
 }
+
+@mixin textColorClass {
+  &.primary {
+    color: $colorPrimary;
+  }
+  &.green {
+    color: $colorGreen;
+  }
+  &.blue {
+    color: $colorBlue;
+  }
+  &.orange {
+    color: $colorOrange;
+  }
+  &.red {
+    color: $colorRed;
+  }
+}

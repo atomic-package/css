@@ -339,11 +339,19 @@ img.thumbnail {
   background: #EBF7FD;
   color: #47829E;
 
+  & > .text {
+    color: #47829E;
+  }
+
   /* Skin */
   &.green {
     border-color: #C8DFA5;
     background: #F2FAE3;
     color: #659F13;
+
+    & > .text {
+      color: #659F13;
+    }
   }
 
   /* Skin */
@@ -351,6 +359,10 @@ img.thumbnail {
     border-color: #F6D8B0;
     background: #FFFCEB;
     color: #E28327;
+
+    & > .text {
+      color: #E28327;
+    }
   }
 
   /* Skin */
@@ -358,6 +370,10 @@ img.thumbnail {
     border-color: #F3C1B7;
     background: #FFF1F0;
     color: #D85030;
+
+    & > .text {
+      color: #D85030;
+    }
   }
 }
 

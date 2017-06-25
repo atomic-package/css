@@ -33,16 +33,15 @@ dl.menuList {
   }
 
   dt {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     font-size: 14px;
-
   }
 
   dd {
     font-size: 13px;
 
     & + dd {
-      margin-top: 8px;
+      margin-top: 12px;
     }
   }
 }
