@@ -7,7 +7,10 @@
     "test": "$(npm bin)/mocha test/** -r test/spec_setup.js",
     "test:watch": "$(npm bin)/mocha -w test/** -r test/spec_setup.js",
     "start": "gulp",
-    "build": "gulp dist"
+    "docs.start": "fractal start --sync",
+    "build": "gulp dist",
+    "css.build": "gulp dist",
+    "docs.build": "fractal build"
   },
   "repository": {
     "type": "git",
