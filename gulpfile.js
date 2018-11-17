@@ -144,7 +144,7 @@ gulp.task('default', function(callback) {
   runSequence(
     'build.ui',
     'watch',
-    'browser-sync',
+    // 'browser-sync',
     callback
   );
 });

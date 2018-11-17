@@ -123,7 +123,9 @@ src/scss/
 ## Start Develop
 
 ```
-$ npm start
+$ npm run dev
 ```
 
-Open http://localhost:8080 in your browser.
+Open http://localhost:3000 in your browser.
+
+Using fractal Style Guide.

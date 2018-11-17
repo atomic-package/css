@@ -1,1412 +1,465 @@
-<!doctype html>
-<html lang="ja">
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="no-js">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Atomic Package - css</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>
+    window.frctl = {
+        env: 'static'
+    };
+    </script>
+    <script>var cl = document.querySelector('html').classList; cl.remove('no-js'); cl.add('has-js');</script>
+    <link rel="shortcut icon" href="themes/mandelbrot/favicon.ico" type="image/ico">
 
-  <link href="css/atomic-package/atomic-package.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="themes/mandelbrot/css/default.css?cachebust=1.2.0" type="text/css">
+
+
+<title>Atomic Package CSS Style Guide | Atomic Package CSS Style Guide</title>
+
 </head>
 <body>
 
 
-<h1 class="title">h1 Title</h1>
-<h2 class="title">h2 Title</h2>
-<h3 class="title">h3 Title</h3>
-<h4 class="title">h4 Title</h4>
-<h5 class="title">h5 Title</h5>
-<h6 class="title">h6 Title</h6>
 
+<div class="Frame" id="frame">
 
-<h4 class="title">タイトル カラー</h4>
-<h1 class="title">h1 Title</h1>
-<h1 class="title primary">h1 Title</h1>
-<h1 class="title green">h1 Title</h1>
-<h1 class="title blue">h1 Title</h1>
-<h1 class="title orange">h1 Title</h1>
-<h1 class="title red">h1 Title</h1>
+    <div class="Frame-header">
+        <div class="Header">
+    <button class="Header-button Header-navToggle" data-action="toggle-sidebar">
+        <svg class="Header-navToggleIcon Header-navToggleIcon--open" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0h24v24H0z" fill="none"/>
+    <path d="M19 6.4L17.6 5 12 10.6 6.4 5 5 6.4 10.6 12 5 17.6 6.4 19 12 13.4 17.6 19 19 17.6 13.4 12z"/>
+</svg>
 
-<h4 class="title">タイトル サイズ</h4>
-<h1 class="title mini">h1 Title</h1>
-<h1 class="title small">h1 Title</h1>
-<h1 class="title">h1 Title</h1>
-<h1 class="title large">h1 Title</h1>
-<h1 class="title big">h1 Title</h1>
+        <svg class="Header-navToggleIcon Header-navToggleIcon--closed" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0h24v24H0z" fill="none"/>
+    <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+</svg>
 
-<h2 class="title mini">h2 Title</h2>
-<h2 class="title small">h2 Title</h2>
-<h2 class="title">h2 Title</h2>
-<h2 class="title large">h2 Title</h2>
-<h2 class="title big">h2 Title</h2>
-
-<h3 class="title mini">h3 Title</h3>
-<h3 class="title small">h3 Title</h3>
-<h3 class="title">h3 Title</h3>
-<h3 class="title large">h3 Title</h3>
-<h3 class="title big">h3 Title</h3>
-
-<h4 class="title mini">h4 Title</h4>
-<h4 class="title small">h4 Title</h4>
-<h4 class="title">h4 Title</h4>
-<h4 class="title large">h4 Title</h4>
-<h4 class="title big">h4 Title</h4>
-
-<h5 class="title mini">h5 Title</h5>
-<h5 class="title small">h5 Title</h5>
-<h5 class="title">h5 Title</h5>
-<h5 class="title large">h5 Title</h5>
-<h5 class="title big">h5 Title</h5>
-
-<h6 class="title mini">h6 Title</h6>
-<h6 class="title small">h6 Title</h6>
-<h6 class="title">h6 Title</h6>
-<h6 class="title large">h6 Title</h6>
-<h6 class="title big">h6 Title</h6>
-
-<h4 class="title">タイトル 下線ボーダー</h4>
-
-
-## Button Components
-
-
-### Color Variation
-
-<br><br>
-
-<p class="btn"><a href="">Default</a></p>
-<p class="btn primary"><a href="">Primary</a></p>
-<p class="btn green"><a href="">Success</a></p>
-<p class="btn blue"><a href="">Info</a></p>
-<p class="btn orange"><a href="">Warning</a></p>
-<p class="btn red"><a href="">Danger</a></p>
-
-<br><br>
-### button Element
-
-<br><br>
-
-<p class="btn"><button>Default</button></p>
-<p class="btn primary"><button>Button</button></p>
-<p class="btn green"><button>Success</button></p>
-<p class="btn blue"><button>Info</button></p>
-<p class="btn orange"><button>Warning</button></p>
-<p class="btn red"><button>Danger</button></p>
-
-<br><br>
-
-### input Element
-
-<br><br>
-
-<p class="btn"><input type="submit" value="Default"/></p>
-<p class="btn primary"><input type="submit" value="Button"/></p>
-<p class="btn green"><input type="submit" value="Success"/></p>
-<p class="btn blue"><input type="submit" value="Info"/></p>
-<p class="btn orange"><input type="submit" value="Warning"/></p>
-<p class="btn red"><input type="submit" value="Danger"/></p>
-
-<br><br>
-
-### Button Variation
-#### active
-
-<br><br>
-
-<p class="btn active"><input type="submit" value="Default"/></p>
-<p class="btn primary active"><input type="submit" value="Button"/></p>
-<p class="btn green active"><input type="submit" value="Success"/></p>
-<p class="btn blue active"><input type="submit" value="Info"/></p>
-<p class="btn orange active"><input type="submit" value="Warning"/></p>
-<p class="btn red active"><input type="submit" value="Danger"/></p>
-
-<br><br>
-
-#### disable
-
-<br><br>
-
-<p class="btn disable"><input type="submit" value="Default"/></p>
-<p class="btn primary disable"><input type="submit" value="Button"/></p>
-<p class="btn green disable"><input type="submit" value="Success"/></p>
-<p class="btn blue disable"><input type="submit" value="Info"/></p>
-<p class="btn orange disable"><input type="submit" value="Warning"/></p>
-<p class="btn red disable"><input type="submit" value="Danger"/></p>
-
-<br><br>
-
-### Size Variation
-
-<br><br>
-
-<p class="btn primary mini"><a href="">Mini button</a></p>
-<p class="btn primary small"><a href="">Small button</a></p>
-<p class="btn primary"><a href="">Default button</a></p>
-<p class="btn primary large"><a href="">Large button</a></p>
-<p class="btn primary big"><a href="">Big button</a></p>
-
-<br><br>
-
-### Size Variation - width
-
-<br><br>
-
-<p class="btn primary narrow"><a href="">narrow</a></p>
-<p class="btn primary short"><a href="">short</a></p>
-<p class="btn primary"><a href="">Default button</a></p>
-<p class="btn primary long"><a href="">long</a></p>
-<p class="btn primary wide"><a href="">wide</a></p>
-
-<br><br>
-
-<p class="btn primary free"><a href="">free</a></p>
-
-<br><br>
-
-### Size Variation - height
-
-<br><br>
-
-<p class="btn primary lower"><a href="">lower</a></p>
-<p class="btn primary low"><a href="">low</a></p>
-<p class="btn primary"><a href="">Default button</a></p>
-<p class="btn primary high"><a href="">high</a></p>
-<p class="btn primary lofty"><a href="">lofty</a></p>
-
-<br><br>
-
-## Alert
-
-<p class="alert">アラート文言アラート文言アラート文言アラート文言アラート文言アラート文言</p>
-<p class="alert green">アラート文言アラート文言アラート文言アラート文言アラート文言アラート文言</p>
-<p class="alert orange">アラート文言アラート文言アラート文言アラート文言アラート文言アラート文言</p>
-<p class="alert red">アラート文言アラート文言アラート文言アラート文言アラート文言アラート文言</p>
-
-
-<div class="alert">
-  <p class="text">アラート文言アラート文言アラート文言アラート文言アラート文言アラート文言</p>
+    </button>
+    <a href="" class="Header-title" data-pjax>Atomic Package CSS Style Guide</a>
 </div>
 
-<div class="alert green">
-  <p class="text">アラート文言アラート文言アラート文言アラート文言アラート文言アラート文言</p>
-</div>
-
-<div class="alert orange">
-  <p class="text">アラート文言アラート文言アラート文言アラート文言アラート文言アラート文言</p>
-</div>
-
-<div class="alert red">
-  <p class="text">アラート文言アラート文言アラート文言アラート文言アラート文言アラート文言</p>
-</div>
-
-
-<p class="text">close btn</p>
-
-<div class="alert">
-  <p class="text">アラート文言アラート文言アラート文言アラート文言アラート文言アラート文言</p>
-  <p class="btn close blue small"></p>
-</div>
-
-<div class="alert green">
-  <p class="text">アラート文言アラート文言アラート文言アラート文言アラート文言アラート文言</p>
-  <p class="btn close green small"></p>
-</div>
-
-<div class="alert orange">
-  <p class="text">アラート文言アラート文言アラート文言アラート文言アラート文言アラート文言</p>
-  <p class="btn close orange small"></p>
-</div>
-
-<div class="alert red">
-  <p class="text">アラート文言アラート文言アラート文言アラート文言アラート文言アラート文言</p>
-  <p class="btn close red small"></p>
-</div>
-
-<p class="btn close red mini"></p>
-<p class="btn close red small"></p>
-<p class="btn close red"></p>
-<p class="btn close red large"></p>
-<p class="btn close red big"></p>
-
-
-
-<h3 class="title">wrap要素</h3>
-<p class="thumbnail"><img src="./image/thumbnail_01.jpg" width="45" alt="person"/></p>
-
-<p class="thumbnail round"><img src="./image/thumbnail_01.jpg" width="45" alt="person"/></p>
-
-<p class="thumbnail circle"><img src="./image/thumbnail_01.jpg" width="45" alt="person"/></p>
-
-<p class="thumbnail border"><img src="./image/thumbnail_01.jpg" width="45" alt="person"/></p>
-
-<p class="thumbnail frame"><img src="./image/thumbnail_01.jpg" width="45" alt="person"/></p>
-
-<h3 class="title">img要素</h3>
-<img class="thumbnail" src="./image/thumbnail_01.jpg" width="45" alt="person"/>
-<img class="thumbnail round" src="./image/thumbnail_01.jpg" width="45" alt="person"/>
-<img class="thumbnail circle" src="./image/thumbnail_01.jpg" width="45" alt="person"/>
-<img class="thumbnail border" src="./image/thumbnail_01.jpg" width="45" alt="person"/>
-<img class="thumbnail frame" src="./image/thumbnail_01.jpg" width="45" alt="person"/>
-
-<h3 class="title">カラー</h3>
-
-<p class="thumbnail small border"><img src="./image/thumbnail_01.jpg" width="45" alt="person"/></p>
-<p class="thumbnail small border primary"><img src="./image/thumbnail_01.jpg" width="45" alt="person"/></p>
-<p class="thumbnail small border green"><img src="./image/thumbnail_01.jpg" width="45" alt="person"/></p>
-<p class="thumbnail small border blue"><img src="./image/thumbnail_01.jpg" width="45" alt="person"/></p>
-<p class="thumbnail small border orange"><img src="./image/thumbnail_01.jpg" width="45" alt="person"/></p>
-<p class="thumbnail small border red"><img src="./image/thumbnail_01.jpg" width="45" alt="person"/></p>
-
-<img class="thumbnail small border" src="./image/thumbnail_01.jpg" width="45" alt="person"/>
-<img class="thumbnail small border primary" src="./image/thumbnail_01.jpg" width="45" alt="person"/>
-<img class="thumbnail small border green" src="./image/thumbnail_01.jpg" width="45" alt="person"/>
-<img class="thumbnail small border blue" src="./image/thumbnail_01.jpg" width="45" alt="person"/>
-<img class="thumbnail small border orange" src="./image/thumbnail_01.jpg" width="45" alt="person"/>
-<img class="thumbnail small border red" src="./image/thumbnail_01.jpg" width="45" alt="person"/>
-<!--<img class="thumbnail free" src="./image/thumbnail_01.jpg" width="45" alt="person"/>-->
-
-<br/><br/>
-
-<p class="thumbnail small frame"><img src="./image/thumbnail_01.jpg" width="45" alt="person"/></p>
-<p class="thumbnail small frame primary"><img src="./image/thumbnail_01.jpg" width="45" alt="person"/></p>
-<p class="thumbnail small frame green"><img src="./image/thumbnail_01.jpg" width="45" alt="person"/></p>
-<p class="thumbnail small frame blue"><img src="./image/thumbnail_01.jpg" width="45" alt="person"/></p>
-<p class="thumbnail small frame orange"><img src="./image/thumbnail_01.jpg" width="45" alt="person"/></p>
-<p class="thumbnail small frame red"><img src="./image/thumbnail_01.jpg" width="45" alt="person"/></p>
-
-<img class="thumbnail small frame" src="./image/thumbnail_01.jpg" width="45" alt="person"/>
-<img class="thumbnail small frame primary" src="./image/thumbnail_01.jpg" width="45" alt="person"/>
-<img class="thumbnail small frame green" src="./image/thumbnail_01.jpg" width="45" alt="person"/>
-<img class="thumbnail small frame blue" src="./image/thumbnail_01.jpg" width="45" alt="person"/>
-<img class="thumbnail small frame orange" src="./image/thumbnail_01.jpg" width="45" alt="person"/>
-<img class="thumbnail small frame red" src="./image/thumbnail_01.jpg" width="45" alt="person"/>
-<!--<img class="thumbnail free" src="./image/thumbnail_01.jpg" width="45" alt="person"/>-->
-
-<h3 class="title">サイズ</h3>
-<p class="thumbnail mini"><img src="./image/thumbnail_01.jpg" width="30" alt="person"/></p>
-<p class="thumbnail small"><img src="./image/thumbnail_01.jpg" width="45" alt="person"/></p>
-<p class="thumbnail"><img src="./image/thumbnail_01.jpg" width="60" alt="person"/></p>
-<p class="thumbnail large"><img src="./image/thumbnail_01.jpg" width="90" alt="person"/></p>
-<p class="thumbnail big"><img src="./image/thumbnail_01.jpg" width="120" alt="person"/></p>
-<!--<p class="thumbnail free"><img src="./image/thumbnail_01.jpg" width="160" alt="person"/></p>-->
-
-<img class="thumbnail mini" src="./image/thumbnail_01.jpg" width="30" alt="person"/>
-<img class="thumbnail small" src="./image/thumbnail_01.jpg" width="45" alt="person"/>
-<img class="thumbnail" src="./image/thumbnail_01.jpg" width="60" alt="person"/>
-<img class="thumbnail large" src="./image/thumbnail_01.jpg" width="90" alt="person"/>
-<img class="thumbnail big" src="./image/thumbnail_01.jpg" width="120" alt="person"/>
-<!--<img class="thumbnail free" src="./image/thumbnail_01.jpg" width="160" alt="person"/>-->
-
-<br/><br/>
-
-<h4 class="title">サイズ round</h4>
-
-<p class="thumbnail mini round"><img src="./image/thumbnail_01.jpg" width="30" alt="person"/></p>
-<p class="thumbnail small round"><img src="./image/thumbnail_01.jpg" width="45" alt="person"/></p>
-<p class="thumbnail round"><img src="./image/thumbnail_01.jpg" width="60" alt="person"/></p>
-<p class="thumbnail large round"><img src="./image/thumbnail_01.jpg" width="90" alt="person"/></p>
-<p class="thumbnail big round"><img src="./image/thumbnail_01.jpg" width="120" alt="person"/></p>
-<!--<p class="thumbnail free round"><img src="./image/thumbnail_01.jpg" width="160" alt="person"/></p>-->
-
-<img class="thumbnail mini round" src="./image/thumbnail_01.jpg" width="30" alt="person"/>
-<img class="thumbnail small round" src="./image/thumbnail_01.jpg" width="45" alt="person"/>
-<img class="thumbnail round" src="./image/thumbnail_01.jpg" width="60" alt="person"/>
-<img class="thumbnail large round" src="./image/thumbnail_01.jpg" width="90" alt="person"/>
-<img class="thumbnail big round" src="./image/thumbnail_01.jpg" width="120" alt="person"/>
-<!--<img class="thumbnail free" src="./image/thumbnail_01.jpg" width="160" alt="person"/>-->
-
-<h4 class="title">サイズ circle</h4>
-
-<p class="thumbnail mini circle"><img src="./image/thumbnail_01.jpg" width="30" alt="person"/></p>
-<p class="thumbnail small circle"><img src="./image/thumbnail_01.jpg" width="45" alt="person"/></p>
-<p class="thumbnail circle"><img src="./image/thumbnail_01.jpg" width="60" alt="person"/></p>
-<p class="thumbnail large circle"><img src="./image/thumbnail_01.jpg" width="90" alt="person"/></p>
-<p class="thumbnail big circle"><img src="./image/thumbnail_01.jpg" width="120" alt="person"/></p>
-<!--<p class="thumbnail free circle"><img src="./image/thumbnail_01.jpg" width="160" alt="person"/></p>-->
-
-<img class="thumbnail mini circle" src="./image/thumbnail_01.jpg" width="30" alt="person"/>
-<img class="thumbnail small circle" src="./image/thumbnail_01.jpg" width="45" alt="person"/>
-<img class="thumbnail circle" src="./image/thumbnail_01.jpg" width="60" alt="person"/>
-<img class="thumbnail large circle" src="./image/thumbnail_01.jpg" width="90" alt="person"/>
-<img class="thumbnail big circle" src="./image/thumbnail_01.jpg" width="120" alt="person"/>
-<!--<img class="thumbnail free circle" src="./image/thumbnail_01.jpg" width="160" alt="person"/>-->
-
-<br/><br/>
-
-<h4 class="title">サイズ border</h4>
-
-<p class="thumbnail mini border"><img src="./image/thumbnail_01.jpg" width="30" alt="person"/></p>
-<p class="thumbnail small border"><img src="./image/thumbnail_01.jpg" width="45" alt="person"/></p>
-<p class="thumbnail border"><img src="./image/thumbnail_01.jpg" width="60" alt="person"/></p>
-<p class="thumbnail large border"><img src="./image/thumbnail_01.jpg" width="90" alt="person"/></p>
-<p class="thumbnail big border"><img src="./image/thumbnail_01.jpg" width="120" alt="person"/></p>
-<!--<p class="thumbnail free circle"><img src="./image/thumbnail_01.jpg" width="160" alt="person"/></p>-->
-
-<img class="thumbnail mini border" src="./image/thumbnail_01.jpg" width="30" alt="person"/>
-<img class="thumbnail small border" src="./image/thumbnail_01.jpg" width="45" alt="person"/>
-<img class="thumbnail border" src="./image/thumbnail_01.jpg" width="60" alt="person"/>
-<img class="thumbnail large border" src="./image/thumbnail_01.jpg" width="90" alt="person"/>
-<img class="thumbnail big border" src="./image/thumbnail_01.jpg" width="120" alt="person"/>
-<!--<img class="thumbnail free circle" src="./image/thumbnail_01.jpg" width="160" alt="person"/>-->
-
-<br/><br/>
-
-<h4 class="title">サイズ frame</h4>
-
-<p class="thumbnail mini frame"><img src="./image/thumbnail_01.jpg" width="30" alt="person"/></p>
-<p class="thumbnail small frame"><img src="./image/thumbnail_01.jpg" width="45" alt="person"/></p>
-<p class="thumbnail frame"><img src="./image/thumbnail_01.jpg" width="60" alt="person"/></p>
-<p class="thumbnail large frame"><img src="./image/thumbnail_01.jpg" width="90" alt="person"/></p>
-<p class="thumbnail big frame"><img src="./image/thumbnail_01.jpg" width="120" alt="person"/></p>
-<!--<p class="thumbnail free circle"><img src="./image/thumbnail_01.jpg" width="160" alt="person"/></p>-->
-
-<img class="thumbnail mini frame" src="./image/thumbnail_01.jpg" width="30" alt="person"/>
-<img class="thumbnail small frame" src="./image/thumbnail_01.jpg" width="45" alt="person"/>
-<img class="thumbnail frame" src="./image/thumbnail_01.jpg" width="60" alt="person"/>
-<img class="thumbnail large frame" src="./image/thumbnail_01.jpg" width="90" alt="person"/>
-<img class="thumbnail big frame" src="./image/thumbnail_01.jpg" width="120" alt="person"/>
-<!--<img class="thumbnail free circle" src="./image/thumbnail_01.jpg" width="160" alt="person"/>-->
-
-<h4 class="title">サイズ Caption</h4>
-
-<p class="thumbnail mini caption">
-  <img src="./image/thumbnail_01.jpg" width="30" alt="person"/>
-  <span class="title">title</span>
-</p>
-<p class="thumbnail small caption">
-  <img src="./image/thumbnail_01.jpg" width="45" alt="person"/>
-  <span class="title">title</span>
-</p>
-<p class="thumbnail caption">
-  <img src="./image/thumbnail_01.jpg" width="60" alt="person"/>
-  <span class="title">title</span>
-</p>
-<p class="thumbnail large caption">
-  <img src="./image/thumbnail_01.jpg" width="90" alt="person"/>
-  <span class="title">title</span>
-</p>
-<p class="thumbnail big caption">
-  <img src="./image/thumbnail_01.jpg" width="120" alt="person"/>
-  <span class="title">title</span>
-</p>
-<!--<p class="thumbnail free circle"><img src="./image/thumbnail_01.jpg" width="160" alt="person"/></p>-->
-
-<h4>テーブル default</h4>
-<table class="table">
-  <caption>Table caption</caption>
-  <thead>
-  <tr>
-    <th>Table Heading</th>
-    <th>Table Heading</th>
-    <th>Table Heading</th>
-  </tr>
-  </thead>
-  <tfoot>
-  <tr>
-    <td>Table Footer</td>
-    <td>Table Footer</td>
-    <td>Table Footer</td>
-  </tr>
-  </tfoot>
-  <tbody>
-  <tr>
-    <td>Table Data</td>
-    <td>Table Data</td>
-    <td>Table Data</td>
-  </tr>
-  <tr>
-    <td>Table Data</td>
-    <td>Table Data</td>
-    <td>Table Data</td>
-  </tr>
-  <tr>
-    <td>Table Data</td>
-    <td>Table Data</td>
-    <td>Table Data</td>
-  </tr>
-  </tbody>
-</table>
-
-<h4>テーブル striped</h4>
-
-<table class="table striped">
-  <caption>Table caption</caption>
-  <thead>
-  <tr>
-    <th>Table Heading</th>
-    <th>Table Heading</th>
-    <th>Table Heading</th>
-  </tr>
-  </thead>
-  <tfoot>
-  <tr>
-    <td>Table Footer</td>
-    <td>Table Footer</td>
-    <td>Table Footer</td>
-  </tr>
-  </tfoot>
-  <tbody>
-  <tr>
-    <td>Table Data</td>
-    <td>Table Data</td>
-    <td>Table Data</td>
-  </tr>
-  <tr>
-    <td>Table Data</td>
-    <td>Table Data</td>
-    <td>Table Data</td>
-  </tr>
-  <tr>
-    <td>Table Data</td>
-    <td>Table Data</td>
-    <td>Table Data</td>
-  </tr>
-  </tbody>
-</table>
-
-<h4>テーブル color</h4>
-<table class="table primary">
-  <caption>Table caption</caption>
-  <thead>
-  <tr>
-    <th>Table Heading</th>
-    <th>Table Heading</th>
-    <th>Table Heading</th>
-  </tr>
-  </thead>
-  <tfoot>
-  <tr>
-    <td>Table Footer</td>
-    <td>Table Footer</td>
-    <td>Table Footer</td>
-  </tr>
-  </tfoot>
-  <tbody>
-  <tr>
-    <td>Table Data</td>
-    <td>Table Data</td>
-    <td>Table Data</td>
-  </tr>
-  <tr>
-    <td>Table Data</td>
-    <td>Table Data</td>
-    <td>Table Data</td>
-  </tr>
-  <tr>
-    <td>Table Data</td>
-    <td>Table Data</td>
-    <td>Table Data</td>
-  </tr>
-  </tbody>
-</table>
-
-<h4>テーブル border</h4>
-
-<table class="table bordered">
-  <caption>Table caption</caption>
-  <thead>
-  <tr>
-    <th>Table Heading</th>
-    <th>Table Heading</th>
-    <th>Table Heading</th>
-  </tr>
-  </thead>
-  <tfoot>
-  <tr>
-    <td>Table Footer</td>
-    <td>Table Footer</td>
-    <td>Table Footer</td>
-  </tr>
-  </tfoot>
-  <tbody>
-  <tr>
-    <td>Table Data</td>
-    <td>Table Data</td>
-    <td>Table Data</td>
-  </tr>
-  <tr>
-    <td>Table Data</td>
-    <td>Table Data</td>
-    <td>Table Data</td>
-  </tr>
-  <tr>
-    <td>Table Data</td>
-    <td>Table Data</td>
-    <td>Table Data</td>
-  </tr>
-  </tbody>
-</table>
-
-<p class="input"><input type="text" value="テキスト"></p>
-<p class="input"><input type="checkbox"></p>
-
-<p class="text">search</p>
-<p class="input"><input type="search"></p>
-
-<p class="input"><input type="radio"></p>
-<p class="input"><input type="radio" checked></p>
-<p class="input"><input type="radio" disabled checked></p>
-
-<h3 class="title">ラジオボタン</h3>
-
-<input type="radio">
-<input type="radio" checked>
-<input type="radio" disabled checked>
-
-
-<br>
-<br>
-
-### Radio Color Variation
-
-<br>
-<br>
-
-<input type="radio" name="radio1">
-<input type="radio" name="radio1" checked>
-<input type="radio" disabled checked>
-
-<input type="radio" class="primary" name="radio2">
-<input type="radio" class="primary" name="radio2" checked>
-<input type="radio" class="primary" disabled checked>
-
-<input type="radio" class="blue" name="radio3">
-<input type="radio" class="blue" name="radio3" checked>
-<input type="radio" class="blue" disabled checked>
-
-<input type="radio" class="green" name="radio4">
-<input type="radio" class="green" name="radio4" checked>
-<input type="radio" class="green" disabled checked>
-
-<input type="radio" class="orange" name="radio5">
-<input type="radio" class="orange" name="radio5" checked>
-<input type="radio" class="orange" disabled checked>
-
-<input type="radio" class="red" name="radio6">
-<input type="radio" class="red" name="radio6" checked>
-<input type="radio" class="red" disabled checked>
-
-<br>
-<br>
-
-
-### Radio Size Variation
-
-<br>
-<br>
-
-<input type="radio" name="radio-size" class="primary mini">
-<input type="radio" name="radio-size" class="primary small">
-<input type="radio" name="radio-size" class="primary" checked>
-<input type="radio" name="radio-size" class="primary large">
-<input type="radio" name="radio-size" class="primary big">
-
-<h3 class="title">チェックボックス</h3>
-
-<input type="checkbox">
-<input type="checkbox" checked>
-<input type="checkbox" disabled checked>
-
-<h4 class="title">チェックボックス カラー</h4>
-<input type="checkbox">
-<input type="checkbox" checked>
-<input type="checkbox" disabled checked>
-
-<input class="primary" type="checkbox">
-<input class="primary" type="checkbox" checked>
-<input class="primary" type="checkbox" disabled checked>
-
-<input class="blue" type="checkbox">
-<input class="blue" type="checkbox" checked>
-<input class="blue" type="checkbox" disabled checked>
-
-<input class="green" type="checkbox">
-<input class="green" type="checkbox" checked>
-<input class="green" type="checkbox" disabled checked>
-
-<input class="orange" type="checkbox">
-<input class="orange" type="checkbox" checked>
-<input class="orange" type="checkbox" disabled checked>
-
-<input class="red" type="checkbox">
-<input class="red" type="checkbox" checked>
-<input class="red" type="checkbox" disabled checked>
-<br/>
-<br/>
-
-<h4 class="title">チェックボックス サイズ</h4>
-
-<input class="mini" type="checkbox">
-<input class="small" type="checkbox">
-<input type="checkbox">
-<input class="large" type="checkbox">
-<input class="big" type="checkbox">
-
-<br/>
-<br/>
-
-<p class="input mini"><input type="checkbox"></p>
-<p class="input small"><input type="checkbox"></p>
-<p class="input"><input type="checkbox"></p>
-<p class="input large"><input type="checkbox"></p>
-<p class="input big"><input type="checkbox"></p>
-
-<input type="text" value="テキスト"/>
-<input type="checkbox"/>
-<input type="search"/>
-<input type="radio"/>
-
-<h3 class="title">セレクト</h3>
-
-<p class="input">
-  <select name="">
-    <option value="">1</option>
-    <option value="">2</option>
-    <option value="">3</option>
-    <option value="">4</option>
-    <option value="">5</option>
-  </select>
-</p>
-
-<p class="input">
-  <select name="" class="narrow">
-    <option value="">1</option>
-    <option value="">2</option>
-    <option value="">3</option>
-    <option value="">4</option>
-    <option value="">5</option>
-  </select>
-</p>
-
-<p class="input">
-  <select name="" class="short">
-    <option value="">1</option>
-    <option value="">2</option>
-    <option value="">3</option>
-    <option value="">4</option>
-    <option value="">5</option>
-  </select>
-</p>
-
-<p class="input">
-  <select name="">
-    <option value="">1</option>
-    <option value="">2</option>
-    <option value="">3</option>
-    <option value="">4</option>
-    <option value="">5</option>
-  </select>
-</p>
-
-<p class="input">
-  <select name="" class="long">
-    <option value="">1</option>
-    <option value="">2</option>
-    <option value="">3</option>
-    <option value="">4</option>
-    <option value="">5</option>
-  </select>
-</p>
-
-<p class="input">
-  <select name="" class="wide">
-    <option value="">1</option>
-    <option value="">2</option>
-    <option value="">3</option>
-    <option value="">4</option>
-    <option value="">5</option>
-  </select>
-</p>
-
-<p class="text">高さ</p>
-
-<p class="input">
-  <select name="" class="lower">
-    <option value="">1</option>
-    <option value="">2</option>
-    <option value="">3</option>
-    <option value="">4</option>
-    <option value="">5</option>
-  </select>
-</p>
-
-<p class="input">
-  <select name="" class="low">
-    <option value="">1</option>
-    <option value="">2</option>
-    <option value="">3</option>
-    <option value="">4</option>
-    <option value="">5</option>
-  </select>
-</p>
-
-<p class="input">
-  <select name="">
-    <option value="">1</option>
-    <option value="">2</option>
-    <option value="">3</option>
-    <option value="">4</option>
-    <option value="">5</option>
-  </select>
-</p>
-
-<p class="input">
-  <select name="" class="high">
-    <option value="">1</option>
-    <option value="">2</option>
-    <option value="">3</option>
-    <option value="">4</option>
-    <option value="">5</option>
-  </select>
-</p>
-
-<p class="input">
-  <select name="" class="lofty">
-    <option value="">1</option>
-    <option value="">2</option>
-    <option value="">3</option>
-    <option value="">4</option>
-    <option value="">5</option>
-  </select>
-</p>
-
-<p class="text">高さ x 幅</p>
-
-<p class="input">
-  <select name="" class="mini">
-    <option value="">1</option>
-    <option value="">2</option>
-    <option value="">3</option>
-    <option value="">4</option>
-    <option value="">5</option>
-  </select>
-</p>
-
-<p class="input">
-  <select name="" class="small">
-    <option value="">1</option>
-    <option value="">2</option>
-    <option value="">3</option>
-    <option value="">4</option>
-    <option value="">5</option>
-  </select>
-</p>
-
-<p class="input">
-  <select name="">
-    <option value="">1</option>
-    <option value="">2</option>
-    <option value="">3</option>
-    <option value="">4</option>
-    <option value="">5</option>
-  </select>
-</p>
-
-<p class="input">
-  <select name="" class="large">
-    <option value="">1</option>
-    <option value="">2</option>
-    <option value="">3</option>
-    <option value="">4</option>
-    <option value="">5</option>
-  </select>
-</p>
-
-<p class="input">
-  <select name="" class="big">
-    <option value="">1</option>
-    <option value="">2</option>
-    <option value="">3</option>
-    <option value="">4</option>
-    <option value="">5</option>
-  </select>
-</p>
-
-<p class="text">カラー</p>
-
-
-<p class="input">
-  <select name="" class="primary">
-    <option value="">1</option>
-    <option value="">2</option>
-    <option value="">3</option>
-    <option value="">4</option>
-    <option value="">5</option>
-  </select>
-</p>
-
-<p class="input">
-  <select name="" class="green">
-    <option value="">1</option>
-    <option value="">2</option>
-    <option value="">3</option>
-    <option value="">4</option>
-    <option value="">5</option>
-  </select>
-</p>
-
-<p class="input">
-  <select name="" class="blue">
-    <option value="">1</option>
-    <option value="">2</option>
-    <option value="">3</option>
-    <option value="">4</option>
-    <option value="">5</option>
-  </select>
-</p>
-
-<p class="input">
-  <select name="" class="orange">
-    <option value="">1</option>
-    <option value="">2</option>
-    <option value="">3</option>
-    <option value="">4</option>
-    <option value="">5</option>
-  </select>
-</p>
-
-<p class="input">
-  <select name="" class="red">
-    <option value="">1</option>
-    <option value="">2</option>
-    <option value="">3</option>
-    <option value="">4</option>
-    <option value="">5</option>
-  </select>
-</p>
-
-<h3 class="title">テキストエリア</h3>
-
-<p class="text">サイズ</p>
-
-<br><br>
-
-<textarea name="" class="narrow"></textarea>
-
-<br><br>
-
-<textarea name="" class="short"></textarea>
-
-<br><br>
-
-<textarea name=""></textarea>
-
-<br><br>
-
-<textarea name="" class="long"></textarea>
-
-<br><br>
-
-<textarea name="" class="wide"></textarea>
-
-<br><br>
-
-<textarea name="" class="free"></textarea>
-
-<p class="text">高さ</p>
-
-<textarea name="" class="lower"></textarea>
-
-<br><br>
-
-<textarea name="" class="low"></textarea>
-
-<br><br>
-
-<textarea name=""></textarea>
-
-<br><br>
-
-<textarea name="" class="high"></textarea>
-
-<br><br>
-
-<textarea name="" class="lofty"></textarea>
-
-
-<p class="text">高さ x 幅</p>
-
-<textarea name="" class="mini"></textarea>
-
-<br><br>
-
-<textarea name="" class="small"></textarea>
-
-<br><br>
-
-<textarea name=""></textarea>
-
-<br><br>
-
-<textarea name="" class="large"></textarea>
-
-<br><br>
-
-<textarea name="" class="big"></textarea>
-
-<p class="text">リサイズ</p>
-
-
-<textarea name="" class="resize"></textarea>
-
-<p class="text">カラー</p>
-
-<textarea name=""></textarea>
-
-<br><br>
-
-<textarea name="" class="primary"></textarea>
-
-<br><br>
-
-<textarea name="" class="green"></textarea>
-
-<br><br>
-
-<textarea name="" class="blue"></textarea>
-
-<br><br>
-
-<textarea name="" class="orange"></textarea>
-
-<br><br>
-
-<textarea name="" class="red"></textarea>
-
-<br><br>
-
-<br><br>
-
-<ul class="textList">
-  <li>texttexttext</li>
-  <li>texttext</li>
-  <li>texttexttexttext</li>
-  <li>texttext</li>
-  <li>texttexttexttexttext</li>
-</ul>
-
-<ul class="textList align">
-  <li>texttexttext</li>
-  <li>texttext</li>
-  <li>texttexttexttext</li>
-  <li>texttext</li>
-  <li>texttexttexttexttext</li>
-</ul>
-
-<div class="box textList">
-  <ul class="textList">
-    <li>texttexttext</li>
-    <li>texttext</li>
-    <li>texttexttexttext</li>
-    <li>texttext</li>
-    <li>texttexttexttexttext</li>
-  </ul>
-
-  <ul class="textList">
-    <li>texttexttext</li>
-    <li>texttext</li>
-    <li>texttexttexttext</li>
-    <li>texttext</li>
-    <li>texttexttexttexttext</li>
-  </ul>
-</div>
-
-<p class="text">フッターレイアウト モジュール</p>
-
-
-
-<footer class="footer">
-  <div class="top">
-    <div class="wrap">
-      top
     </div>
-  </div>
-  <div class="main">
-    <div class="wrap">
-      main
+
+    <div class="Frame-body" data-role="body">
+
+        <div class="Frame-panel Frame-panel--main" data-role="main">
+            <div class="Frame-inner" id="pjax-container">
+            
+
+<div class="Document">
+
+    <div class="Document-header">
+        
+        <h1 class="Document-title">Atomic Package CSS Style Guide</h1>
+        
+
+
+        
     </div>
-  </div>
-  <div class="bottom">
-    <div class="wrap">
-      bottom
+
+    <div class="Document-content">
+
+    
+
+<div class="Prose">
+
+
+
+    
+    
+    <p>Atomic Package CSS Style Guide</p>
+
+    
+
+
+</div>
+
+
+
     </div>
-  </div>
-</footer>
 
-<br><br>
-
-<footer class="footer center">
-  <div class="main">
-    <div class="wrap">
-      <p class="title footer">Atomic Package</p>
-      <p class="subTitle footer">APBCSS UI Kit for everyone to share and enjoy.</p>
-    </div>
-  </div>
-</footer>
-
-<br><br>
-
-<footer class="footer">
-  <div class="main center">
-    <div class="wrap">
-      <ul class="menuList align">
-        <li>Features</li>
-        <li>Pricing</li>
-        <li>About</li>
-        <li>Facebook</li>
-        <li>Twitter</li>
-      </ul>
-    </div>
-  </div>
-  <div class="bottom gray center">
-    <div class="wrap">
-      <p class="subTitle footer">APBCSS UI Kit for everyone to share and enjoy.</p>
-    </div>
-  </div>
-</footer>
+</div>
 
 
-<br><br>
+            </div>
+        </div>
 
-<footer class="footer">
-  <div class="main flex">
-    <div class="wrap">
-      <div class="box menuList">
-        <dl class="menuList">
-          <dt>PRODUCT</dt>
-          <dd>
-            <a href="">Tour</a>
-          </dd>
-          <dd>
-            <a href="">Features</a>
-          </dd>
-          <dd>
-            <a href="">Pricing</a>
-          </dd>
-          <dd>
-            <a href="">Terms</a>
-          </dd>
-        </dl>
+        <div class="Frame-handle" data-role="frame-resize-handle"></div>
+        
+        <div class="Frame-panel Frame-panel--sidebar" data-role="sidebar">
+            <nav class="Navigation">
 
-        <dl class="menuList">
-          <dt>CUSTOMERS</dt>
-          <dd>
-            <a href="">Sign in</a>
-          </dd>
-          <dd>
-            <a href="">Support</a>
-          </dd>
-          <dd>
-            <a href="">FAQs</a>
-          </dd>
-          <dd>
-            <a href="">Testimonials</a>
-          </dd>
-        </dl>
+    
+<div class="Navigation-group">
 
-        <dl class="menuList">
-          <dt>
-            <a href="">ABOUT US</a>
-          </dt>
-          <dd>
-            <a href="">Our Story</a>
-          </dd>
-          <dd>
-            <a href="">Offices</a>
-          </dd>
-          <dd>
-            <a href="">Press</a>
-          </dd>
-        </dl>
+<div class="Tree" data-behaviour="tree" id="tree-components">
+    <h3 class="Tree-title">components</h3>
+    <ul class="Tree-items Tree-depth-1">
+        
+    
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a class="Tree-entityLink" href="components/detail/alert.html" data-pjax>
+                <span>Alert</span>
+                
 
-        <dl class="menuList">
-          <dt>
-            <a href="">FOLLOW US</a>
-          </dt>
-          <dd>
-            <a href="">Facebook</a>
-          </dd>
-          <dd>
-            <a href="">Twitter</a>
-          </dd>
-          <dd>
-            <a href="">Tour</a>
-          </dd>
-          <dd>
-            <a href="">Pinterest</a>
-          </dd>
-        </dl>
-      </div>
-    </div>
-    <div class="wrap right">
-      <p class="btn large"><a href="">Default</a></p>
-    </div>
-  </div>
-  <div class="bottom">
-    <div class="wrap flex">
-      <h4 class="title">Awesome</h4>
-      <ul class="textList align ml-40">
-        <li>
-          <a href="">Privacy</a>
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #29CC29;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
         </li>
-        <li>・</li>
-        <li>
-          <a href="">TSA</a>
+        
+    
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a class="Tree-entityLink" href="components/detail/button.html" data-pjax>
+                <span>Button</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #29CC29;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
         </li>
-        <li>・</li>
-        <li>
-          <p class="copyright">© 2017 Atomic Package</p>
+        
+    
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a class="Tree-entityLink" href="components/detail/checkbox.html" data-pjax>
+                <span>Checkbox</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #29CC29;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
         </li>
-      </ul>
+        
+    
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a class="Tree-entityLink" href="components/detail/footer.html" data-pjax>
+                <span>Footer</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #29CC29;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a class="Tree-entityLink" href="components/detail/headings.html" data-pjax>
+                <span>Headings</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #29CC29;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a class="Tree-entityLink" href="components/detail/input.html" data-pjax>
+                <span>Input</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #29CC29;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a class="Tree-entityLink" href="components/detail/radio.html" data-pjax>
+                <span>Radio</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #29CC29;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a class="Tree-entityLink" href="components/detail/select.html" data-pjax>
+                <span>Select</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #29CC29;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a class="Tree-entityLink" href="components/detail/table.html" data-pjax>
+                <span>Table</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #29CC29;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a class="Tree-entityLink" href="components/detail/text.html" data-pjax>
+                <span>Text</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #29CC29;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a class="Tree-entityLink" href="components/detail/text-list.html" data-pjax>
+                <span>Text List</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #29CC29;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a class="Tree-entityLink" href="components/detail/textarea.html" data-pjax>
+                <span>Textarea</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #29CC29;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a class="Tree-entityLink" href="components/detail/thumbnail.html" data-pjax>
+                <span>Thumbnail</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #29CC29;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+
+    </ul>
+</div>
+
+</div>
+
+
+
+    
+<div class="Navigation-group">
+
+<div class="Tree" data-behaviour="tree" id="tree-docs">
+    <h3 class="Tree-title">documentation</h3>
+    <ul class="Tree-items Tree-depth-1">
+        
+    
+        
+        
+        <li class="Tree-item Tree-entity is-current" data-state="current" data-role="item">
+            <a class="Tree-entityLink" href="" data-pjax>
+                <span>Overview</span>
+                
+            </a>
+        </li>
+        
+    
+
+    </ul>
+</div>
+
+</div>
+
+
+
+    
+
+
+</nav>
+
+        </div>
     </div>
-  </div>
-</footer>
-
-<br><br>
-
-<footer class="footer">
-  <div class="main center">
-    <div class="wrap">
-      <p class="title footer">Atomic Package</p>
-      <ul class="menuList align">
-        <li>Features</li>
-        <li>Pricing</li>
-        <li>About</li>
-        <li>Facebook</li>
-        <li>Twitter</li>
-      </ul>
-    </div>
-  </div>
-  <div class="bottom">
-    <div class="wrap">
-      <p class="copyright center">© 2017 Atomic Package</p>
-    </div>
-  </div>
-</footer>
-
-<br><br>
-
-<p class="text">サイズバリエーション</p>
-
-<footer class="footer mini center">
-  <div class="main">
-    <div class="wrap">
-      <p class="title footer">Atomic Package</p>
-      <p class="subTitle footer">APBCSS UI Kit for everyone to share and enjoy.</p>
-    </div>
-  </div>
-</footer>
-
-<br><br>
-
-<footer class="footer small center">
-  <div class="main">
-    <div class="wrap">
-      <p class="title footer">Atomic Package</p>
-      <p class="subTitle footer">APBCSS UI Kit for everyone to share and enjoy.</p>
-    </div>
-  </div>
-</footer>
-
-<br><br>
-
-<footer class="footer center">
-  <div class="main">
-    <div class="wrap">
-      <p class="title footer">Atomic Package</p>
-      <p class="subTitle footer">APBCSS UI Kit for everyone to share and enjoy.</p>
-    </div>
-  </div>
-</footer>
-
-<br><br>
-
-<footer class="footer large center">
-  <div class="main">
-    <div class="wrap">
-      <p class="title footer">Atomic Package</p>
-      <p class="subTitle footer">APBCSS UI Kit for everyone to share and enjoy.</p>
-    </div>
-  </div>
-</footer>
-
-<br><br>
-
-<footer class="footer big center">
-  <div class="main">
-    <div class="wrap">
-      <p class="title footer">Atomic Package</p>
-      <p class="subTitle footer">APBCSS UI Kit for everyone to share and enjoy.</p>
-    </div>
-  </div>
-</footer>
-
-<br><br>
-
-<p class="text">レイアウト サイズバリエーション main</p>
-
-<footer class="footer center">
-  <div class="main mini">
-    <div class="wrap">
-      <p class="title footer">Atomic Package</p>
-      <p class="subTitle footer">APBCSS UI Kit for everyone to share and enjoy.</p>
-    </div>
-  </div>
-</footer>
-
-<br><br>
-
-<footer class="footer center">
-  <div class="main small">
-    <div class="wrap">
-      <p class="title footer">Atomic Package</p>
-      <p class="subTitle footer">APBCSS UI Kit for everyone to share and enjoy.</p>
-    </div>
-  </div>
-</footer>
-
-<br><br>
-
-<footer class="footer center">
-  <div class="main">
-    <div class="wrap">
-      <p class="title footer">Atomic Package</p>
-      <p class="subTitle footer">APBCSS UI Kit for everyone to share and enjoy.</p>
-    </div>
-  </div>
-</footer>
-
-<br><br>
-
-<footer class="footer center">
-  <div class="main large">
-    <div class="wrap">
-      <p class="title footer">Atomic Package</p>
-      <p class="subTitle footer">APBCSS UI Kit for everyone to share and enjoy.</p>
-    </div>
-  </div>
-</footer>
-
-<br><br>
-
-<footer class="footer center">
-  <div class="main big">
-    <div class="wrap">
-      <p class="title footer">Atomic Package</p>
-      <p class="subTitle footer">APBCSS UI Kit for everyone to share and enjoy.</p>
-    </div>
-  </div>
-</footer>
-
-<br><br>
-
-<p class="text">レイアウト サイズバリエーション top & bottom</p>
-
-<footer class="footer center">
-  <div class="top mini">
-    <div class="wrap">
-      <p class="title footer">Atomic Package</p>
-      <p class="subTitle footer">APBCSS UI Kit for everyone to share and enjoy.</p>
-    </div>
-  </div>
-</footer>
-
-<br><br>
-
-<footer class="footer center">
-  <div class="top small">
-    <div class="wrap">
-      <p class="title footer">Atomic Package</p>
-      <p class="subTitle footer">APBCSS UI Kit for everyone to share and enjoy.</p>
-    </div>
-  </div>
-</footer>
-
-<br><br>
-
-<footer class="footer center">
-  <div class="top">
-    <div class="wrap">
-      <p class="title footer">Atomic Package</p>
-      <p class="subTitle footer">APBCSS UI Kit for everyone to share and enjoy.</p>
-    </div>
-  </div>
-</footer>
-
-<br><br>
-
-<footer class="footer center">
-  <div class="top large">
-    <div class="wrap">
-      <p class="title footer">Atomic Package</p>
-      <p class="subTitle footer">APBCSS UI Kit for everyone to share and enjoy.</p>
-    </div>
-  </div>
-</footer>
-
-<br><br>
-
-<footer class="footer center">
-  <div class="top big">
-    <div class="wrap">
-      <p class="title footer">Atomic Package</p>
-      <p class="subTitle footer">APBCSS UI Kit for everyone to share and enjoy.</p>
-    </div>
-  </div>
-</footer>
+</div>
 
 
-<p class="text">Color Variation</p>
 
-<footer class="footer primary mini center">
-  <div class="main">
-    <div class="wrap">
-      <p class="subTitle footer">APBCSS UI Kit for everyone to share and enjoy.</p>
-    </div>
-  </div>
-</footer>
 
-<br><br>
+<script src="themes/mandelbrot/js/mandelbrot.js?cachebust=1.2.0"></script>
 
-<footer class="footer green mini center">
-  <div class="main">
-    <div class="wrap">
-      <p class="subTitle footer">APBCSS UI Kit for everyone to share and enjoy.</p>
-    </div>
-  </div>
-</footer>
 
-<br><br>
-
-<footer class="footer blue mini center">
-  <div class="main">
-    <div class="wrap">
-      <p class="subTitle footer">APBCSS UI Kit for everyone to share and enjoy.</p>
-    </div>
-  </div>
-</footer>
-
-<br><br>
-
-<footer class="footer orange mini center">
-  <div class="main">
-    <div class="wrap">
-      <p class="subTitle footer">APBCSS UI Kit for everyone to share and enjoy.</p>
-    </div>
-  </div>
-</footer>
-
-<br><br>
-
-<footer class="footer red mini center">
-  <div class="main">
-    <div class="wrap">
-      <p class="subTitle footer">APBCSS UI Kit for everyone to share and enjoy.</p>
-    </div>
-  </div>
-</footer>
-
-<br><br>
 
 </body>
 </html>
