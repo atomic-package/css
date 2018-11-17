@@ -7,7 +7,7 @@ fractal.set('project.title', 'Atomic Package CSS Style Guide');
 fractal.components.set('path', __dirname + '/src/components');
 // static assets
 fractal.web.set('static.path', __dirname + '/public');
-fractal.web.set('static.mount', '/css/atomic-package/atomic-package.css');
+// fractal.web.set('static.mount', 'public');
 // documentation
 fractal.docs.set('path', __dirname + '/src/docs');
 // build

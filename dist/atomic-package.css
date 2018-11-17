@@ -2284,6 +2284,7 @@ img.thumbnail.free.round {
 
 /* alert */
 .alert {
+  position: relative;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding: 12px 18px;
@@ -2328,6 +2329,13 @@ img.thumbnail.free.round {
 
 .alert.red > .text {
   color: #D85030;
+}
+
+.alert .btn.close {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  margin-top: -4px;
 }
 
 .picture {
@@ -4182,7 +4190,10 @@ dl.menuList dd + dd {
 .btn.close,
 .btn:not(a).close {
   position: relative;
+  min-width: 15px;
+  min-height: 12px;
   /* Skin */
+  /* State */
 }
 
 .btn.close::before, .btn.close::after,
@@ -4233,6 +4244,54 @@ dl.menuList dd + dd {
 .btn:not(a).close.red::before,
 .btn:not(a).close.red::after {
   background: #8E3534;
+}
+
+.btn.close.mini,
+.btn:not(a).close.mini {
+  min-width: 9px;
+}
+
+.btn.close.mini::before, .btn.close.mini::after,
+.btn:not(a).close.mini::before,
+.btn:not(a).close.mini::after {
+  width: 7px;
+}
+
+.btn.close.small,
+.btn:not(a).close.small {
+  min-width: 11px;
+}
+
+.btn.close.small::before, .btn.close.small::after,
+.btn:not(a).close.small::before,
+.btn:not(a).close.small::after {
+  width: 10px;
+}
+
+.btn.close.large,
+.btn:not(a).close.large {
+  min-width: 26px;
+  min-height: 22px;
+}
+
+.btn.close.large::before, .btn.close.large::after,
+.btn:not(a).close.large::before,
+.btn:not(a).close.large::after {
+  top: 9px;
+  width: 25px;
+}
+
+.btn.close.big,
+.btn:not(a).close.big {
+  min-width: 51px;
+  min-height: 44px;
+}
+
+.btn.close.big::before, .btn.close.big::after,
+.btn:not(a).close.big::before,
+.btn:not(a).close.big::after {
+  top: 19px;
+  width: 50px;
 }
 
 a.btn,
