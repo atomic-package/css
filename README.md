@@ -7,6 +7,16 @@
 $ npm install @atomic-package/css
 ```
 
+## include dist files
+
+```
+atomic-package.css
+atomic-package.min.css
+
+atomic-package-theme.css
+atomic-package-theme.min.css
+```
+
 ### scss atomic-package directory
 
 ```
