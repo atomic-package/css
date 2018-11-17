@@ -16,6 +16,7 @@
   "author": "daisuke.takayama",
   "license": "MIT",
   "devDependencies": {
+    "@frctl/fractal": "^1.1.7",
     "browser-sync": "^2.18.8",
     "cssmin": "^0.4.3",
     "del": "^2.2.2",
