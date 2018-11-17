@@ -17,6 +17,13 @@ atomic-package-theme.css
 atomic-package-theme.min.css
 ```
 
+## Style Guide 
+
+#### Atomic Package Style Guide Page
+
+https://atomic-package.github.io/css/
+
+
 ### scss atomic-package directory
 
 ```
