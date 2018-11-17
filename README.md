@@ -80,26 +80,6 @@ src/scss/
 │       ├── _separate.scss
 │       ├── _table.scss
 │       └── _title.scss
-├── atomic-package-docs
-│   ├── _common_inc.scss
-│   ├── _parts.scss
-│   ├── atomic-package-docs.scss
-│   ├── base
-│   │   ├── _base.scss
-│   │   ├── _mixin.scss
-│   │   └── _setting.scss
-│   ├── pages
-│   │   ├── _common.scss
-│   │   ├── _core.scss
-│   │   ├── _pages_inc.scss
-│   │   └── _top.scss
-│   └── parts
-│       ├── _box.scss
-│       ├── _header.scss
-│       ├── _list.scss
-│       ├── _navigation_menu.scss
-│       ├── _paragraph.scss
-│       └── _title.scss
 └── atomic-package-theme
     ├── _common_inc.scss
     ├── _parts.scss
@@ -129,3 +109,11 @@ src/scss/
         ├── _separate.scss
         └── _title.scss
 ```
+
+## Start Develop
+
+```
+$ npm start
+```
+
+Open http://localhost:8080 in your browser.
