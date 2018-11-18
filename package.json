@@ -8,10 +8,10 @@
     "test:watch": "$(npm bin)/mocha -w test/** -r test/spec_setup.js",
     "start": "gulp",
     "dev": "concurrently \"npm run start\" \"npm run docs.start\"",
-    "docs.start": "fractal start --sync",
+    "docs.start": "NODE_ENV=develop fractal start --sync",
     "build": "concurrently \"npm run css.build\" \"npm run docs.build\"",
     "css.build": "gulp dist",
-    "docs.build": "fractal build"
+    "docs.build": "NODE_ENV=production fractal build"
   },
   "repository": {
     "type": "git",
