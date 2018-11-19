@@ -1,8 +1,20 @@
+# Created by .ignore support plugin (hsz.mobi)
+*.DS_Store
+.cache
+Thumbs.db
+*.iml
+
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.log
+
+# Folders to ignore
 gulpfile.js
 tsconfig.json
 webpack.config.js
 webpack.production.config.js
-
-# directory
 src
 public
+docs
+.idea
