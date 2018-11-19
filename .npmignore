@@ -9,6 +9,9 @@ Thumbs.db
 *.err
 *.log
 
+# file
+fractal.js
+
 # Folders to ignore
 gulpfile.js
 tsconfig.json
