@@ -1,8 +1,9 @@
 {
   "name": "@atomic-package/css",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "atomic-package - css",
-  "main": "dist/atomic-package.css",
+  "main": "dist/atomic-package.scss",
+  "style": "dist/atomic-package.scss",
   "scripts": {
     "test": "$(npm bin)/mocha test/** -r test/spec_setup.js",
     "test:watch": "$(npm bin)/mocha -w test/** -r test/spec_setup.js",

@@ -17,6 +17,20 @@ atomic-package-theme.css
 atomic-package-theme.min.css
 ```
 
+### import SCSS File
+
+```
+@import '/node_modules/@atomic-package/css';
+```
+
+or 
+
+```
+@import "~@atomic-package/css";
+```
+
+
+
 ## Style Guide 
 
 #### Atomic Package Style Guide Page
