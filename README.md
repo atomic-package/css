@@ -15,6 +15,9 @@ atomic-package.min.css
 
 atomic-package-theme.css
 atomic-package-theme.min.css
+
+atomic-package/
+atomic-package-theme/
 ```
 
 ### import SCSS File
@@ -29,6 +32,11 @@ or
 @import "~@atomic-package/css";
 ```
 
+
+css file import
+```
+@import "~@atomic-package/css/dist/atomic-package.css";
+```
 
 
 ## Style Guide 

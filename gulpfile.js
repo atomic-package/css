@@ -159,7 +159,7 @@ gulp.task('dist', function(callback) {
     'build.ui',
     'css.copy.dist',
     'sass.copy.dist',
-    'font.copy.dist',
+    // 'font.copy.dist',
     callback
   );
 });
