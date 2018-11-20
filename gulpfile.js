@@ -31,7 +31,7 @@ const SASS_FILES    = path.join(SASS_SRC_PATH, './**/*.scss');
 const CSS_FILES     = path.join(PUBLIC_PATH, './css/**/*.css');
 
 // Fonts
-const fontFiles = [ SOURCE_DIR + '/fonts/**/**' ];
+const fontFiles = [ SRC_PATH + '/fonts/**/**' ];
 
 // Image
 const IMG_SRC_PATH = path.join(SRC_PATH, 'image');
@@ -98,7 +98,7 @@ gulp.task('font.copy', function() {
 
 gulp.task('font.copy.dist', function() {
     return gulp.src(fontFiles)
-        .pipe(gulp.dest( DIST_DIR + '/font/' ));
+        .pipe(gulp.dest( DIST_PATH + '/font/' ));
 });
 
 // Image
