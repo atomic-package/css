@@ -40,13 +40,15 @@ $linkMainColor: #3598DB;
 */
 $fontFamily: Helvetica Neue, Arial, sans-serif, 'Hiragino Kaku Gothic Pro', 'メイリオ';
 
+@import '~@fortawesome/fontawesome-free/css/fontawesome.css';
+
 @font-face {
-  font-family: 'FontAwesome';
-  src: url("#{$fontPath}fontawesome-webfont.woff2") format('woff2'),
-  url("#{$fontPath}fontawesome-webfont.woff") format("woff"),
-  url("#{$fontPath}fontawesome-webfont.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
+  //font-family: 'FontAwesome';
+  //src: url("#{$fontPath}fontawesome-webfont.woff2") format('woff2'),
+  //url("#{$fontPath}fontawesome-webfont.woff") format("woff"),
+  //url("#{$fontPath}fontawesome-webfont.ttf") format("truetype");
+  //font-weight: normal;
+  //font-style: normal;
 }
 
 /*
