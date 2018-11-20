@@ -53,6 +53,11 @@ gulp.task('sass', function() {
     .pipe(gulp.dest(PUBLIC_PATH + '/css'));
 });
 
+gulp.task('sass.copy.dist', function() {
+    return gulp.src([SASS_FILES])
+        .pipe(gulp.dest(DIST_PATH));
+});
+
 gulp.task('css.prefixer', function() {
   return gulp.src([CSS_FILES])
     .pipe(autoprefixer({
@@ -133,6 +138,7 @@ gulp.task('dist', function(callback) {
   return runSequence(
     'build.ui',
     'css.copy.dist',
+    'sass.copy.dist',
     callback
   );
 });

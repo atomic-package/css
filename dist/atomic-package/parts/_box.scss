@@ -1,0 +1,38 @@
+.apOverHidden {
+  overflow: hidden;
+}
+
+/*
+ * Box Style
+*/
+
+.box {
+
+  &.border {}
+
+  &.bg {}
+
+  // state size
+
+
+  > .box {}
+
+
+  &.menuList {
+    display: flex;
+
+    .menuList {
+      padding-right: 20px;
+    }
+  }
+}
+
+/*
+ * Box Style
+*/
+.navBox {
+  width: 170px;
+  background: #fff;
+  border: #E5E5E5 1px solid;
+  border-radius: 4px;
+}

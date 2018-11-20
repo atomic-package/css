@@ -1,0 +1,69 @@
+/*
+ * Mixin Style
+*/
+@mixin clearfix {
+  &::after { content: ""; display: block; clear: both; }
+}
+
+@mixin createStyle {
+  content: "";
+  display: block;
+  position: absolute;
+}
+
+@mixin ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+@mixin scaleSize($size: 14px) {
+  &.mini {
+    font-size: $size * 0.8;
+  }
+  &.small {
+    font-size: $size * 0.9;
+  }
+  &.large {
+    font-size: $size * 1.4;
+  }
+  &.big {
+    font-size: $size * 2;
+  }
+}
+
+@mixin borderColorClass {
+  &.primary {
+    border-color: $colorPrimary;
+  }
+  &.green {
+    border-color: $colorGreen;
+  }
+  &.blue {
+    border-color: $colorBlue;
+  }
+  &.orange {
+    border-color: $colorOrange;
+  }
+  &.red {
+    border-color: $colorRed;
+  }
+}
+
+@mixin textColorClass {
+  &.primary {
+    color: $colorPrimary;
+  }
+  &.green {
+    color: $colorGreen;
+  }
+  &.blue {
+    color: $colorBlue;
+  }
+  &.orange {
+    color: $colorOrange;
+  }
+  &.red {
+    color: $colorRed;
+  }
+}
