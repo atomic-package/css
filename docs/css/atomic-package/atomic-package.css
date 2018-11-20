@@ -10,7 +10,7 @@
 /*
  * Font Variables
 */
-@import url(~@fortawesome/fontawesome-free/css/fontawesome.css);
+@import url(/node_modules/@fortawesome/fontawesome-free/css/fontawesome.css);
 @font-face {}/*
  * Width Variables
 */
