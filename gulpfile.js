@@ -30,6 +30,9 @@ const SASS_SRC_PATH = path.join(SRC_PATH, 'scss');
 const SASS_FILES    = path.join(SASS_SRC_PATH, './**/*.scss');
 const CSS_FILES     = path.join(PUBLIC_PATH, './css/**/*.css');
 
+// Fonts
+const fontFiles = [ SOURCE_DIR + '/fonts/**/**' ];
+
 // Image
 const IMG_SRC_PATH = path.join(SRC_PATH, 'image');
 const IMG_FILES    = path.join(IMG_SRC_PATH, './**/*.{jpg,gif,png,ico}');
@@ -87,6 +90,16 @@ gulp.task('css.copy.dist', function() {
     .pipe(gulp.dest(DIST_PATH));
 });
 
+// Fonts
+gulp.task('font.copy', function() {
+    return gulp.src(fontFiles)
+        .pipe(gulp.dest( PUBLIC_PATH + '/font/' ));
+});
+
+gulp.task('font.copy.dist', function() {
+    return gulp.src(fontFiles)
+        .pipe(gulp.dest( DIST_DIR + '/font/' ));
+});
 
 // Image
 gulp.task('image', function() {
@@ -131,6 +144,13 @@ gulp.task('build.css', function(callback) {
   );
 });
 
+gulp.task('build.font', function(callback) {
+    return runSequence(
+        'font.copy',
+        callback
+    );
+});
+
 /**
  * Dist Task
  **/
@@ -139,6 +159,7 @@ gulp.task('dist', function(callback) {
     'build.ui',
     'css.copy.dist',
     'sass.copy.dist',
+    'font.copy.dist',
     callback
   );
 });
