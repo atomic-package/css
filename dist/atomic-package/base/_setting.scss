@@ -4,7 +4,7 @@
 $baseWidth: 1000px;
 $baseBgColor: #fff;
 $imgPath: "../img/ui/";
-$fontPath: "../font/";
+$fontPath: "../../font/";
 
 /*
  * Color Variables
@@ -40,27 +40,28 @@ $linkMainColor: #3598DB;
 */
 $fontFamily: Helvetica Neue, Arial, sans-serif, 'Hiragino Kaku Gothic Pro', 'メイリオ';
 
-@import "~@fortawesome/fontawesome-free/css/all.css";
+// @import "~@fortawesome/fontawesome-free/css/all.css";
+@import "../../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
 
-// @import "/node_modules/@fortawesome/fontawesome-free/scss/variables";
-// @import "/node_modules/@fortawesome/fontawesome-free/scss/mixins";
-// @import "/node_modules/@fortawesome/fontawesome-free/scss/core";
-// @import "/node_modules/@fortawesome/fontawesome-free/scss/larger";
-// @import "/node_modules/@fortawesome/fontawesome-free/scss/fixed-width";
-// @import "/node_modules/@fortawesome/fontawesome-free/scss/list";
-// @import "/node_modules/@fortawesome/fontawesome-free/scss/animated";
-// @import "/node_modules/@fortawesome/fontawesome-free/scss/rotated-flipped";
-// @import "/node_modules/@fortawesome/fontawesome-free/scss/stacked";
-// @import "/node_modules/@fortawesome/fontawesome-free/scss/icons";
-// @import "/node_modules/@fortawesome/fontawesome-free/scss/screen-reader";
+//@import "../../../node_modules/@fortawesome/fontawesome-free/scss/variables";
+//@import "/node_modules/@fortawesome/fontawesome-free/scss/mixins";
+//@import "/node_modules/@fortawesome/fontawesome-free/scss/core";
+//@import "/node_modules/@fortawesome/fontawesome-free/scss/larger";
+//@import "/node_modules/@fortawesome/fontawesome-free/scss/fixed-width";
+//@import "/node_modules/@fortawesome/fontawesome-free/scss/list";
+//@import "/node_modules/@fortawesome/fontawesome-free/scss/animated";
+//@import "/node_modules/@fortawesome/fontawesome-free/scss/rotated-flipped";
+//@import "/node_modules/@fortawesome/fontawesome-free/scss/stacked";
+//@import "/node_modules/@fortawesome/fontawesome-free/scss/icons";
+//@import "/node_modules/@fortawesome/fontawesome-free/scss/screen-reader";
 
 @font-face {
-  //font-family: 'FontAwesome';
-  //src: url("#{$fontPath}fontawesome-webfont.woff2") format('woff2'),
-  //url("#{$fontPath}fontawesome-webfont.woff") format("woff"),
-  //url("#{$fontPath}fontawesome-webfont.ttf") format("truetype");
-  //font-weight: normal;
-  //font-style: normal;
+  font-family: 'FontAwesome';
+  src: url("#{$fontPath}fontawesome-webfont.woff2") format('woff2'),
+  url("#{$fontPath}fontawesome-webfont.woff") format("woff"),
+  url("#{$fontPath}fontawesome-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 /*
