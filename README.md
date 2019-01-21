@@ -158,3 +158,10 @@ $ npm run dev
 Open http://localhost:3000 in your browser.
 
 Using fractal Style Guide.
+
+## Build Fractal Style Guide. Document Files
+
+
+```
+$ npm run docs.build
+```
