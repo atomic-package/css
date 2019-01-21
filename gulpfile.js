@@ -130,7 +130,7 @@ gulp.task('browser-sync', function() {
  **/
 gulp.task('build.ui', function(callback) {
   return runSequence(
-    ['html', 'build.css', 'image'],
+    ['html', 'build.css', 'image', 'build.font'],
     callback
   );
 });
@@ -159,7 +159,7 @@ gulp.task('dist', function(callback) {
     'build.ui',
     'css.copy.dist',
     'sass.copy.dist',
-    // 'font.copy.dist',
+    'font.copy.dist',
     callback
   );
 });
