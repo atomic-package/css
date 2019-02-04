@@ -57,6 +57,11 @@ https://atomic-package.github.io/css/
 docs/
 ```
 
+![2019-02-04 16 20 18](https://user-images.githubusercontent.com/1584153/52194860-e7c38000-2898-11e9-8757-5e4679bc122f.png)
+
+
+
+## develop SCSS directory details
 
 ### scss atomic-package directory
 
