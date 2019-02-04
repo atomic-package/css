@@ -136,70 +136,49 @@
 }
 
 .fa-spin {
-  -webkit-animation: fa-spin 2s infinite linear;
   animation: fa-spin 2s infinite linear;
 }
 
 .fa-pulse {
-  -webkit-animation: fa-spin 1s infinite steps(8);
   animation: fa-spin 1s infinite steps(8);
-}
-
-@-webkit-keyframes fa-spin {
-  0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
 }
 
 @keyframes fa-spin {
   0% {
-    -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
   100% {
-    -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
 }
 
 .fa-rotate-90 {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
-  -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
 }
 
 .fa-rotate-180 {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
-  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
 .fa-rotate-270 {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
-  -webkit-transform: rotate(270deg);
   transform: rotate(270deg);
 }
 
 .fa-flip-horizontal {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
-  -webkit-transform: scale(-1, 1);
   transform: scale(-1, 1);
 }
 
 .fa-flip-vertical {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
-  -webkit-transform: scale(1, -1);
   transform: scale(1, -1);
 }
 
 .fa-flip-horizontal.fa-flip-vertical {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
-  -webkit-transform: scale(-1, -1);
   transform: scale(-1, -1);
 }
 
@@ -208,7 +187,6 @@
 :root .fa-rotate-270,
 :root .fa-flip-horizontal,
 :root .fa-flip-vertical {
-  -webkit-filter: none;
   filter: none;
 }
 
@@ -5677,8 +5655,6 @@ input, select {
 }
 
 button {
-  -webkit-appearance: none;
-  -moz-appearance: none;
   appearance: none;
   border: none;
   background: none;
@@ -5689,8 +5665,6 @@ button {
 input[type="checkbox"],
 input[type="radio"],
 select {
-  -webkit-appearance: none;
-  -moz-appearance: none;
   appearance: none;
   outline: none;
 }
@@ -5724,13 +5698,11 @@ select {
   display: inline-block;
   min-width: 150px;
   height: 30px;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   background: #fff;
   padding: 0 20px 0 12px;
   background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAA8CAMAAADbh/MlAAAAJ1BMVEVMaXFXV1dVVVVVVVVPT09VVVVVVVVTU1NVVVVUVFRVVVVVVVVVVVV9fqiuAAAADXRSTlMAIDD/EM+PQO+vYL+AO6obDwAAAMBJREFUeNrt1msOgyAQReGRq4CP/a+3aRrT2osc0t/9NmBygBnDTIGSUoB50TJHX5aUo6voqXS/VPVUe19b9bLGrU2nLW5MVad6V2nX2x5Nhz4d7cBXqRn4opU761v2wK5YYFdnC+xWD+w2C+zqZIHd7oHd4YFdagb23B7YcxeREqmQFH9dIw2HzoLPdPBu8B3ju8p3fvzt8Bvkt8wzgWcLz6gfZh3PTJ69PMN5F/BO4d3EO453Je9c3t38D4C8zANwRQ4V3iz4FgAAAABJRU5ErkJggg==") no-repeat;
   background-position: 95% center;
-  -webkit-background-size: 7px auto;
   background-size: 7px auto;
   background-color: #fff;
   color: #555;
@@ -5745,8 +5717,6 @@ select {
 }
 
 textarea {
-  -webkit-appearance: none;
-  -moz-appearance: none;
   appearance: none;
   resize: none;
 }
@@ -7538,7 +7508,6 @@ pre {
 
 .thumbnail img,
 .thumbnail:not(img) img {
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -7742,7 +7711,6 @@ pre {
 }
 
 img.thumbnail {
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   /* Skin */
   /* Skin */
@@ -7852,7 +7820,6 @@ img.thumbnail.free.round {
 /* alert */
 .alert {
   position: relative;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding: 12px 18px;
   border-radius: 4px;
@@ -7932,14 +7899,12 @@ img.thumbnail.free.round {
   height: 100%;
   background-color: #327AB7;
   line-height: 10px;
-  -webkit-transition: width .6s ease;
   transition: width .6s ease;
   /* Skin */
 }
 
 .progress .value.striped {
   background-image: linear-gradient(45deg, #247ad0 10%, transparent 10%, transparent 50%, #247ad0 50%, #247ad0 60%, transparent 60%, transparent);
-  -webkit-background-size: 15px 150%;
   background-size: 15px 150%;
   background-repeat: repeat-x;
 }
@@ -7950,7 +7915,6 @@ img.thumbnail.free.round {
 
 .progress .value.primary.striped {
   background-image: linear-gradient(45deg, #121921 10%, transparent 10%, transparent 50%, #121921 50%, #121921 60%, transparent 60%, transparent);
-  -webkit-background-size: 15px 150%;
   background-size: 15px 150%;
 }
 
@@ -7960,7 +7924,6 @@ img.thumbnail.free.round {
 
 .progress .value.green.striped {
   background-image: linear-gradient(45deg, #0b9f78 10%, transparent 10%, transparent 50%, #0b9f78 50%, #0b9f78 60%, transparent 60%, transparent);
-  -webkit-background-size: 15px 150%;
   background-size: 15px 150%;
 }
 
@@ -7970,7 +7933,6 @@ img.thumbnail.free.round {
 
 .progress .value.blue.striped {
   background-image: linear-gradient(45deg, #247ad0 10%, transparent 10%, transparent 50%, #247ad0 50%, #247ad0 60%, transparent 60%, transparent);
-  -webkit-background-size: 15px 150%;
   background-size: 15px 150%;
 }
 
@@ -7980,7 +7942,6 @@ img.thumbnail.free.round {
 
 .progress .value.orange.striped {
   background-image: linear-gradient(45deg, #ef7f0c 10%, transparent 10%, transparent 50%, #ef7f0c 50%, #ef7f0c 60%, transparent 60%, transparent);
-  -webkit-background-size: 15px 150%;
   background-size: 15px 150%;
 }
 
@@ -7990,7 +7951,6 @@ img.thumbnail.free.round {
 
 .progress .value.red.striped {
   background-image: linear-gradient(45deg, #e0352a 10%, transparent 10%, transparent 50%, #e0352a 50%, #e0352a 60%, transparent 60%, transparent);
-  -webkit-background-size: 15px 150%;
   background-size: 15px 150%;
 }
 
@@ -8001,31 +7961,26 @@ img.thumbnail.free.round {
 
 .progress.mini .value.striped.primary {
   background-image: linear-gradient(45deg, #121921 10%, transparent 10%, transparent 50%, #121921 50%, #121921 60%, transparent 60%, transparent);
-  -webkit-background-size: 6px 150%;
   background-size: 6px 150%;
 }
 
 .progress.mini .value.striped.green {
   background-image: linear-gradient(45deg, #0b9f78 10%, transparent 10%, transparent 50%, #0b9f78 50%, #0b9f78 60%, transparent 60%, transparent);
-  -webkit-background-size: 6px 150%;
   background-size: 6px 150%;
 }
 
 .progress.mini .value.striped.blue {
   background-image: linear-gradient(45deg, #247ad0 10%, transparent 10%, transparent 50%, #247ad0 50%, #247ad0 60%, transparent 60%, transparent);
-  -webkit-background-size: 6px 150%;
   background-size: 6px 150%;
 }
 
 .progress.mini .value.striped.orange {
   background-image: linear-gradient(45deg, #ef7f0c 10%, transparent 10%, transparent 50%, #ef7f0c 50%, #ef7f0c 60%, transparent 60%, transparent);
-  -webkit-background-size: 6px 150%;
   background-size: 6px 150%;
 }
 
 .progress.mini .value.striped.red {
   background-image: linear-gradient(45deg, #e0352a 10%, transparent 10%, transparent 50%, #e0352a 50%, #e0352a 60%, transparent 60%, transparent);
-  -webkit-background-size: 6px 150%;
   background-size: 6px 150%;
 }
 
@@ -8036,31 +7991,26 @@ img.thumbnail.free.round {
 
 .progress.small .value.striped.primary {
   background-image: linear-gradient(45deg, #121921 10%, transparent 10%, transparent 50%, #121921 50%, #121921 60%, transparent 60%, transparent);
-  -webkit-background-size: 10px 150%;
   background-size: 10px 150%;
 }
 
 .progress.small .value.striped.green {
   background-image: linear-gradient(45deg, #0b9f78 10%, transparent 10%, transparent 50%, #0b9f78 50%, #0b9f78 60%, transparent 60%, transparent);
-  -webkit-background-size: 10px 150%;
   background-size: 10px 150%;
 }
 
 .progress.small .value.striped.blue {
   background-image: linear-gradient(45deg, #247ad0 10%, transparent 10%, transparent 50%, #247ad0 50%, #247ad0 60%, transparent 60%, transparent);
-  -webkit-background-size: 10px 150%;
   background-size: 10px 150%;
 }
 
 .progress.small .value.striped.orange {
   background-image: linear-gradient(45deg, #ef7f0c 10%, transparent 10%, transparent 50%, #ef7f0c 50%, #ef7f0c 60%, transparent 60%, transparent);
-  -webkit-background-size: 10px 150%;
   background-size: 10px 150%;
 }
 
 .progress.small .value.striped.red {
   background-image: linear-gradient(45deg, #e0352a 10%, transparent 10%, transparent 50%, #e0352a 50%, #e0352a 60%, transparent 60%, transparent);
-  -webkit-background-size: 10px 150%;
   background-size: 10px 150%;
 }
 
@@ -8071,31 +8021,26 @@ img.thumbnail.free.round {
 
 .progress.large .value.striped.primary {
   background-image: linear-gradient(45deg, #121921 10%, transparent 10%, transparent 50%, #121921 50%, #121921 60%, transparent 60%, transparent);
-  -webkit-background-size: 28px 150%;
   background-size: 28px 150%;
 }
 
 .progress.large .value.striped.green {
   background-image: linear-gradient(45deg, #0b9f78 10%, transparent 10%, transparent 50%, #0b9f78 50%, #0b9f78 60%, transparent 60%, transparent);
-  -webkit-background-size: 28px 150%;
   background-size: 28px 150%;
 }
 
 .progress.large .value.striped.blue {
   background-image: linear-gradient(45deg, #247ad0 10%, transparent 10%, transparent 50%, #247ad0 50%, #247ad0 60%, transparent 60%, transparent);
-  -webkit-background-size: 28px 150%;
   background-size: 28px 150%;
 }
 
 .progress.large .value.striped.orange {
   background-image: linear-gradient(45deg, #ef7f0c 10%, transparent 10%, transparent 50%, #ef7f0c 50%, #ef7f0c 60%, transparent 60%, transparent);
-  -webkit-background-size: 28px 150%;
   background-size: 28px 150%;
 }
 
 .progress.large .value.striped.red {
   background-image: linear-gradient(45deg, #e0352a 10%, transparent 10%, transparent 50%, #e0352a 50%, #e0352a 60%, transparent 60%, transparent);
-  -webkit-background-size: 28px 150%;
   background-size: 28px 150%;
 }
 
@@ -8106,31 +8051,26 @@ img.thumbnail.free.round {
 
 .progress.big .value.striped.primary {
   background-image: linear-gradient(45deg, #121921 10%, transparent 10%, transparent 50%, #121921 50%, #121921 60%, transparent 60%, transparent);
-  -webkit-background-size: 58px 150%;
   background-size: 58px 150%;
 }
 
 .progress.big .value.striped.green {
   background-image: linear-gradient(45deg, #0b9f78 10%, transparent 10%, transparent 50%, #0b9f78 50%, #0b9f78 60%, transparent 60%, transparent);
-  -webkit-background-size: 58px 150%;
   background-size: 58px 150%;
 }
 
 .progress.big .value.striped.blue {
   background-image: linear-gradient(45deg, #247ad0 10%, transparent 10%, transparent 50%, #247ad0 50%, #247ad0 60%, transparent 60%, transparent);
-  -webkit-background-size: 58px 150%;
   background-size: 58px 150%;
 }
 
 .progress.big .value.striped.orange {
   background-image: linear-gradient(45deg, #ef7f0c 10%, transparent 10%, transparent 50%, #ef7f0c 50%, #ef7f0c 60%, transparent 60%, transparent);
-  -webkit-background-size: 58px 150%;
   background-size: 58px 150%;
 }
 
 .progress.big .value.striped.red {
   background-image: linear-gradient(45deg, #e0352a 10%, transparent 10%, transparent 50%, #e0352a 50%, #e0352a 60%, transparent 60%, transparent);
-  -webkit-background-size: 58px 150%;
   background-size: 58px 150%;
 }
 
@@ -8160,31 +8100,26 @@ img.thumbnail.free.round {
 
 .progress.lower .value.striped.primary {
   background-image: linear-gradient(45deg, #121921 10%, transparent 10%, transparent 50%, #121921 50%, #121921 60%, transparent 60%, transparent);
-  -webkit-background-size: 6px 150%;
   background-size: 6px 150%;
 }
 
 .progress.lower .value.striped.green {
   background-image: linear-gradient(45deg, #0b9f78 10%, transparent 10%, transparent 50%, #0b9f78 50%, #0b9f78 60%, transparent 60%, transparent);
-  -webkit-background-size: 6px 150%;
   background-size: 6px 150%;
 }
 
 .progress.lower .value.striped.blue {
   background-image: linear-gradient(45deg, #247ad0 10%, transparent 10%, transparent 50%, #247ad0 50%, #247ad0 60%, transparent 60%, transparent);
-  -webkit-background-size: 6px 150%;
   background-size: 6px 150%;
 }
 
 .progress.lower .value.striped.orange {
   background-image: linear-gradient(45deg, #ef7f0c 10%, transparent 10%, transparent 50%, #ef7f0c 50%, #ef7f0c 60%, transparent 60%, transparent);
-  -webkit-background-size: 6px 150%;
   background-size: 6px 150%;
 }
 
 .progress.lower .value.striped.red {
   background-image: linear-gradient(45deg, #e0352a 10%, transparent 10%, transparent 50%, #e0352a 50%, #e0352a 60%, transparent 60%, transparent);
-  -webkit-background-size: 6px 150%;
   background-size: 6px 150%;
 }
 
@@ -8194,31 +8129,26 @@ img.thumbnail.free.round {
 
 .progress.low .value.striped.primary {
   background-image: linear-gradient(45deg, #121921 10%, transparent 10%, transparent 50%, #121921 50%, #121921 60%, transparent 60%, transparent);
-  -webkit-background-size: 10px 150%;
   background-size: 10px 150%;
 }
 
 .progress.low .value.striped.green {
   background-image: linear-gradient(45deg, #0b9f78 10%, transparent 10%, transparent 50%, #0b9f78 50%, #0b9f78 60%, transparent 60%, transparent);
-  -webkit-background-size: 10px 150%;
   background-size: 10px 150%;
 }
 
 .progress.low .value.striped.blue {
   background-image: linear-gradient(45deg, #247ad0 10%, transparent 10%, transparent 50%, #247ad0 50%, #247ad0 60%, transparent 60%, transparent);
-  -webkit-background-size: 10px 150%;
   background-size: 10px 150%;
 }
 
 .progress.low .value.striped.orange {
   background-image: linear-gradient(45deg, #ef7f0c 10%, transparent 10%, transparent 50%, #ef7f0c 50%, #ef7f0c 60%, transparent 60%, transparent);
-  -webkit-background-size: 10px 150%;
   background-size: 10px 150%;
 }
 
 .progress.low .value.striped.red {
   background-image: linear-gradient(45deg, #e0352a 10%, transparent 10%, transparent 50%, #e0352a 50%, #e0352a 60%, transparent 60%, transparent);
-  -webkit-background-size: 10px 150%;
   background-size: 10px 150%;
 }
 
@@ -8228,31 +8158,26 @@ img.thumbnail.free.round {
 
 .progress.high .value.striped.primary {
   background-image: linear-gradient(45deg, #121921 10%, transparent 10%, transparent 50%, #121921 50%, #121921 60%, transparent 60%, transparent);
-  -webkit-background-size: 40px 150%;
   background-size: 40px 150%;
 }
 
 .progress.high .value.striped.green {
   background-image: linear-gradient(45deg, #0b9f78 10%, transparent 10%, transparent 50%, #0b9f78 50%, #0b9f78 60%, transparent 60%, transparent);
-  -webkit-background-size: 40px 150%;
   background-size: 40px 150%;
 }
 
 .progress.high .value.striped.blue {
   background-image: linear-gradient(45deg, #247ad0 10%, transparent 10%, transparent 50%, #247ad0 50%, #247ad0 60%, transparent 60%, transparent);
-  -webkit-background-size: 40px 150%;
   background-size: 40px 150%;
 }
 
 .progress.high .value.striped.orange {
   background-image: linear-gradient(45deg, #ef7f0c 10%, transparent 10%, transparent 50%, #ef7f0c 50%, #ef7f0c 60%, transparent 60%, transparent);
-  -webkit-background-size: 40px 150%;
   background-size: 40px 150%;
 }
 
 .progress.high .value.striped.red {
   background-image: linear-gradient(45deg, #e0352a 10%, transparent 10%, transparent 50%, #e0352a 50%, #e0352a 60%, transparent 60%, transparent);
-  -webkit-background-size: 40px 150%;
   background-size: 40px 150%;
 }
 
@@ -8262,31 +8187,26 @@ img.thumbnail.free.round {
 
 .progress.lofty .value.striped.primary {
   background-image: linear-gradient(45deg, #121921 10%, transparent 10%, transparent 50%, #121921 50%, #121921 60%, transparent 60%, transparent);
-  -webkit-background-size: 80px 150%;
   background-size: 80px 150%;
 }
 
 .progress.lofty .value.striped.green {
   background-image: linear-gradient(45deg, #0b9f78 10%, transparent 10%, transparent 50%, #0b9f78 50%, #0b9f78 60%, transparent 60%, transparent);
-  -webkit-background-size: 80px 150%;
   background-size: 80px 150%;
 }
 
 .progress.lofty .value.striped.blue {
   background-image: linear-gradient(45deg, #247ad0 10%, transparent 10%, transparent 50%, #247ad0 50%, #247ad0 60%, transparent 60%, transparent);
-  -webkit-background-size: 80px 150%;
   background-size: 80px 150%;
 }
 
 .progress.lofty .value.striped.orange {
   background-image: linear-gradient(45deg, #ef7f0c 10%, transparent 10%, transparent 50%, #ef7f0c 50%, #ef7f0c 60%, transparent 60%, transparent);
-  -webkit-background-size: 80px 150%;
   background-size: 80px 150%;
 }
 
 .progress.lofty .value.striped.red {
   background-image: linear-gradient(45deg, #e0352a 10%, transparent 10%, transparent 50%, #e0352a 50%, #e0352a 60%, transparent 60%, transparent);
-  -webkit-background-size: 80px 150%;
   background-size: 80px 150%;
 }
 
@@ -8514,8 +8434,6 @@ h1.title, h2.title, h3.title, h4.title, h5.title, h6.title {
 }
 
 .menuList.align {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -8549,14 +8467,10 @@ dl.menuList dd + dd {
 }
 
 .menu {
-  -webkit-box-flex: 1;
-  -ms-flex: 1;
   flex: 1;
 }
 
 .menu .menuList {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   padding: 0 20px;
 }
@@ -8572,14 +8486,10 @@ dl.menuList dd + dd {
 
 .menu .menuList.right {
   padding: 0;
-  -webkit-box-pack: end;
-  -ms-flex-pack: end;
   justify-content: flex-end;
 }
 
 .menu .menuList.center {
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
 }
 
@@ -8591,26 +8501,18 @@ dl.menuList dd + dd {
   min-width: 40px;
   min-height: 40px;
   border-radius: 4px;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   vertical-align: top;
 }
 
 .paginationList > li a {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   min-width: 40px;
   min-height: 40px;
   padding: 0 6px;
   border-radius: 4px;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   text-decoration: none;
   text-align: center;
@@ -8893,7 +8795,6 @@ dl.menuList dd + dd {
   display: block;
   float: left;
   margin-bottom: -1px;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -8904,7 +8805,6 @@ dl.menuList dd + dd {
   border: 1px solid transparent;
   border-bottom-width: 0;
   background: #fff;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding: 0 6px;
   line-height: 30px;
@@ -9037,14 +8937,12 @@ dl.menuList dd + dd {
 
 .navList li {
   margin-bottom: 6px;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
 .navList li a {
   display: block;
   padding: 0 12px;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   line-height: 26px;
   color: #666;
@@ -9170,9 +9068,7 @@ dl.menuList dd + dd {
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-bottom-color: rgba(0, 0, 0, 0.3);
   border-radius: 4px;
-  -webkit-background-origin: border-box;
   background-origin: border-box;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#eee));
   background-image: linear-gradient(to bottom, #fff, #eee);
   /* State */
 }
@@ -9184,11 +9080,7 @@ dl.menuList dd + dd {
 }
 
 .navBar > .box {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   height: 40px;
   padding-left: 8px;
@@ -9206,8 +9098,6 @@ dl.menuList dd + dd {
 .navBar > .center {
   position: absolute;
   width: 100%;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
 }
 
@@ -9224,7 +9114,6 @@ dl.menuList dd + dd {
 
 .navBarList > li > a {
   display: block;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   text-decoration: none;
   height: 41px;
@@ -9247,7 +9136,6 @@ dl.menuList dd + dd {
   border-left-color: rgba(0, 0, 0, 0.1);
   border-right-color: rgba(0, 0, 0, 0.1);
   border-top-color: rgba(0, 0, 0, 0.2);
-  -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
   box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -9348,7 +9236,6 @@ dl.menuList dd + dd {
   position: relative;
   display: inline-block;
   min-width: 140px;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   vertical-align: middle;
   /* Atomic */
@@ -9372,7 +9259,6 @@ dl.menuList dd + dd {
   background: #F9F9F9;
   border-radius: 4px;
   border: #D9D9D9 1px solid;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   text-align: center;
   text-decoration: none;
@@ -9726,13 +9612,11 @@ dl.menuList dd + dd {
   width: 14px;
   height: 2px;
   background: #B8B8B8;
-  -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
 }
 
 .btn.close::after,
 .btn:not(a).close::after {
-  -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
 
@@ -9824,7 +9708,6 @@ input.btn {
   background: #F9F9F9;
   border-radius: 4px;
   border: #D9D9D9 1px solid;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   text-align: center;
   text-decoration: none;
@@ -10093,7 +9976,6 @@ input.btn.lofty {
   border-bottom: 2px solid #6A6A6A;
   border-right: 2px solid #6A6A6A;
   border-radius: 2px;
-  -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
 }
 
@@ -10111,8 +9993,6 @@ input.btn.lofty {
  * Box Style
 */
 .box.menuList {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -10224,8 +10104,6 @@ input.btn.lofty {
 }
 
 .textList.align {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -10252,18 +10130,12 @@ input.btn.lofty {
 }
 
 .pictureList {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 0 20px;
 }
 
 .pictureList > li {
-  -webkit-box-flex: 1;
-  -ms-flex: 1;
   flex: 1;
   margin: 0 25px;
 }
@@ -10277,8 +10149,6 @@ input.btn.lofty {
 }
 
 .iconList {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -10338,7 +10208,6 @@ input.btn.lofty {
   border: #D9D9D9 1px solid;
   border-radius: 20px;
   background: #F9F9F9;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   font-size: 20px;
   text-align: center;
@@ -12966,7 +12835,6 @@ input.btn.lofty {
   border: #D9D9D9 1px solid;
   border-radius: 20px;
   background: #F9F9F9;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   font-size: 20px;
   text-align: center;
@@ -13111,7 +12979,6 @@ input.btn.lofty {
   padding: 0 4px;
   border-radius: 2px;
   background: #F9F9F9;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   font-size: 12px;
   line-height: 16px;
@@ -13197,7 +13064,6 @@ input.btn.lofty {
   padding: 0 4px;
   border-radius: 10px;
   background: #E74C3C;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   color: #fff;
   font-size: 12px;
@@ -13219,7 +13085,6 @@ input.btn.lofty {
   border: #B8B8B8 1px solid;
   border-radius: 4px;
   background: #fff;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   z-index: 5000;
 }
@@ -13237,14 +13102,8 @@ input.btn.lofty {
   position: absolute;
   top: 0;
   right: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   width: 45px;
   height: 100%;
@@ -13280,12 +13139,10 @@ input.btn.lofty {
   width: 14px;
   height: 2px;
   background: #B8B8B8;
-  -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
 }
 
 .modalWindow .modalDialog .modalClose::after {
-  -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
 
@@ -13420,7 +13277,6 @@ input[type="checkbox"]:checked::before {
   left: 3px;
   border-left: 2px solid #fff;
   border-bottom: 2px solid #fff;
-  -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
 
@@ -13673,7 +13529,6 @@ input[type="password"] {
   padding: 0 12px;
   border-radius: 4px;
   background: #fff;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   color: #555555;
   font-size: 14px;
@@ -14029,7 +13884,6 @@ select.lower {
   border-radius: 4px;
   font-size: 10px;
   line-height: 15px;
-  -webkit-background-size: 5px auto;
   background-size: 5px auto;
 }
 
@@ -14042,7 +13896,6 @@ select.low {
 
 select.high {
   height: 45px;
-  -webkit-background-size: 10px auto;
   background-size: 10px auto;
   line-height: 45px;
   font-size: 16px;
@@ -14050,7 +13903,6 @@ select.high {
 
 select.lofty {
   height: 60px;
-  -webkit-background-size: 12px auto;
   background-size: 12px auto;
   line-height: 60px;
   font-size: 18px;
@@ -14063,7 +13915,6 @@ select.mini {
   background-position: 85% center;
   font-size: 10px;
   line-height: 15px;
-  -webkit-background-size: 5px auto;
   background-size: 5px auto;
 }
 
@@ -14079,7 +13930,6 @@ select.small {
 select.large {
   min-width: 300px;
   height: 45px;
-  -webkit-background-size: 10px auto;
   background-size: 10px auto;
   line-height: 45px;
   font-size: 16px;
@@ -14088,7 +13938,6 @@ select.large {
 select.big {
   min-width: 450px;
   height: 60px;
-  -webkit-background-size: 12px auto;
   background-size: 12px auto;
   line-height: 60px;
   font-size: 18px;
@@ -14138,12 +13987,10 @@ select.red {
  * Textarea Style
 */
 textarea {
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding: 8px;
   border: #ccc 1px solid;
   border-radius: 4px;
-  -webkit-box-shadow: inset rgba(222, 222, 222, 0.5) 0 2px 0 0;
   box-shadow: inset rgba(222, 222, 222, 0.5) 0 2px 0 0;
   font-size: 14px;
   color: #555;
@@ -14245,7 +14092,6 @@ textarea.resize {
 /* Header Style
 -------------------------------------------------- */
 header.header {
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   min-height: 70px;
   padding: 0 30px;
@@ -14265,34 +14111,22 @@ header.header .headerLogo {
 }
 
 header.header .headerLogo a {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   height: 100%;
 }
 
 header.header > .box {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   min-height: 70px;
 }
 
 header.header > .box.center {
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
 }
 
 header.header > .box.center > * {
-  -webkit-box-flex: 0;
-  -ms-flex: none;
   flex: none;
 }
 
@@ -14344,7 +14178,6 @@ footer {
 }
 
 footer.footer {
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   background: #F8F8F8;
   /* State */
@@ -14359,14 +14192,8 @@ footer.footer.center .bottom,
 footer.footer .top.center,
 footer.footer .main.center,
 footer.footer .bottom.center {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   text-align: center;
 }
@@ -14374,7 +14201,6 @@ footer.footer .bottom.center {
 footer.footer .top,
 footer.footer .main,
 footer.footer .bottom {
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -14387,38 +14213,26 @@ footer.footer .bottom.gray {
 footer.footer .top.flex,
 footer.footer .main.flex,
 footer.footer .bottom.flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
 footer.footer .top.flex .wrap,
 footer.footer .main.flex .wrap,
 footer.footer .bottom.flex .wrap {
-  -webkit-box-flex: 1;
-  -ms-flex: 1;
   flex: 1;
 }
 
 footer.footer .top.flex .wrap.right,
 footer.footer .main.flex .wrap.right,
 footer.footer .bottom.flex .wrap.right {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-  -ms-flex-pack: end;
   justify-content: flex-end;
 }
 
 footer.footer .top > .wrap.flex,
 footer.footer .main > .wrap.flex,
 footer.footer .bottom > .wrap.flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
 }
 
