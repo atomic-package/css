@@ -20,6 +20,7 @@ const ROOT        = __dirname;
 const SRC_PATH    = path.join(ROOT, './src');
 const PUBLIC_PATH = path.join(ROOT, './public');
 const DIST_PATH   = path.join(ROOT, './dist');
+const DOCS_PATH   = path.join(ROOT, './docs');
 
 // HTML
 const HTML_SRC_PATH = path.join(SRC_PATH, 'html');
@@ -80,6 +81,13 @@ gulp.task('css.min', function() {
       suffix: '.min'
     }))
     .pipe(gulp.dest(PUBLIC_PATH));
+});
+
+gulp.task('css.copy.docs', function() {
+    return gulp.src([
+        PUBLIC_PATH + '/**/*.css'
+    ])
+        .pipe(gulp.dest(DOCS_PATH));
 });
 
 gulp.task('css.copy.dist', function() {
@@ -155,11 +163,12 @@ gulp.task('build.font', function(callback) {
  **/
 gulp.task('dist', function(callback) {
   return runSequence(
-    'build.ui',
-    'css.copy.dist',
-    'sass.copy.dist',
-    'font.copy.dist',
-    callback
+      'build.ui',
+      'css.copy.dist',
+      'css.copy.docs',
+      'sass.copy.dist',
+      'font.copy.dist',
+      callback
   );
 });
 
