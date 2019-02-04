@@ -10,14 +10,20 @@ $ npm install @atomic-package/css
 ## include dist files
 
 ```
-atomic-package.css
-atomic-package.min.css
-
-atomic-package-theme.css
-atomic-package-theme.min.css
-
-atomic-package/
-atomic-package-theme/
+dist/
+├── atomic-package
+│   ├── atomic-package.scss
+│   ├── atomic-package.css
+│   └── atomic-package.min.css
+├── atomic-package-theme
+│   ├── atomic-package-theme.scss
+│   ├── atomic-package-theme.css
+│   └── atomic-package-theme.min.css
+└── font
+    ├── FontAwesome.otf
+    ├── fontawesome-webfont.ttf
+    ├── fontawesome-webfont.woff
+    └── fontawesome-webfont.woff2
 ```
 
 ### import SCSS File
@@ -44,6 +50,12 @@ css file import
 #### Atomic Package Style Guide Page
 
 https://atomic-package.github.io/css/
+
+**directory**
+
+```
+docs/
+```
 
 
 ### scss atomic-package directory

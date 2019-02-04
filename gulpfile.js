@@ -28,7 +28,7 @@ const HTML_FILES    = path.join(HTML_SRC_PATH, './**/*.html');
 // SASS
 const SASS_SRC_PATH = path.join(SRC_PATH, 'scss');
 const SASS_FILES    = path.join(SASS_SRC_PATH, './**/*.scss');
-const CSS_FILES     = path.join(PUBLIC_PATH, './css/**/*.css');
+const CSS_FILES     = path.join(PUBLIC_PATH, './**/*.css');
 
 // Fonts
 const fontFiles = [ SRC_PATH + '/fonts/**/**' ];
@@ -53,7 +53,7 @@ gulp.task('sass', function() {
     .pipe(sass({
       outputStyle: 'expanded'
     }).on('error', sass.logError))
-    .pipe(gulp.dest(PUBLIC_PATH + '/css'));
+    .pipe(gulp.dest(PUBLIC_PATH));
 });
 
 gulp.task('sass.copy.dist', function() {
@@ -67,25 +67,24 @@ gulp.task('css.prefixer', function() {
       browsers: ['last 2 versions', 'ie 8', 'ios 6', 'android 2.3'],
       cascade: false
     }))
-    .pipe(gulp.dest(PUBLIC_PATH + '/css'));
+    .pipe(gulp.dest(PUBLIC_PATH));
 });
 
 gulp.task('css.min', function() {
   return gulp.src([
       CSS_FILES,
-      '!' + PUBLIC_PATH + '/css/**/*min.css'
+      '!' + PUBLIC_PATH + '/**/*min.css'
     ])
     .pipe(cssmin())
     .pipe(rename({
       suffix: '.min'
     }))
-    .pipe(gulp.dest(PUBLIC_PATH + '/css'));
+    .pipe(gulp.dest(PUBLIC_PATH));
 });
 
 gulp.task('css.copy.dist', function() {
   return gulp.src([
-    PUBLIC_PATH + '/css/atomic-package/*.css',
-    PUBLIC_PATH + '/css/atomic-package-theme/*.css'
+    PUBLIC_PATH + '/**/*.css'
   ])
     .pipe(gulp.dest(DIST_PATH));
 });
