@@ -303,7 +303,8 @@ $inputLoftyFont: 18px;
 /* Atomic */
 input[type="text"],
 input[type="search"],
-input[type="password"] {
+input[type="password"],
+input[type="email"] {
   display: inline-block;
   min-width: 180px;
   border: #CCCCCC 1px solid;
@@ -426,7 +427,8 @@ input[type="password"] {
   &.disabled {
     input[type="text"],
     input[type="search"],
-    input[type="password"] {
+    input[type="password"],
+    input[type="email"] {
       background: #EEEEEE;
       color: #999999;
     }
@@ -437,35 +439,40 @@ input[type="password"] {
   &.primary {
     input[type="text"],
     input[type="search"],
-    input[type="password"] {
+    input[type="password"],
+    input[type="email"] {
       border-color: #2C3D50;
     }
   }
   &.green {
     input[type="text"],
     input[type="search"],
-    input[type="password"] {
+    input[type="password"],
+    input[type="email"] {
       border-color: #17BC9C;
     }
   }
   &.blue {
     input[type="text"],
     input[type="search"],
-    input[type="password"] {
+    input[type="password"],
+    input[type="email"] {
       border-color: #1397E1;
     }
   }
   &.orange {
     input[type="text"],
     input[type="search"],
-    input[type="password"] {
+    input[type="password"],
+    input[type="email"] {
       border-color: #F39C12;
     }
   }
   &.red {
     input[type="text"],
     input[type="search"],
-    input[type="password"] {
+    input[type="password"],
+    input[type="email"] {
       border-color: #E74C3C;
     }
   }
@@ -474,7 +481,8 @@ input[type="password"] {
   &.narrow {
     input[type="text"],
     input[type="search"],
-    input[type="password"] {
+    input[type="password"],
+    input[type="email"] {
       min-width: $inputNarrow;
       width: $inputNarrow;
     }
@@ -482,7 +490,8 @@ input[type="password"] {
   &.short {
     input[type="text"],
     input[type="search"],
-    input[type="password"] {
+    input[type="password"],
+    input[type="email"] {
       min-width: $inputShort;
       width: $inputShort;
     }
@@ -490,7 +499,8 @@ input[type="password"] {
   &.long {
     input[type="text"],
     input[type="search"],
-    input[type="password"] {
+    input[type="password"],
+    input[type="email"] {
       min-width: $inputLong;
       width: $inputLong;
     }
@@ -498,7 +508,8 @@ input[type="password"] {
   &.wide {
     input[type="text"],
     input[type="search"],
-    input[type="password"] {
+    input[type="password"],
+    input[type="email"] {
       min-width: $inputWide;
       width: $inputWide;
     }
@@ -508,7 +519,8 @@ input[type="password"] {
 
     input[type="text"],
     input[type="search"],
-    input[type="password"] {
+    input[type="password"],
+    input[type="email"] {
       min-width: $inputFree;
       width: $inputFree;
     }
@@ -518,7 +530,8 @@ input[type="password"] {
   &.lower {
     input[type="text"],
     input[type="search"],
-    input[type="password"] {
+    input[type="password"],
+    input[type="email"] {
       height: $inputLower;
       line-height: $inputLower;
       font-size: $inputLowerFont;
@@ -527,7 +540,8 @@ input[type="password"] {
   &.low {
     input[type="text"],
     input[type="search"],
-    input[type="password"] {
+    input[type="password"],
+    input[type="email"] {
       height: $inputLow;
       line-height: $inputLow;
       font-size: $inputLowFont;
@@ -536,7 +550,8 @@ input[type="password"] {
   &.high {
     input[type="text"],
     input[type="search"],
-    input[type="password"] {
+    input[type="password"],
+    input[type="email"] {
       height: $inputHigh;
       border-radius: 6px;
       line-height: $inputHigh;
@@ -546,7 +561,8 @@ input[type="password"] {
   &.lofty {
     input[type="text"],
     input[type="search"],
-    input[type="password"] {
+    input[type="password"],
+    input[type="email"] {
       height: $inputLofty;
       border-radius: 6px;
       line-height: $inputLofty;
@@ -557,7 +573,8 @@ input[type="password"] {
   &.mini {
     input[type="text"],
     input[type="search"],
-    input[type="password"] {
+    input[type="password"],
+    input[type="email"] {
       width: $inputNarrow;
       min-width: $inputNarrow;
       height: $inputLower;
@@ -569,7 +586,8 @@ input[type="password"] {
   &.small {
     input[type="text"],
     input[type="search"],
-    input[type="password"] {
+    input[type="password"],
+    input[type="email"] {
       width: $inputShort;
       min-width: $inputShort;
       height: $inputLow;
@@ -581,7 +599,8 @@ input[type="password"] {
   &.large {
     input[type="text"],
     input[type="search"],
-    input[type="password"] {
+    input[type="password"],
+    input[type="email"] {
       width: $inputLong;
       min-width: $inputLong;
       height: $inputHigh;
@@ -594,7 +613,8 @@ input[type="password"] {
   &.big {
     input[type="text"],
     input[type="search"],
-    input[type="password"] {
+    input[type="password"],
+    input[type="email"] {
       width: $inputWide;
       min-width: $inputWide;
       height: $inputLofty;

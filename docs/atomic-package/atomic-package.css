@@ -13665,7 +13665,8 @@ input[type="radio"].big:checked::before {
 /* Atomic */
 input[type="text"],
 input[type="search"],
-input[type="password"] {
+input[type="password"],
+input[type="email"] {
   display: inline-block;
   min-width: 180px;
   border: #CCCCCC 1px solid;
@@ -13685,74 +13686,87 @@ input[type="text"]:disabled, input[type="text"].disabled,
 input[type="search"]:disabled,
 input[type="search"].disabled,
 input[type="password"]:disabled,
-input[type="password"].disabled {
+input[type="password"].disabled,
+input[type="email"]:disabled,
+input[type="email"].disabled {
   background: #EEEEEE;
   color: #999999;
 }
 
 input[type="text"].primary,
 input[type="search"].primary,
-input[type="password"].primary {
+input[type="password"].primary,
+input[type="email"].primary {
   border-color: #2C3D50;
 }
 
 input[type="text"].green,
 input[type="search"].green,
-input[type="password"].green {
+input[type="password"].green,
+input[type="email"].green {
   border-color: #17BC9C;
 }
 
 input[type="text"].blue,
 input[type="search"].blue,
-input[type="password"].blue {
+input[type="password"].blue,
+input[type="email"].blue {
   border-color: #1397E1;
 }
 
 input[type="text"].orange,
 input[type="search"].orange,
-input[type="password"].orange {
+input[type="password"].orange,
+input[type="email"].orange {
   border-color: #F39C12;
 }
 
 input[type="text"].red,
 input[type="search"].red,
-input[type="password"].red {
+input[type="password"].red,
+input[type="email"].red {
   border-color: #E74C3C;
 }
 
 input[type="text"].narrow,
 input[type="search"].narrow,
-input[type="password"].narrow {
+input[type="password"].narrow,
+input[type="email"].narrow {
   min-width: 65px;
 }
 
 input[type="text"].short,
 input[type="search"].short,
-input[type="password"].short {
+input[type="password"].short,
+input[type="email"].short {
   min-width: 124px;
 }
 
 input[type="text"].long,
 input[type="search"].long,
-input[type="password"].long {
+input[type="password"].long,
+input[type="email"].long {
   min-width: 270px;
 }
 
 input[type="text"].wide,
 input[type="search"].wide,
-input[type="password"].wide {
+input[type="password"].wide,
+input[type="email"].wide {
   min-width: 450px;
 }
 
 input[type="text"].free,
 input[type="search"].free,
-input[type="password"].free {
+input[type="password"].free,
+input[type="email"].free {
   min-width: 100%;
 }
 
 input[type="text"].lower,
 input[type="search"].lower,
-input[type="password"].lower {
+input[type="password"].lower,
+input[type="email"].lower {
   height: 18px;
   line-height: 18px;
   font-size: 10px;
@@ -13760,7 +13774,8 @@ input[type="password"].lower {
 
 input[type="text"].low,
 input[type="search"].low,
-input[type="password"].low {
+input[type="password"].low,
+input[type="email"].low {
   height: 22px;
   line-height: 22px;
   font-size: 12px;
@@ -13768,7 +13783,8 @@ input[type="password"].low {
 
 input[type="text"].high,
 input[type="search"].high,
-input[type="password"].high {
+input[type="password"].high,
+input[type="email"].high {
   height: 40px;
   border-radius: 6px;
   line-height: 40px;
@@ -13777,7 +13793,8 @@ input[type="password"].high {
 
 input[type="text"].lofty,
 input[type="search"].lofty,
-input[type="password"].lofty {
+input[type="password"].lofty,
+input[type="email"].lofty {
   height: 50px;
   border-radius: 6px;
   line-height: 50px;
@@ -13786,7 +13803,8 @@ input[type="password"].lofty {
 
 input[type="text"].mini,
 input[type="search"].mini,
-input[type="password"].mini {
+input[type="password"].mini,
+input[type="email"].mini {
   width: 65px;
   min-width: 65px;
   height: 18px;
@@ -13797,7 +13815,8 @@ input[type="password"].mini {
 
 input[type="text"].small,
 input[type="search"].small,
-input[type="password"].small {
+input[type="password"].small,
+input[type="email"].small {
   width: 124px;
   min-width: 124px;
   height: 22px;
@@ -13808,7 +13827,8 @@ input[type="password"].small {
 
 input[type="text"].large,
 input[type="search"].large,
-input[type="password"].large {
+input[type="password"].large,
+input[type="email"].large {
   width: 270px;
   min-width: 270px;
   height: 40px;
@@ -13820,7 +13840,8 @@ input[type="password"].large {
 
 input[type="text"].big,
 input[type="search"].big,
-input[type="password"].big {
+input[type="password"].big,
+input[type="email"].big {
   width: 450px;
   min-width: 450px;
   height: 50px;
@@ -13839,65 +13860,75 @@ input[type="password"].big {
 
 .input.disabled input[type="text"],
 .input.disabled input[type="search"],
-.input.disabled input[type="password"] {
+.input.disabled input[type="password"],
+.input.disabled input[type="email"] {
   background: #EEEEEE;
   color: #999999;
 }
 
 .input.primary input[type="text"],
 .input.primary input[type="search"],
-.input.primary input[type="password"] {
+.input.primary input[type="password"],
+.input.primary input[type="email"] {
   border-color: #2C3D50;
 }
 
 .input.green input[type="text"],
 .input.green input[type="search"],
-.input.green input[type="password"] {
+.input.green input[type="password"],
+.input.green input[type="email"] {
   border-color: #17BC9C;
 }
 
 .input.blue input[type="text"],
 .input.blue input[type="search"],
-.input.blue input[type="password"] {
+.input.blue input[type="password"],
+.input.blue input[type="email"] {
   border-color: #1397E1;
 }
 
 .input.orange input[type="text"],
 .input.orange input[type="search"],
-.input.orange input[type="password"] {
+.input.orange input[type="password"],
+.input.orange input[type="email"] {
   border-color: #F39C12;
 }
 
 .input.red input[type="text"],
 .input.red input[type="search"],
-.input.red input[type="password"] {
+.input.red input[type="password"],
+.input.red input[type="email"] {
   border-color: #E74C3C;
 }
 
 .input.narrow input[type="text"],
 .input.narrow input[type="search"],
-.input.narrow input[type="password"] {
+.input.narrow input[type="password"],
+.input.narrow input[type="email"] {
   min-width: 65px;
   width: 65px;
 }
 
 .input.short input[type="text"],
 .input.short input[type="search"],
-.input.short input[type="password"] {
+.input.short input[type="password"],
+.input.short input[type="email"] {
   min-width: 124px;
   width: 124px;
 }
 
 .input.long input[type="text"],
 .input.long input[type="search"],
-.input.long input[type="password"] {
+.input.long input[type="password"],
+.input.long input[type="email"] {
   min-width: 270px;
   width: 270px;
 }
 
 .input.wide input[type="text"],
 .input.wide input[type="search"],
-.input.wide input[type="password"] {
+.input.wide input[type="password"],
+.input.wide input[type="email"] {
   min-width: 450px;
   width: 450px;
 }
@@ -13908,14 +13939,16 @@ input[type="password"].big {
 
 .input.free input[type="text"],
 .input.free input[type="search"],
-.input.free input[type="password"] {
+.input.free input[type="password"],
+.input.free input[type="email"] {
   min-width: 100%;
   width: 100%;
 }
 
 .input.lower input[type="text"],
 .input.lower input[type="search"],
-.input.lower input[type="password"] {
+.input.lower input[type="password"],
+.input.lower input[type="email"] {
   height: 18px;
   line-height: 18px;
   font-size: 10px;
@@ -13923,7 +13956,8 @@ input[type="password"].big {
 
 .input.low input[type="text"],
 .input.low input[type="search"],
-.input.low input[type="password"] {
+.input.low input[type="password"],
+.input.low input[type="email"] {
   height: 22px;
   line-height: 22px;
   font-size: 12px;
@@ -13931,7 +13965,8 @@ input[type="password"].big {
 
 .input.high input[type="text"],
 .input.high input[type="search"],
-.input.high input[type="password"] {
+.input.high input[type="password"],
+.input.high input[type="email"] {
   height: 40px;
   border-radius: 6px;
   line-height: 40px;
@@ -13940,7 +13975,8 @@ input[type="password"].big {
 
 .input.lofty input[type="text"],
 .input.lofty input[type="search"],
-.input.lofty input[type="password"] {
+.input.lofty input[type="password"],
+.input.lofty input[type="email"] {
   height: 50px;
   border-radius: 6px;
   line-height: 50px;
@@ -13949,7 +13985,8 @@ input[type="password"].big {
 
 .input.mini input[type="text"],
 .input.mini input[type="search"],
-.input.mini input[type="password"] {
+.input.mini input[type="password"],
+.input.mini input[type="email"] {
   width: 65px;
   min-width: 65px;
   height: 18px;
@@ -13960,7 +13997,8 @@ input[type="password"].big {
 
 .input.small input[type="text"],
 .input.small input[type="search"],
-.input.small input[type="password"] {
+.input.small input[type="password"],
+.input.small input[type="email"] {
   width: 124px;
   min-width: 124px;
   height: 22px;
@@ -13971,7 +14009,8 @@ input[type="password"].big {
 
 .input.large input[type="text"],
 .input.large input[type="search"],
-.input.large input[type="password"] {
+.input.large input[type="password"],
+.input.large input[type="email"] {
   width: 270px;
   min-width: 270px;
   height: 40px;
@@ -13983,7 +14022,8 @@ input[type="password"].big {
 
 .input.big input[type="text"],
 .input.big input[type="search"],
-.input.big input[type="password"] {
+.input.big input[type="password"],
+.input.big input[type="email"] {
   width: 450px;
   min-width: 450px;
   height: 50px;
