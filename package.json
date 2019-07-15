@@ -1,6 +1,6 @@
 {
   "name": "@atomic-package/css",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "atomic-package - css",
   "main": "dist/atomic-package/atomic-package.scss",
   "style": "dist/atomic-package/atomic-package.scss",
