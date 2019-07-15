@@ -45,6 +45,28 @@ css file import
 ```
 
 
+### User Nuxt.js
+ 
+`node-sass` & `sass-loader` package install 
+ 
+```.env
+$ npm install --save-dev node-sass sass-loader
+```
+
+**nuxt.config.js**
+
+
+```
+...
+/*
+** Global CSS
+*/
+css: ['@atomic-package/css'],
+...
+
+```
+
+
 ## Style Guide 
 
 #### Atomic Package Style Guide Page
