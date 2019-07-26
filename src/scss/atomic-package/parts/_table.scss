@@ -6,6 +6,37 @@
   width: 100%;
   border-collapse: collapse;
   border-spacing: 0;
+  color: #2C3E50;
+  font-size: 14px;
+
+  // color
+  &.primary {
+    background: #F5F5F5;
+  }
+  &.green {
+    background: #DFF0D8;
+  }
+  &.blue {
+    background: #D9EDF7;
+  }
+  &.orange {
+    background: #FCF8E3;
+  }
+  &.red {
+    background: #F2DEDE;
+  }
+
+  &.striped {
+    tbody tr:nth-child(odd) {
+      background: #F5F5F5;
+    }
+  }
+
+  &.evenStriped {
+    tbody tr:nth-child(even) {
+      background: #F5F5F5;
+    }
+  }
 
   caption {
     text-align: left;
@@ -13,10 +44,59 @@
     font-size: 12px;
   }
 
+  tr {}
+
+  th {
+    text-align: center;
+  }
+
+  td {
+    &.center {
+      text-align: center;
+    }
+  }
+
+  tr,
+  th,
+  td {
+    &.center {
+      text-align: center;
+    }
+    &.left {
+      text-align: left;
+    }
+    &.right {
+      text-align: right;
+    }
+
+    // hover
+    &.hover:hover {
+      background: #F5F5F5;
+    }
+
+    // color
+    &.primary {
+      background: #F5F5F5;
+    }
+    &.green {
+      background: #DFF0D8;
+    }
+    &.blue {
+      background: #D9EDF7;
+    }
+    &.orange {
+      background: #FCF8E3;
+    }
+    &.red {
+      background: #F2DEDE;
+    }
+  }
+
   th,
   td {
     padding: 8px 8px;
     border-bottom: 1px solid #E5E5E5;
+    line-height: 24px;
     & + th,
     & + td {
       border-left: 1px solid #E5E5E5;
@@ -26,5 +106,21 @@
   tfoot {
     font-size: 12px;
     font-style: italic;
+  }
+
+  // state
+  &.hover {
+    tr:hover,
+    th:hover,
+    td:hover {
+      background: #F5F5F5;
+    }
+  }
+
+  &.singleHover {
+    th:hover,
+    td:hover {
+      background: #F5F5F5;
+    }
   }
 }
