@@ -4722,6 +4722,36 @@ input.btn.lofty {
   width: 100%;
   border-collapse: collapse;
   border-spacing: 0;
+  color: #2C3E50;
+  font-size: 14px;
+}
+
+.table.primary {
+  background: #F5F5F5;
+}
+
+.table.green {
+  background: #DFF0D8;
+}
+
+.table.blue {
+  background: #D9EDF7;
+}
+
+.table.orange {
+  background: #FCF8E3;
+}
+
+.table.red {
+  background: #F2DEDE;
+}
+
+.table.striped tbody tr:nth-child(odd) {
+  background: #F5F5F5;
+}
+
+.table.evenStriped tbody tr:nth-child(even) {
+  background: #F5F5F5;
 }
 
 .table caption {
@@ -4730,10 +4760,73 @@ input.btn.lofty {
   font-size: 12px;
 }
 
+.table th {
+  text-align: center;
+}
+
+.table td.center {
+  text-align: center;
+}
+
+.table tr.center,
+.table th.center,
+.table td.center {
+  text-align: center;
+}
+
+.table tr.left,
+.table th.left,
+.table td.left {
+  text-align: left;
+}
+
+.table tr.right,
+.table th.right,
+.table td.right {
+  text-align: right;
+}
+
+.table tr.hover:hover,
+.table th.hover:hover,
+.table td.hover:hover {
+  background: #F5F5F5;
+}
+
+.table tr.primary,
+.table th.primary,
+.table td.primary {
+  background: #F5F5F5;
+}
+
+.table tr.green,
+.table th.green,
+.table td.green {
+  background: #DFF0D8;
+}
+
+.table tr.blue,
+.table th.blue,
+.table td.blue {
+  background: #D9EDF7;
+}
+
+.table tr.orange,
+.table th.orange,
+.table td.orange {
+  background: #FCF8E3;
+}
+
+.table tr.red,
+.table th.red,
+.table td.red {
+  background: #F2DEDE;
+}
+
 .table th,
 .table td {
   padding: 8px 8px;
   border-bottom: 1px solid #E5E5E5;
+  line-height: 24px;
 }
 
 .table th + th,
@@ -4746,6 +4839,17 @@ input.btn.lofty {
 .table tfoot {
   font-size: 12px;
   font-style: italic;
+}
+
+.table.hover tr:hover,
+.table.hover th:hover,
+.table.hover td:hover {
+  background: #F5F5F5;
+}
+
+.table.singleHover th:hover,
+.table.singleHover td:hover {
+  background: #F5F5F5;
 }
 
 /* Icon Style
