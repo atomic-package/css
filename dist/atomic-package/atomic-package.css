@@ -1821,6 +1821,8612 @@ textarea {
   padding-left: 200px;
 }
 
+/*!
+ * Font Awesome Free 5.9.0 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ */
+.ap,
+.fas,
+.far,
+.fal,
+.fab {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+
+.ap-lg {
+  font-size: 1.33333em;
+  line-height: 0.75em;
+  vertical-align: -.0667em;
+}
+
+.ap-xs {
+  font-size: .75em;
+}
+
+.ap-sm {
+  font-size: .875em;
+}
+
+.ap-1x {
+  font-size: 1em;
+}
+
+.ap-2x {
+  font-size: 2em;
+}
+
+.ap-3x {
+  font-size: 3em;
+}
+
+.ap-4x {
+  font-size: 4em;
+}
+
+.ap-5x {
+  font-size: 5em;
+}
+
+.ap-6x {
+  font-size: 6em;
+}
+
+.ap-7x {
+  font-size: 7em;
+}
+
+.ap-8x {
+  font-size: 8em;
+}
+
+.ap-9x {
+  font-size: 9em;
+}
+
+.ap-10x {
+  font-size: 10em;
+}
+
+.ap-fw {
+  text-align: center;
+  width: 1.25em;
+}
+
+.ap-ul {
+  list-style-type: none;
+  margin-left: 2.5em;
+  padding-left: 0;
+}
+
+.ap-ul > li {
+  position: relative;
+}
+
+.ap-li {
+  left: -2em;
+  position: absolute;
+  text-align: center;
+  width: 2em;
+  line-height: inherit;
+}
+
+.ap-border {
+  border: solid 0.08em #eee;
+  border-radius: .1em;
+  padding: .2em .25em .15em;
+}
+
+.ap-pull-left {
+  float: left;
+}
+
+.ap-pull-right {
+  float: right;
+}
+
+.ap.ap-pull-left,
+.fas.ap-pull-left,
+.far.ap-pull-left,
+.fal.ap-pull-left,
+.fab.ap-pull-left {
+  margin-right: .3em;
+}
+
+.ap.ap-pull-right,
+.fas.ap-pull-right,
+.far.ap-pull-right,
+.fal.ap-pull-right,
+.fab.ap-pull-right {
+  margin-left: .3em;
+}
+
+.ap-spin {
+  -webkit-animation: fa-spin 2s infinite linear;
+  animation: fa-spin 2s infinite linear;
+}
+
+.ap-pulse {
+  -webkit-animation: fa-spin 1s infinite steps(8);
+  animation: fa-spin 1s infinite steps(8);
+}
+
+@-webkit-keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.ap-rotate-90 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.ap-rotate-180 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.ap-rotate-270 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
+  -webkit-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+
+.ap-flip-horizontal {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
+  -webkit-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+
+.ap-flip-vertical {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+  -webkit-transform: scale(1, -1);
+  transform: scale(1, -1);
+}
+
+.ap-flip-both, .ap-flip-horizontal.ap-flip-vertical {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+  -webkit-transform: scale(-1, -1);
+  transform: scale(-1, -1);
+}
+
+:root .ap-rotate-90,
+:root .ap-rotate-180,
+:root .ap-rotate-270,
+:root .ap-flip-horizontal,
+:root .ap-flip-vertical,
+:root .ap-flip-both {
+  -webkit-filter: none;
+  filter: none;
+}
+
+.ap-stack {
+  display: inline-block;
+  height: 2em;
+  line-height: 2em;
+  position: relative;
+  vertical-align: middle;
+  width: 2.5em;
+}
+
+.ap-stack-1x,
+.ap-stack-2x {
+  left: 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+.ap-stack-1x {
+  line-height: inherit;
+}
+
+.ap-stack-2x {
+  font-size: 2em;
+}
+
+.ap-inverse {
+  color: #fff;
+}
+
+/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+readers do not read off random characters that represent icons */
+.ap-500px:before {
+  content: "\f26e";
+}
+
+.ap-accessible-icon:before {
+  content: "\f368";
+}
+
+.ap-accusoft:before {
+  content: "\f369";
+}
+
+.ap-acquisitions-incorporated:before {
+  content: "\f6af";
+}
+
+.ap-ad:before {
+  content: "\f641";
+}
+
+.ap-address-book:before {
+  content: "\f2b9";
+}
+
+.ap-address-card:before {
+  content: "\f2bb";
+}
+
+.ap-adjust:before {
+  content: "\f042";
+}
+
+.ap-adn:before {
+  content: "\f170";
+}
+
+.ap-adobe:before {
+  content: "\f778";
+}
+
+.ap-adversal:before {
+  content: "\f36a";
+}
+
+.ap-affiliatetheme:before {
+  content: "\f36b";
+}
+
+.ap-air-freshener:before {
+  content: "\f5d0";
+}
+
+.ap-airbnb:before {
+  content: "\f834";
+}
+
+.ap-algolia:before {
+  content: "\f36c";
+}
+
+.ap-align-center:before {
+  content: "\f037";
+}
+
+.ap-align-justify:before {
+  content: "\f039";
+}
+
+.ap-align-left:before {
+  content: "\f036";
+}
+
+.ap-align-right:before {
+  content: "\f038";
+}
+
+.ap-alipay:before {
+  content: "\f642";
+}
+
+.ap-allergies:before {
+  content: "\f461";
+}
+
+.ap-amazon:before {
+  content: "\f270";
+}
+
+.ap-amazon-pay:before {
+  content: "\f42c";
+}
+
+.ap-ambulance:before {
+  content: "\f0f9";
+}
+
+.ap-american-sign-language-interpreting:before {
+  content: "\f2a3";
+}
+
+.ap-amilia:before {
+  content: "\f36d";
+}
+
+.ap-anchor:before {
+  content: "\f13d";
+}
+
+.ap-android:before {
+  content: "\f17b";
+}
+
+.ap-angellist:before {
+  content: "\f209";
+}
+
+.ap-angle-double-down:before {
+  content: "\f103";
+}
+
+.ap-angle-double-left:before {
+  content: "\f100";
+}
+
+.ap-angle-double-right:before {
+  content: "\f101";
+}
+
+.ap-angle-double-up:before {
+  content: "\f102";
+}
+
+.ap-angle-down:before {
+  content: "\f107";
+}
+
+.ap-angle-left:before {
+  content: "\f104";
+}
+
+.ap-angle-right:before {
+  content: "\f105";
+}
+
+.ap-angle-up:before {
+  content: "\f106";
+}
+
+.ap-angry:before {
+  content: "\f556";
+}
+
+.ap-angrycreative:before {
+  content: "\f36e";
+}
+
+.ap-angular:before {
+  content: "\f420";
+}
+
+.ap-ankh:before {
+  content: "\f644";
+}
+
+.ap-app-store:before {
+  content: "\f36f";
+}
+
+.ap-app-store-ios:before {
+  content: "\f370";
+}
+
+.ap-apper:before {
+  content: "\f371";
+}
+
+.ap-apple:before {
+  content: "\f179";
+}
+
+.ap-apple-alt:before {
+  content: "\f5d1";
+}
+
+.ap-apple-pay:before {
+  content: "\f415";
+}
+
+.ap-archive:before {
+  content: "\f187";
+}
+
+.ap-archway:before {
+  content: "\f557";
+}
+
+.ap-arrow-alt-circle-down:before {
+  content: "\f358";
+}
+
+.ap-arrow-alt-circle-left:before {
+  content: "\f359";
+}
+
+.ap-arrow-alt-circle-right:before {
+  content: "\f35a";
+}
+
+.ap-arrow-alt-circle-up:before {
+  content: "\f35b";
+}
+
+.ap-arrow-circle-down:before {
+  content: "\f0ab";
+}
+
+.ap-arrow-circle-left:before {
+  content: "\f0a8";
+}
+
+.ap-arrow-circle-right:before {
+  content: "\f0a9";
+}
+
+.ap-arrow-circle-up:before {
+  content: "\f0aa";
+}
+
+.ap-arrow-down:before {
+  content: "\f063";
+}
+
+.ap-arrow-left:before {
+  content: "\f060";
+}
+
+.ap-arrow-right:before {
+  content: "\f061";
+}
+
+.ap-arrow-up:before {
+  content: "\f062";
+}
+
+.ap-arrows-alt:before {
+  content: "\f0b2";
+}
+
+.ap-arrows-alt-h:before {
+  content: "\f337";
+}
+
+.ap-arrows-alt-v:before {
+  content: "\f338";
+}
+
+.ap-artstation:before {
+  content: "\f77a";
+}
+
+.ap-assistive-listening-systems:before {
+  content: "\f2a2";
+}
+
+.ap-asterisk:before {
+  content: "\f069";
+}
+
+.ap-asymmetrik:before {
+  content: "\f372";
+}
+
+.ap-at:before {
+  content: "\f1fa";
+}
+
+.ap-atlas:before {
+  content: "\f558";
+}
+
+.ap-atlassian:before {
+  content: "\f77b";
+}
+
+.ap-atom:before {
+  content: "\f5d2";
+}
+
+.ap-audible:before {
+  content: "\f373";
+}
+
+.ap-audio-description:before {
+  content: "\f29e";
+}
+
+.ap-autoprefixer:before {
+  content: "\f41c";
+}
+
+.ap-avianex:before {
+  content: "\f374";
+}
+
+.ap-aviato:before {
+  content: "\f421";
+}
+
+.ap-award:before {
+  content: "\f559";
+}
+
+.ap-aws:before {
+  content: "\f375";
+}
+
+.ap-baby:before {
+  content: "\f77c";
+}
+
+.ap-baby-carriage:before {
+  content: "\f77d";
+}
+
+.ap-backspace:before {
+  content: "\f55a";
+}
+
+.ap-backward:before {
+  content: "\f04a";
+}
+
+.ap-bacon:before {
+  content: "\f7e5";
+}
+
+.ap-balance-scale:before {
+  content: "\f24e";
+}
+
+.ap-balance-scale-left:before {
+  content: "\f515";
+}
+
+.ap-balance-scale-right:before {
+  content: "\f516";
+}
+
+.ap-ban:before {
+  content: "\f05e";
+}
+
+.ap-band-aid:before {
+  content: "\f462";
+}
+
+.ap-bandcamp:before {
+  content: "\f2d5";
+}
+
+.ap-barcode:before {
+  content: "\f02a";
+}
+
+.ap-bars:before {
+  content: "\f0c9";
+}
+
+.ap-baseball-ball:before {
+  content: "\f433";
+}
+
+.ap-basketball-ball:before {
+  content: "\f434";
+}
+
+.ap-bath:before {
+  content: "\f2cd";
+}
+
+.ap-battery-empty:before {
+  content: "\f244";
+}
+
+.ap-battery-full:before {
+  content: "\f240";
+}
+
+.ap-battery-half:before {
+  content: "\f242";
+}
+
+.ap-battery-quarter:before {
+  content: "\f243";
+}
+
+.ap-battery-three-quarters:before {
+  content: "\f241";
+}
+
+.ap-battle-net:before {
+  content: "\f835";
+}
+
+.ap-bed:before {
+  content: "\f236";
+}
+
+.ap-beer:before {
+  content: "\f0fc";
+}
+
+.ap-behance:before {
+  content: "\f1b4";
+}
+
+.ap-behance-square:before {
+  content: "\f1b5";
+}
+
+.ap-bell:before {
+  content: "\f0f3";
+}
+
+.ap-bell-slash:before {
+  content: "\f1f6";
+}
+
+.ap-bezier-curve:before {
+  content: "\f55b";
+}
+
+.ap-bible:before {
+  content: "\f647";
+}
+
+.ap-bicycle:before {
+  content: "\f206";
+}
+
+.ap-biking:before {
+  content: "\f84a";
+}
+
+.ap-bimobject:before {
+  content: "\f378";
+}
+
+.ap-binoculars:before {
+  content: "\f1e5";
+}
+
+.ap-biohazard:before {
+  content: "\f780";
+}
+
+.ap-birthday-cake:before {
+  content: "\f1fd";
+}
+
+.ap-bitbucket:before {
+  content: "\f171";
+}
+
+.ap-bitcoin:before {
+  content: "\f379";
+}
+
+.ap-bity:before {
+  content: "\f37a";
+}
+
+.ap-black-tie:before {
+  content: "\f27e";
+}
+
+.ap-blackberry:before {
+  content: "\f37b";
+}
+
+.ap-blender:before {
+  content: "\f517";
+}
+
+.ap-blender-phone:before {
+  content: "\f6b6";
+}
+
+.ap-blind:before {
+  content: "\f29d";
+}
+
+.ap-blog:before {
+  content: "\f781";
+}
+
+.ap-blogger:before {
+  content: "\f37c";
+}
+
+.ap-blogger-b:before {
+  content: "\f37d";
+}
+
+.ap-bluetooth:before {
+  content: "\f293";
+}
+
+.ap-bluetooth-b:before {
+  content: "\f294";
+}
+
+.ap-bold:before {
+  content: "\f032";
+}
+
+.ap-bolt:before {
+  content: "\f0e7";
+}
+
+.ap-bomb:before {
+  content: "\f1e2";
+}
+
+.ap-bone:before {
+  content: "\f5d7";
+}
+
+.ap-bong:before {
+  content: "\f55c";
+}
+
+.ap-book:before {
+  content: "\f02d";
+}
+
+.ap-book-dead:before {
+  content: "\f6b7";
+}
+
+.ap-book-medical:before {
+  content: "\f7e6";
+}
+
+.ap-book-open:before {
+  content: "\f518";
+}
+
+.ap-book-reader:before {
+  content: "\f5da";
+}
+
+.ap-bookmark:before {
+  content: "\f02e";
+}
+
+.ap-bootstrap:before {
+  content: "\f836";
+}
+
+.ap-border-all:before {
+  content: "\f84c";
+}
+
+.ap-border-none:before {
+  content: "\f850";
+}
+
+.ap-border-style:before {
+  content: "\f853";
+}
+
+.ap-bowling-ball:before {
+  content: "\f436";
+}
+
+.ap-box:before {
+  content: "\f466";
+}
+
+.ap-box-open:before {
+  content: "\f49e";
+}
+
+.ap-boxes:before {
+  content: "\f468";
+}
+
+.ap-braille:before {
+  content: "\f2a1";
+}
+
+.ap-brain:before {
+  content: "\f5dc";
+}
+
+.ap-bread-slice:before {
+  content: "\f7ec";
+}
+
+.ap-briefcase:before {
+  content: "\f0b1";
+}
+
+.ap-briefcase-medical:before {
+  content: "\f469";
+}
+
+.ap-broadcast-tower:before {
+  content: "\f519";
+}
+
+.ap-broom:before {
+  content: "\f51a";
+}
+
+.ap-brush:before {
+  content: "\f55d";
+}
+
+.ap-btc:before {
+  content: "\f15a";
+}
+
+.ap-buffer:before {
+  content: "\f837";
+}
+
+.ap-bug:before {
+  content: "\f188";
+}
+
+.ap-building:before {
+  content: "\f1ad";
+}
+
+.ap-bullhorn:before {
+  content: "\f0a1";
+}
+
+.ap-bullseye:before {
+  content: "\f140";
+}
+
+.ap-burn:before {
+  content: "\f46a";
+}
+
+.ap-buromobelexperte:before {
+  content: "\f37f";
+}
+
+.ap-bus:before {
+  content: "\f207";
+}
+
+.ap-bus-alt:before {
+  content: "\f55e";
+}
+
+.ap-business-time:before {
+  content: "\f64a";
+}
+
+.ap-buysellads:before {
+  content: "\f20d";
+}
+
+.ap-calculator:before {
+  content: "\f1ec";
+}
+
+.ap-calendar:before {
+  content: "\f133";
+}
+
+.ap-calendar-alt:before {
+  content: "\f073";
+}
+
+.ap-calendar-check:before {
+  content: "\f274";
+}
+
+.ap-calendar-day:before {
+  content: "\f783";
+}
+
+.ap-calendar-minus:before {
+  content: "\f272";
+}
+
+.ap-calendar-plus:before {
+  content: "\f271";
+}
+
+.ap-calendar-times:before {
+  content: "\f273";
+}
+
+.ap-calendar-week:before {
+  content: "\f784";
+}
+
+.ap-camera:before {
+  content: "\f030";
+}
+
+.ap-camera-retro:before {
+  content: "\f083";
+}
+
+.ap-campground:before {
+  content: "\f6bb";
+}
+
+.ap-canadian-maple-leaf:before {
+  content: "\f785";
+}
+
+.ap-candy-cane:before {
+  content: "\f786";
+}
+
+.ap-cannabis:before {
+  content: "\f55f";
+}
+
+.ap-capsules:before {
+  content: "\f46b";
+}
+
+.ap-car:before {
+  content: "\f1b9";
+}
+
+.ap-car-alt:before {
+  content: "\f5de";
+}
+
+.ap-car-battery:before {
+  content: "\f5df";
+}
+
+.ap-car-crash:before {
+  content: "\f5e1";
+}
+
+.ap-car-side:before {
+  content: "\f5e4";
+}
+
+.ap-caret-down:before {
+  content: "\f0d7";
+}
+
+.ap-caret-left:before {
+  content: "\f0d9";
+}
+
+.ap-caret-right:before {
+  content: "\f0da";
+}
+
+.ap-caret-square-down:before {
+  content: "\f150";
+}
+
+.ap-caret-square-left:before {
+  content: "\f191";
+}
+
+.ap-caret-square-right:before {
+  content: "\f152";
+}
+
+.ap-caret-square-up:before {
+  content: "\f151";
+}
+
+.ap-caret-up:before {
+  content: "\f0d8";
+}
+
+.ap-carrot:before {
+  content: "\f787";
+}
+
+.ap-cart-arrow-down:before {
+  content: "\f218";
+}
+
+.ap-cart-plus:before {
+  content: "\f217";
+}
+
+.ap-cash-register:before {
+  content: "\f788";
+}
+
+.ap-cat:before {
+  content: "\f6be";
+}
+
+.ap-cc-amazon-pay:before {
+  content: "\f42d";
+}
+
+.ap-cc-amex:before {
+  content: "\f1f3";
+}
+
+.ap-cc-apple-pay:before {
+  content: "\f416";
+}
+
+.ap-cc-diners-club:before {
+  content: "\f24c";
+}
+
+.ap-cc-discover:before {
+  content: "\f1f2";
+}
+
+.ap-cc-jcb:before {
+  content: "\f24b";
+}
+
+.ap-cc-mastercard:before {
+  content: "\f1f1";
+}
+
+.ap-cc-paypal:before {
+  content: "\f1f4";
+}
+
+.ap-cc-stripe:before {
+  content: "\f1f5";
+}
+
+.ap-cc-visa:before {
+  content: "\f1f0";
+}
+
+.ap-centercode:before {
+  content: "\f380";
+}
+
+.ap-centos:before {
+  content: "\f789";
+}
+
+.ap-certificate:before {
+  content: "\f0a3";
+}
+
+.ap-chair:before {
+  content: "\f6c0";
+}
+
+.ap-chalkboard:before {
+  content: "\f51b";
+}
+
+.ap-chalkboard-teacher:before {
+  content: "\f51c";
+}
+
+.ap-charging-station:before {
+  content: "\f5e7";
+}
+
+.ap-chart-area:before {
+  content: "\f1fe";
+}
+
+.ap-chart-bar:before {
+  content: "\f080";
+}
+
+.ap-chart-line:before {
+  content: "\f201";
+}
+
+.ap-chart-pie:before {
+  content: "\f200";
+}
+
+.ap-check:before {
+  content: "\f00c";
+}
+
+.ap-check-circle:before {
+  content: "\f058";
+}
+
+.ap-check-double:before {
+  content: "\f560";
+}
+
+.ap-check-square:before {
+  content: "\f14a";
+}
+
+.ap-cheese:before {
+  content: "\f7ef";
+}
+
+.ap-chess:before {
+  content: "\f439";
+}
+
+.ap-chess-bishop:before {
+  content: "\f43a";
+}
+
+.ap-chess-board:before {
+  content: "\f43c";
+}
+
+.ap-chess-king:before {
+  content: "\f43f";
+}
+
+.ap-chess-knight:before {
+  content: "\f441";
+}
+
+.ap-chess-pawn:before {
+  content: "\f443";
+}
+
+.ap-chess-queen:before {
+  content: "\f445";
+}
+
+.ap-chess-rook:before {
+  content: "\f447";
+}
+
+.ap-chevron-circle-down:before {
+  content: "\f13a";
+}
+
+.ap-chevron-circle-left:before {
+  content: "\f137";
+}
+
+.ap-chevron-circle-right:before {
+  content: "\f138";
+}
+
+.ap-chevron-circle-up:before {
+  content: "\f139";
+}
+
+.ap-chevron-down:before {
+  content: "\f078";
+}
+
+.ap-chevron-left:before {
+  content: "\f053";
+}
+
+.ap-chevron-right:before {
+  content: "\f054";
+}
+
+.ap-chevron-up:before {
+  content: "\f077";
+}
+
+.ap-child:before {
+  content: "\f1ae";
+}
+
+.ap-chrome:before {
+  content: "\f268";
+}
+
+.ap-chromecast:before {
+  content: "\f838";
+}
+
+.ap-church:before {
+  content: "\f51d";
+}
+
+.ap-circle:before {
+  content: "\f111";
+}
+
+.ap-circle-notch:before {
+  content: "\f1ce";
+}
+
+.ap-city:before {
+  content: "\f64f";
+}
+
+.ap-clinic-medical:before {
+  content: "\f7f2";
+}
+
+.ap-clipboard:before {
+  content: "\f328";
+}
+
+.ap-clipboard-check:before {
+  content: "\f46c";
+}
+
+.ap-clipboard-list:before {
+  content: "\f46d";
+}
+
+.ap-clock:before {
+  content: "\f017";
+}
+
+.ap-clone:before {
+  content: "\f24d";
+}
+
+.ap-closed-captioning:before {
+  content: "\f20a";
+}
+
+.ap-cloud:before {
+  content: "\f0c2";
+}
+
+.ap-cloud-download-alt:before {
+  content: "\f381";
+}
+
+.ap-cloud-meatball:before {
+  content: "\f73b";
+}
+
+.ap-cloud-moon:before {
+  content: "\f6c3";
+}
+
+.ap-cloud-moon-rain:before {
+  content: "\f73c";
+}
+
+.ap-cloud-rain:before {
+  content: "\f73d";
+}
+
+.ap-cloud-showers-heavy:before {
+  content: "\f740";
+}
+
+.ap-cloud-sun:before {
+  content: "\f6c4";
+}
+
+.ap-cloud-sun-rain:before {
+  content: "\f743";
+}
+
+.ap-cloud-upload-alt:before {
+  content: "\f382";
+}
+
+.ap-cloudscale:before {
+  content: "\f383";
+}
+
+.ap-cloudsmith:before {
+  content: "\f384";
+}
+
+.ap-cloudversify:before {
+  content: "\f385";
+}
+
+.ap-cocktail:before {
+  content: "\f561";
+}
+
+.ap-code:before {
+  content: "\f121";
+}
+
+.ap-code-branch:before {
+  content: "\f126";
+}
+
+.ap-codepen:before {
+  content: "\f1cb";
+}
+
+.ap-codiepie:before {
+  content: "\f284";
+}
+
+.ap-coffee:before {
+  content: "\f0f4";
+}
+
+.ap-cog:before {
+  content: "\f013";
+}
+
+.ap-cogs:before {
+  content: "\f085";
+}
+
+.ap-coins:before {
+  content: "\f51e";
+}
+
+.ap-columns:before {
+  content: "\f0db";
+}
+
+.ap-comment:before {
+  content: "\f075";
+}
+
+.ap-comment-alt:before {
+  content: "\f27a";
+}
+
+.ap-comment-dollar:before {
+  content: "\f651";
+}
+
+.ap-comment-dots:before {
+  content: "\f4ad";
+}
+
+.ap-comment-medical:before {
+  content: "\f7f5";
+}
+
+.ap-comment-slash:before {
+  content: "\f4b3";
+}
+
+.ap-comments:before {
+  content: "\f086";
+}
+
+.ap-comments-dollar:before {
+  content: "\f653";
+}
+
+.ap-compact-disc:before {
+  content: "\f51f";
+}
+
+.ap-compass:before {
+  content: "\f14e";
+}
+
+.ap-compress:before {
+  content: "\f066";
+}
+
+.ap-compress-arrows-alt:before {
+  content: "\f78c";
+}
+
+.ap-concierge-bell:before {
+  content: "\f562";
+}
+
+.ap-confluence:before {
+  content: "\f78d";
+}
+
+.ap-connectdevelop:before {
+  content: "\f20e";
+}
+
+.ap-contao:before {
+  content: "\f26d";
+}
+
+.ap-cookie:before {
+  content: "\f563";
+}
+
+.ap-cookie-bite:before {
+  content: "\f564";
+}
+
+.ap-copy:before {
+  content: "\f0c5";
+}
+
+.ap-copyright:before {
+  content: "\f1f9";
+}
+
+.ap-couch:before {
+  content: "\f4b8";
+}
+
+.ap-cpanel:before {
+  content: "\f388";
+}
+
+.ap-creative-commons:before {
+  content: "\f25e";
+}
+
+.ap-creative-commons-by:before {
+  content: "\f4e7";
+}
+
+.ap-creative-commons-nc:before {
+  content: "\f4e8";
+}
+
+.ap-creative-commons-nc-eu:before {
+  content: "\f4e9";
+}
+
+.ap-creative-commons-nc-jp:before {
+  content: "\f4ea";
+}
+
+.ap-creative-commons-nd:before {
+  content: "\f4eb";
+}
+
+.ap-creative-commons-pd:before {
+  content: "\f4ec";
+}
+
+.ap-creative-commons-pd-alt:before {
+  content: "\f4ed";
+}
+
+.ap-creative-commons-remix:before {
+  content: "\f4ee";
+}
+
+.ap-creative-commons-sa:before {
+  content: "\f4ef";
+}
+
+.ap-creative-commons-sampling:before {
+  content: "\f4f0";
+}
+
+.ap-creative-commons-sampling-plus:before {
+  content: "\f4f1";
+}
+
+.ap-creative-commons-share:before {
+  content: "\f4f2";
+}
+
+.ap-creative-commons-zero:before {
+  content: "\f4f3";
+}
+
+.ap-credit-card:before {
+  content: "\f09d";
+}
+
+.ap-critical-role:before {
+  content: "\f6c9";
+}
+
+.ap-crop:before {
+  content: "\f125";
+}
+
+.ap-crop-alt:before {
+  content: "\f565";
+}
+
+.ap-cross:before {
+  content: "\f654";
+}
+
+.ap-crosshairs:before {
+  content: "\f05b";
+}
+
+.ap-crow:before {
+  content: "\f520";
+}
+
+.ap-crown:before {
+  content: "\f521";
+}
+
+.ap-crutch:before {
+  content: "\f7f7";
+}
+
+.ap-css3:before {
+  content: "\f13c";
+}
+
+.ap-css3-alt:before {
+  content: "\f38b";
+}
+
+.ap-cube:before {
+  content: "\f1b2";
+}
+
+.ap-cubes:before {
+  content: "\f1b3";
+}
+
+.ap-cut:before {
+  content: "\f0c4";
+}
+
+.ap-cuttlefish:before {
+  content: "\f38c";
+}
+
+.ap-d-and-d:before {
+  content: "\f38d";
+}
+
+.ap-d-and-d-beyond:before {
+  content: "\f6ca";
+}
+
+.ap-dashcube:before {
+  content: "\f210";
+}
+
+.ap-database:before {
+  content: "\f1c0";
+}
+
+.ap-deaf:before {
+  content: "\f2a4";
+}
+
+.ap-delicious:before {
+  content: "\f1a5";
+}
+
+.ap-democrat:before {
+  content: "\f747";
+}
+
+.ap-deploydog:before {
+  content: "\f38e";
+}
+
+.ap-deskpro:before {
+  content: "\f38f";
+}
+
+.ap-desktop:before {
+  content: "\f108";
+}
+
+.ap-dev:before {
+  content: "\f6cc";
+}
+
+.ap-deviantart:before {
+  content: "\f1bd";
+}
+
+.ap-dharmachakra:before {
+  content: "\f655";
+}
+
+.ap-dhl:before {
+  content: "\f790";
+}
+
+.ap-diagnoses:before {
+  content: "\f470";
+}
+
+.ap-diaspora:before {
+  content: "\f791";
+}
+
+.ap-dice:before {
+  content: "\f522";
+}
+
+.ap-dice-d20:before {
+  content: "\f6cf";
+}
+
+.ap-dice-d6:before {
+  content: "\f6d1";
+}
+
+.ap-dice-five:before {
+  content: "\f523";
+}
+
+.ap-dice-four:before {
+  content: "\f524";
+}
+
+.ap-dice-one:before {
+  content: "\f525";
+}
+
+.ap-dice-six:before {
+  content: "\f526";
+}
+
+.ap-dice-three:before {
+  content: "\f527";
+}
+
+.ap-dice-two:before {
+  content: "\f528";
+}
+
+.ap-digg:before {
+  content: "\f1a6";
+}
+
+.ap-digital-ocean:before {
+  content: "\f391";
+}
+
+.ap-digital-tachograph:before {
+  content: "\f566";
+}
+
+.ap-directions:before {
+  content: "\f5eb";
+}
+
+.ap-discord:before {
+  content: "\f392";
+}
+
+.ap-discourse:before {
+  content: "\f393";
+}
+
+.ap-divide:before {
+  content: "\f529";
+}
+
+.ap-dizzy:before {
+  content: "\f567";
+}
+
+.ap-dna:before {
+  content: "\f471";
+}
+
+.ap-dochub:before {
+  content: "\f394";
+}
+
+.ap-docker:before {
+  content: "\f395";
+}
+
+.ap-dog:before {
+  content: "\f6d3";
+}
+
+.ap-dollar-sign:before {
+  content: "\f155";
+}
+
+.ap-dolly:before {
+  content: "\f472";
+}
+
+.ap-dolly-flatbed:before {
+  content: "\f474";
+}
+
+.ap-donate:before {
+  content: "\f4b9";
+}
+
+.ap-door-closed:before {
+  content: "\f52a";
+}
+
+.ap-door-open:before {
+  content: "\f52b";
+}
+
+.ap-dot-circle:before {
+  content: "\f192";
+}
+
+.ap-dove:before {
+  content: "\f4ba";
+}
+
+.ap-download:before {
+  content: "\f019";
+}
+
+.ap-draft2digital:before {
+  content: "\f396";
+}
+
+.ap-drafting-compass:before {
+  content: "\f568";
+}
+
+.ap-dragon:before {
+  content: "\f6d5";
+}
+
+.ap-draw-polygon:before {
+  content: "\f5ee";
+}
+
+.ap-dribbble:before {
+  content: "\f17d";
+}
+
+.ap-dribbble-square:before {
+  content: "\f397";
+}
+
+.ap-dropbox:before {
+  content: "\f16b";
+}
+
+.ap-drum:before {
+  content: "\f569";
+}
+
+.ap-drum-steelpan:before {
+  content: "\f56a";
+}
+
+.ap-drumstick-bite:before {
+  content: "\f6d7";
+}
+
+.ap-drupal:before {
+  content: "\f1a9";
+}
+
+.ap-dumbbell:before {
+  content: "\f44b";
+}
+
+.ap-dumpster:before {
+  content: "\f793";
+}
+
+.ap-dumpster-fire:before {
+  content: "\f794";
+}
+
+.ap-dungeon:before {
+  content: "\f6d9";
+}
+
+.ap-dyalog:before {
+  content: "\f399";
+}
+
+.ap-earlybirds:before {
+  content: "\f39a";
+}
+
+.ap-ebay:before {
+  content: "\f4f4";
+}
+
+.ap-edge:before {
+  content: "\f282";
+}
+
+.ap-edit:before {
+  content: "\f044";
+}
+
+.ap-egg:before {
+  content: "\f7fb";
+}
+
+.ap-eject:before {
+  content: "\f052";
+}
+
+.ap-elementor:before {
+  content: "\f430";
+}
+
+.ap-ellipsis-h:before {
+  content: "\f141";
+}
+
+.ap-ellipsis-v:before {
+  content: "\f142";
+}
+
+.ap-ello:before {
+  content: "\f5f1";
+}
+
+.ap-ember:before {
+  content: "\f423";
+}
+
+.ap-empire:before {
+  content: "\f1d1";
+}
+
+.ap-envelope:before {
+  content: "\f0e0";
+}
+
+.ap-envelope-open:before {
+  content: "\f2b6";
+}
+
+.ap-envelope-open-text:before {
+  content: "\f658";
+}
+
+.ap-envelope-square:before {
+  content: "\f199";
+}
+
+.ap-envira:before {
+  content: "\f299";
+}
+
+.ap-equals:before {
+  content: "\f52c";
+}
+
+.ap-eraser:before {
+  content: "\f12d";
+}
+
+.ap-erlang:before {
+  content: "\f39d";
+}
+
+.ap-ethereum:before {
+  content: "\f42e";
+}
+
+.ap-ethernet:before {
+  content: "\f796";
+}
+
+.ap-etsy:before {
+  content: "\f2d7";
+}
+
+.ap-euro-sign:before {
+  content: "\f153";
+}
+
+.ap-evernote:before {
+  content: "\f839";
+}
+
+.ap-exchange-alt:before {
+  content: "\f362";
+}
+
+.ap-exclamation:before {
+  content: "\f12a";
+}
+
+.ap-exclamation-circle:before {
+  content: "\f06a";
+}
+
+.ap-exclamation-triangle:before {
+  content: "\f071";
+}
+
+.ap-expand:before {
+  content: "\f065";
+}
+
+.ap-expand-arrows-alt:before {
+  content: "\f31e";
+}
+
+.ap-expeditedssl:before {
+  content: "\f23e";
+}
+
+.ap-external-link-alt:before {
+  content: "\f35d";
+}
+
+.ap-external-link-square-alt:before {
+  content: "\f360";
+}
+
+.ap-eye:before {
+  content: "\f06e";
+}
+
+.ap-eye-dropper:before {
+  content: "\f1fb";
+}
+
+.ap-eye-slash:before {
+  content: "\f070";
+}
+
+.ap-facebook:before {
+  content: "\f09a";
+}
+
+.ap-facebook-f:before {
+  content: "\f39e";
+}
+
+.ap-facebook-messenger:before {
+  content: "\f39f";
+}
+
+.ap-facebook-square:before {
+  content: "\f082";
+}
+
+.ap-fan:before {
+  content: "\f863";
+}
+
+.ap-fantasy-flight-games:before {
+  content: "\f6dc";
+}
+
+.ap-fast-backward:before {
+  content: "\f049";
+}
+
+.ap-fast-forward:before {
+  content: "\f050";
+}
+
+.ap-fax:before {
+  content: "\f1ac";
+}
+
+.ap-feather:before {
+  content: "\f52d";
+}
+
+.ap-feather-alt:before {
+  content: "\f56b";
+}
+
+.ap-fedex:before {
+  content: "\f797";
+}
+
+.ap-fedora:before {
+  content: "\f798";
+}
+
+.ap-female:before {
+  content: "\f182";
+}
+
+.ap-fighter-jet:before {
+  content: "\f0fb";
+}
+
+.ap-figma:before {
+  content: "\f799";
+}
+
+.ap-file:before {
+  content: "\f15b";
+}
+
+.ap-file-alt:before {
+  content: "\f15c";
+}
+
+.ap-file-archive:before {
+  content: "\f1c6";
+}
+
+.ap-file-audio:before {
+  content: "\f1c7";
+}
+
+.ap-file-code:before {
+  content: "\f1c9";
+}
+
+.ap-file-contract:before {
+  content: "\f56c";
+}
+
+.ap-file-csv:before {
+  content: "\f6dd";
+}
+
+.ap-file-download:before {
+  content: "\f56d";
+}
+
+.ap-file-excel:before {
+  content: "\f1c3";
+}
+
+.ap-file-export:before {
+  content: "\f56e";
+}
+
+.ap-file-image:before {
+  content: "\f1c5";
+}
+
+.ap-file-import:before {
+  content: "\f56f";
+}
+
+.ap-file-invoice:before {
+  content: "\f570";
+}
+
+.ap-file-invoice-dollar:before {
+  content: "\f571";
+}
+
+.ap-file-medical:before {
+  content: "\f477";
+}
+
+.ap-file-medical-alt:before {
+  content: "\f478";
+}
+
+.ap-file-pdf:before {
+  content: "\f1c1";
+}
+
+.ap-file-powerpoint:before {
+  content: "\f1c4";
+}
+
+.ap-file-prescription:before {
+  content: "\f572";
+}
+
+.ap-file-signature:before {
+  content: "\f573";
+}
+
+.ap-file-upload:before {
+  content: "\f574";
+}
+
+.ap-file-video:before {
+  content: "\f1c8";
+}
+
+.ap-file-word:before {
+  content: "\f1c2";
+}
+
+.ap-fill:before {
+  content: "\f575";
+}
+
+.ap-fill-drip:before {
+  content: "\f576";
+}
+
+.ap-film:before {
+  content: "\f008";
+}
+
+.ap-filter:before {
+  content: "\f0b0";
+}
+
+.ap-fingerprint:before {
+  content: "\f577";
+}
+
+.ap-fire:before {
+  content: "\f06d";
+}
+
+.ap-fire-alt:before {
+  content: "\f7e4";
+}
+
+.ap-fire-extinguisher:before {
+  content: "\f134";
+}
+
+.ap-firefox:before {
+  content: "\f269";
+}
+
+.ap-first-aid:before {
+  content: "\f479";
+}
+
+.ap-first-order:before {
+  content: "\f2b0";
+}
+
+.ap-first-order-alt:before {
+  content: "\f50a";
+}
+
+.ap-firstdraft:before {
+  content: "\f3a1";
+}
+
+.ap-fish:before {
+  content: "\f578";
+}
+
+.ap-fist-raised:before {
+  content: "\f6de";
+}
+
+.ap-flag:before {
+  content: "\f024";
+}
+
+.ap-flag-checkered:before {
+  content: "\f11e";
+}
+
+.ap-flag-usa:before {
+  content: "\f74d";
+}
+
+.ap-flask:before {
+  content: "\f0c3";
+}
+
+.ap-flickr:before {
+  content: "\f16e";
+}
+
+.ap-flipboard:before {
+  content: "\f44d";
+}
+
+.ap-flushed:before {
+  content: "\f579";
+}
+
+.ap-fly:before {
+  content: "\f417";
+}
+
+.ap-folder:before {
+  content: "\f07b";
+}
+
+.ap-folder-minus:before {
+  content: "\f65d";
+}
+
+.ap-folder-open:before {
+  content: "\f07c";
+}
+
+.ap-folder-plus:before {
+  content: "\f65e";
+}
+
+.ap-font:before {
+  content: "\f031";
+}
+
+.ap-font-awesome:before {
+  content: "\f2b4";
+}
+
+.ap-font-awesome-alt:before {
+  content: "\f35c";
+}
+
+.ap-font-awesome-flag:before {
+  content: "\f425";
+}
+
+.ap-font-awesome-logo-full:before {
+  content: "\f4e6";
+}
+
+.ap-fonticons:before {
+  content: "\f280";
+}
+
+.ap-fonticons-fi:before {
+  content: "\f3a2";
+}
+
+.ap-football-ball:before {
+  content: "\f44e";
+}
+
+.ap-fort-awesome:before {
+  content: "\f286";
+}
+
+.ap-fort-awesome-alt:before {
+  content: "\f3a3";
+}
+
+.ap-forumbee:before {
+  content: "\f211";
+}
+
+.ap-forward:before {
+  content: "\f04e";
+}
+
+.ap-foursquare:before {
+  content: "\f180";
+}
+
+.ap-free-code-camp:before {
+  content: "\f2c5";
+}
+
+.ap-freebsd:before {
+  content: "\f3a4";
+}
+
+.ap-frog:before {
+  content: "\f52e";
+}
+
+.ap-frown:before {
+  content: "\f119";
+}
+
+.ap-frown-open:before {
+  content: "\f57a";
+}
+
+.ap-fulcrum:before {
+  content: "\f50b";
+}
+
+.ap-funnel-dollar:before {
+  content: "\f662";
+}
+
+.ap-futbol:before {
+  content: "\f1e3";
+}
+
+.ap-galactic-republic:before {
+  content: "\f50c";
+}
+
+.ap-galactic-senate:before {
+  content: "\f50d";
+}
+
+.ap-gamepad:before {
+  content: "\f11b";
+}
+
+.ap-gas-pump:before {
+  content: "\f52f";
+}
+
+.ap-gavel:before {
+  content: "\f0e3";
+}
+
+.ap-gem:before {
+  content: "\f3a5";
+}
+
+.ap-genderless:before {
+  content: "\f22d";
+}
+
+.ap-get-pocket:before {
+  content: "\f265";
+}
+
+.ap-gg:before {
+  content: "\f260";
+}
+
+.ap-gg-circle:before {
+  content: "\f261";
+}
+
+.ap-ghost:before {
+  content: "\f6e2";
+}
+
+.ap-gift:before {
+  content: "\f06b";
+}
+
+.ap-gifts:before {
+  content: "\f79c";
+}
+
+.ap-git:before {
+  content: "\f1d3";
+}
+
+.ap-git-alt:before {
+  content: "\f841";
+}
+
+.ap-git-square:before {
+  content: "\f1d2";
+}
+
+.ap-github:before {
+  content: "\f09b";
+}
+
+.ap-github-alt:before {
+  content: "\f113";
+}
+
+.ap-github-square:before {
+  content: "\f092";
+}
+
+.ap-gitkraken:before {
+  content: "\f3a6";
+}
+
+.ap-gitlab:before {
+  content: "\f296";
+}
+
+.ap-gitter:before {
+  content: "\f426";
+}
+
+.ap-glass-cheers:before {
+  content: "\f79f";
+}
+
+.ap-glass-martini:before {
+  content: "\f000";
+}
+
+.ap-glass-martini-alt:before {
+  content: "\f57b";
+}
+
+.ap-glass-whiskey:before {
+  content: "\f7a0";
+}
+
+.ap-glasses:before {
+  content: "\f530";
+}
+
+.ap-glide:before {
+  content: "\f2a5";
+}
+
+.ap-glide-g:before {
+  content: "\f2a6";
+}
+
+.ap-globe:before {
+  content: "\f0ac";
+}
+
+.ap-globe-africa:before {
+  content: "\f57c";
+}
+
+.ap-globe-americas:before {
+  content: "\f57d";
+}
+
+.ap-globe-asia:before {
+  content: "\f57e";
+}
+
+.ap-globe-europe:before {
+  content: "\f7a2";
+}
+
+.ap-gofore:before {
+  content: "\f3a7";
+}
+
+.ap-golf-ball:before {
+  content: "\f450";
+}
+
+.ap-goodreads:before {
+  content: "\f3a8";
+}
+
+.ap-goodreads-g:before {
+  content: "\f3a9";
+}
+
+.ap-google:before {
+  content: "\f1a0";
+}
+
+.ap-google-drive:before {
+  content: "\f3aa";
+}
+
+.ap-google-play:before {
+  content: "\f3ab";
+}
+
+.ap-google-plus:before {
+  content: "\f2b3";
+}
+
+.ap-google-plus-g:before {
+  content: "\f0d5";
+}
+
+.ap-google-plus-square:before {
+  content: "\f0d4";
+}
+
+.ap-google-wallet:before {
+  content: "\f1ee";
+}
+
+.ap-gopuram:before {
+  content: "\f664";
+}
+
+.ap-graduation-cap:before {
+  content: "\f19d";
+}
+
+.ap-gratipay:before {
+  content: "\f184";
+}
+
+.ap-grav:before {
+  content: "\f2d6";
+}
+
+.ap-greater-than:before {
+  content: "\f531";
+}
+
+.ap-greater-than-equal:before {
+  content: "\f532";
+}
+
+.ap-grimace:before {
+  content: "\f57f";
+}
+
+.ap-grin:before {
+  content: "\f580";
+}
+
+.ap-grin-alt:before {
+  content: "\f581";
+}
+
+.ap-grin-beam:before {
+  content: "\f582";
+}
+
+.ap-grin-beam-sweat:before {
+  content: "\f583";
+}
+
+.ap-grin-hearts:before {
+  content: "\f584";
+}
+
+.ap-grin-squint:before {
+  content: "\f585";
+}
+
+.ap-grin-squint-tears:before {
+  content: "\f586";
+}
+
+.ap-grin-stars:before {
+  content: "\f587";
+}
+
+.ap-grin-tears:before {
+  content: "\f588";
+}
+
+.ap-grin-tongue:before {
+  content: "\f589";
+}
+
+.ap-grin-tongue-squint:before {
+  content: "\f58a";
+}
+
+.ap-grin-tongue-wink:before {
+  content: "\f58b";
+}
+
+.ap-grin-wink:before {
+  content: "\f58c";
+}
+
+.ap-grip-horizontal:before {
+  content: "\f58d";
+}
+
+.ap-grip-lines:before {
+  content: "\f7a4";
+}
+
+.ap-grip-lines-vertical:before {
+  content: "\f7a5";
+}
+
+.ap-grip-vertical:before {
+  content: "\f58e";
+}
+
+.ap-gripfire:before {
+  content: "\f3ac";
+}
+
+.ap-grunt:before {
+  content: "\f3ad";
+}
+
+.ap-guitar:before {
+  content: "\f7a6";
+}
+
+.ap-gulp:before {
+  content: "\f3ae";
+}
+
+.ap-h-square:before {
+  content: "\f0fd";
+}
+
+.ap-hacker-news:before {
+  content: "\f1d4";
+}
+
+.ap-hacker-news-square:before {
+  content: "\f3af";
+}
+
+.ap-hackerrank:before {
+  content: "\f5f7";
+}
+
+.ap-hamburger:before {
+  content: "\f805";
+}
+
+.ap-hammer:before {
+  content: "\f6e3";
+}
+
+.ap-hamsa:before {
+  content: "\f665";
+}
+
+.ap-hand-holding:before {
+  content: "\f4bd";
+}
+
+.ap-hand-holding-heart:before {
+  content: "\f4be";
+}
+
+.ap-hand-holding-usd:before {
+  content: "\f4c0";
+}
+
+.ap-hand-lizard:before {
+  content: "\f258";
+}
+
+.ap-hand-middle-finger:before {
+  content: "\f806";
+}
+
+.ap-hand-paper:before {
+  content: "\f256";
+}
+
+.ap-hand-peace:before {
+  content: "\f25b";
+}
+
+.ap-hand-point-down:before {
+  content: "\f0a7";
+}
+
+.ap-hand-point-left:before {
+  content: "\f0a5";
+}
+
+.ap-hand-point-right:before {
+  content: "\f0a4";
+}
+
+.ap-hand-point-up:before {
+  content: "\f0a6";
+}
+
+.ap-hand-pointer:before {
+  content: "\f25a";
+}
+
+.ap-hand-rock:before {
+  content: "\f255";
+}
+
+.ap-hand-scissors:before {
+  content: "\f257";
+}
+
+.ap-hand-spock:before {
+  content: "\f259";
+}
+
+.ap-hands:before {
+  content: "\f4c2";
+}
+
+.ap-hands-helping:before {
+  content: "\f4c4";
+}
+
+.ap-handshake:before {
+  content: "\f2b5";
+}
+
+.ap-hanukiah:before {
+  content: "\f6e6";
+}
+
+.ap-hard-hat:before {
+  content: "\f807";
+}
+
+.ap-hashtag:before {
+  content: "\f292";
+}
+
+.ap-hat-wizard:before {
+  content: "\f6e8";
+}
+
+.ap-haykal:before {
+  content: "\f666";
+}
+
+.ap-hdd:before {
+  content: "\f0a0";
+}
+
+.ap-heading:before {
+  content: "\f1dc";
+}
+
+.ap-headphones:before {
+  content: "\f025";
+}
+
+.ap-headphones-alt:before {
+  content: "\f58f";
+}
+
+.ap-headset:before {
+  content: "\f590";
+}
+
+.ap-heart:before {
+  content: "\f004";
+}
+
+.ap-heart-broken:before {
+  content: "\f7a9";
+}
+
+.ap-heartbeat:before {
+  content: "\f21e";
+}
+
+.ap-helicopter:before {
+  content: "\f533";
+}
+
+.ap-highlighter:before {
+  content: "\f591";
+}
+
+.ap-hiking:before {
+  content: "\f6ec";
+}
+
+.ap-hippo:before {
+  content: "\f6ed";
+}
+
+.ap-hips:before {
+  content: "\f452";
+}
+
+.ap-hire-a-helper:before {
+  content: "\f3b0";
+}
+
+.ap-history:before {
+  content: "\f1da";
+}
+
+.ap-hockey-puck:before {
+  content: "\f453";
+}
+
+.ap-holly-berry:before {
+  content: "\f7aa";
+}
+
+.ap-home:before {
+  content: "\f015";
+}
+
+.ap-hooli:before {
+  content: "\f427";
+}
+
+.ap-hornbill:before {
+  content: "\f592";
+}
+
+.ap-horse:before {
+  content: "\f6f0";
+}
+
+.ap-horse-head:before {
+  content: "\f7ab";
+}
+
+.ap-hospital:before {
+  content: "\f0f8";
+}
+
+.ap-hospital-alt:before {
+  content: "\f47d";
+}
+
+.ap-hospital-symbol:before {
+  content: "\f47e";
+}
+
+.ap-hot-tub:before {
+  content: "\f593";
+}
+
+.ap-hotdog:before {
+  content: "\f80f";
+}
+
+.ap-hotel:before {
+  content: "\f594";
+}
+
+.ap-hotjar:before {
+  content: "\f3b1";
+}
+
+.ap-hourglass:before {
+  content: "\f254";
+}
+
+.ap-hourglass-end:before {
+  content: "\f253";
+}
+
+.ap-hourglass-half:before {
+  content: "\f252";
+}
+
+.ap-hourglass-start:before {
+  content: "\f251";
+}
+
+.ap-house-damage:before {
+  content: "\f6f1";
+}
+
+.ap-houzz:before {
+  content: "\f27c";
+}
+
+.ap-hryvnia:before {
+  content: "\f6f2";
+}
+
+.ap-html5:before {
+  content: "\f13b";
+}
+
+.ap-hubspot:before {
+  content: "\f3b2";
+}
+
+.ap-i-cursor:before {
+  content: "\f246";
+}
+
+.ap-ice-cream:before {
+  content: "\f810";
+}
+
+.ap-icicles:before {
+  content: "\f7ad";
+}
+
+.ap-icons:before {
+  content: "\f86d";
+}
+
+.ap-id-badge:before {
+  content: "\f2c1";
+}
+
+.ap-id-card:before {
+  content: "\f2c2";
+}
+
+.ap-id-card-alt:before {
+  content: "\f47f";
+}
+
+.ap-igloo:before {
+  content: "\f7ae";
+}
+
+.ap-image:before {
+  content: "\f03e";
+}
+
+.ap-images:before {
+  content: "\f302";
+}
+
+.ap-imdb:before {
+  content: "\f2d8";
+}
+
+.ap-inbox:before {
+  content: "\f01c";
+}
+
+.ap-indent:before {
+  content: "\f03c";
+}
+
+.ap-industry:before {
+  content: "\f275";
+}
+
+.ap-infinity:before {
+  content: "\f534";
+}
+
+.ap-info:before {
+  content: "\f129";
+}
+
+.ap-info-circle:before {
+  content: "\f05a";
+}
+
+.ap-instagram:before {
+  content: "\f16d";
+}
+
+.ap-intercom:before {
+  content: "\f7af";
+}
+
+.ap-internet-explorer:before {
+  content: "\f26b";
+}
+
+.ap-invision:before {
+  content: "\f7b0";
+}
+
+.ap-ioxhost:before {
+  content: "\f208";
+}
+
+.ap-italic:before {
+  content: "\f033";
+}
+
+.ap-itch-io:before {
+  content: "\f83a";
+}
+
+.ap-itunes:before {
+  content: "\f3b4";
+}
+
+.ap-itunes-note:before {
+  content: "\f3b5";
+}
+
+.ap-java:before {
+  content: "\f4e4";
+}
+
+.ap-jedi:before {
+  content: "\f669";
+}
+
+.ap-jedi-order:before {
+  content: "\f50e";
+}
+
+.ap-jenkins:before {
+  content: "\f3b6";
+}
+
+.ap-jira:before {
+  content: "\f7b1";
+}
+
+.ap-joget:before {
+  content: "\f3b7";
+}
+
+.ap-joint:before {
+  content: "\f595";
+}
+
+.ap-joomla:before {
+  content: "\f1aa";
+}
+
+.ap-journal-whills:before {
+  content: "\f66a";
+}
+
+.ap-js:before {
+  content: "\f3b8";
+}
+
+.ap-js-square:before {
+  content: "\f3b9";
+}
+
+.ap-jsfiddle:before {
+  content: "\f1cc";
+}
+
+.ap-kaaba:before {
+  content: "\f66b";
+}
+
+.ap-kaggle:before {
+  content: "\f5fa";
+}
+
+.ap-key:before {
+  content: "\f084";
+}
+
+.ap-keybase:before {
+  content: "\f4f5";
+}
+
+.ap-keyboard:before {
+  content: "\f11c";
+}
+
+.ap-keycdn:before {
+  content: "\f3ba";
+}
+
+.ap-khanda:before {
+  content: "\f66d";
+}
+
+.ap-kickstarter:before {
+  content: "\f3bb";
+}
+
+.ap-kickstarter-k:before {
+  content: "\f3bc";
+}
+
+.ap-kiss:before {
+  content: "\f596";
+}
+
+.ap-kiss-beam:before {
+  content: "\f597";
+}
+
+.ap-kiss-wink-heart:before {
+  content: "\f598";
+}
+
+.ap-kiwi-bird:before {
+  content: "\f535";
+}
+
+.ap-korvue:before {
+  content: "\f42f";
+}
+
+.ap-landmark:before {
+  content: "\f66f";
+}
+
+.ap-language:before {
+  content: "\f1ab";
+}
+
+.ap-laptop:before {
+  content: "\f109";
+}
+
+.ap-laptop-code:before {
+  content: "\f5fc";
+}
+
+.ap-laptop-medical:before {
+  content: "\f812";
+}
+
+.ap-laravel:before {
+  content: "\f3bd";
+}
+
+.ap-lastfm:before {
+  content: "\f202";
+}
+
+.ap-lastfm-square:before {
+  content: "\f203";
+}
+
+.ap-laugh:before {
+  content: "\f599";
+}
+
+.ap-laugh-beam:before {
+  content: "\f59a";
+}
+
+.ap-laugh-squint:before {
+  content: "\f59b";
+}
+
+.ap-laugh-wink:before {
+  content: "\f59c";
+}
+
+.ap-layer-group:before {
+  content: "\f5fd";
+}
+
+.ap-leaf:before {
+  content: "\f06c";
+}
+
+.ap-leanpub:before {
+  content: "\f212";
+}
+
+.ap-lemon:before {
+  content: "\f094";
+}
+
+.ap-less:before {
+  content: "\f41d";
+}
+
+.ap-less-than:before {
+  content: "\f536";
+}
+
+.ap-less-than-equal:before {
+  content: "\f537";
+}
+
+.ap-level-down-alt:before {
+  content: "\f3be";
+}
+
+.ap-level-up-alt:before {
+  content: "\f3bf";
+}
+
+.ap-life-ring:before {
+  content: "\f1cd";
+}
+
+.ap-lightbulb:before {
+  content: "\f0eb";
+}
+
+.ap-line:before {
+  content: "\f3c0";
+}
+
+.ap-link:before {
+  content: "\f0c1";
+}
+
+.ap-linkedin:before {
+  content: "\f08c";
+}
+
+.ap-linkedin-in:before {
+  content: "\f0e1";
+}
+
+.ap-linode:before {
+  content: "\f2b8";
+}
+
+.ap-linux:before {
+  content: "\f17c";
+}
+
+.ap-lira-sign:before {
+  content: "\f195";
+}
+
+.ap-list:before {
+  content: "\f03a";
+}
+
+.ap-list-alt:before {
+  content: "\f022";
+}
+
+.ap-list-ol:before {
+  content: "\f0cb";
+}
+
+.ap-list-ul:before {
+  content: "\f0ca";
+}
+
+.ap-location-arrow:before {
+  content: "\f124";
+}
+
+.ap-lock:before {
+  content: "\f023";
+}
+
+.ap-lock-open:before {
+  content: "\f3c1";
+}
+
+.ap-long-arrow-alt-down:before {
+  content: "\f309";
+}
+
+.ap-long-arrow-alt-left:before {
+  content: "\f30a";
+}
+
+.ap-long-arrow-alt-right:before {
+  content: "\f30b";
+}
+
+.ap-long-arrow-alt-up:before {
+  content: "\f30c";
+}
+
+.ap-low-vision:before {
+  content: "\f2a8";
+}
+
+.ap-luggage-cart:before {
+  content: "\f59d";
+}
+
+.ap-lyft:before {
+  content: "\f3c3";
+}
+
+.ap-magento:before {
+  content: "\f3c4";
+}
+
+.ap-magic:before {
+  content: "\f0d0";
+}
+
+.ap-magnet:before {
+  content: "\f076";
+}
+
+.ap-mail-bulk:before {
+  content: "\f674";
+}
+
+.ap-mailchimp:before {
+  content: "\f59e";
+}
+
+.ap-male:before {
+  content: "\f183";
+}
+
+.ap-mandalorian:before {
+  content: "\f50f";
+}
+
+.ap-map:before {
+  content: "\f279";
+}
+
+.ap-map-marked:before {
+  content: "\f59f";
+}
+
+.ap-map-marked-alt:before {
+  content: "\f5a0";
+}
+
+.ap-map-marker:before {
+  content: "\f041";
+}
+
+.ap-map-marker-alt:before {
+  content: "\f3c5";
+}
+
+.ap-map-pin:before {
+  content: "\f276";
+}
+
+.ap-map-signs:before {
+  content: "\f277";
+}
+
+.ap-markdown:before {
+  content: "\f60f";
+}
+
+.ap-marker:before {
+  content: "\f5a1";
+}
+
+.ap-mars:before {
+  content: "\f222";
+}
+
+.ap-mars-double:before {
+  content: "\f227";
+}
+
+.ap-mars-stroke:before {
+  content: "\f229";
+}
+
+.ap-mars-stroke-h:before {
+  content: "\f22b";
+}
+
+.ap-mars-stroke-v:before {
+  content: "\f22a";
+}
+
+.ap-mask:before {
+  content: "\f6fa";
+}
+
+.ap-mastodon:before {
+  content: "\f4f6";
+}
+
+.ap-maxcdn:before {
+  content: "\f136";
+}
+
+.ap-medal:before {
+  content: "\f5a2";
+}
+
+.ap-medapps:before {
+  content: "\f3c6";
+}
+
+.ap-medium:before {
+  content: "\f23a";
+}
+
+.ap-medium-m:before {
+  content: "\f3c7";
+}
+
+.ap-medkit:before {
+  content: "\f0fa";
+}
+
+.ap-medrt:before {
+  content: "\f3c8";
+}
+
+.ap-meetup:before {
+  content: "\f2e0";
+}
+
+.ap-megaport:before {
+  content: "\f5a3";
+}
+
+.ap-meh:before {
+  content: "\f11a";
+}
+
+.ap-meh-blank:before {
+  content: "\f5a4";
+}
+
+.ap-meh-rolling-eyes:before {
+  content: "\f5a5";
+}
+
+.ap-memory:before {
+  content: "\f538";
+}
+
+.ap-mendeley:before {
+  content: "\f7b3";
+}
+
+.ap-menorah:before {
+  content: "\f676";
+}
+
+.ap-mercury:before {
+  content: "\f223";
+}
+
+.ap-meteor:before {
+  content: "\f753";
+}
+
+.ap-microchip:before {
+  content: "\f2db";
+}
+
+.ap-microphone:before {
+  content: "\f130";
+}
+
+.ap-microphone-alt:before {
+  content: "\f3c9";
+}
+
+.ap-microphone-alt-slash:before {
+  content: "\f539";
+}
+
+.ap-microphone-slash:before {
+  content: "\f131";
+}
+
+.ap-microscope:before {
+  content: "\f610";
+}
+
+.ap-microsoft:before {
+  content: "\f3ca";
+}
+
+.ap-minus:before {
+  content: "\f068";
+}
+
+.ap-minus-circle:before {
+  content: "\f056";
+}
+
+.ap-minus-square:before {
+  content: "\f146";
+}
+
+.ap-mitten:before {
+  content: "\f7b5";
+}
+
+.ap-mix:before {
+  content: "\f3cb";
+}
+
+.ap-mixcloud:before {
+  content: "\f289";
+}
+
+.ap-mizuni:before {
+  content: "\f3cc";
+}
+
+.ap-mobile:before {
+  content: "\f10b";
+}
+
+.ap-mobile-alt:before {
+  content: "\f3cd";
+}
+
+.ap-modx:before {
+  content: "\f285";
+}
+
+.ap-monero:before {
+  content: "\f3d0";
+}
+
+.ap-money-bill:before {
+  content: "\f0d6";
+}
+
+.ap-money-bill-alt:before {
+  content: "\f3d1";
+}
+
+.ap-money-bill-wave:before {
+  content: "\f53a";
+}
+
+.ap-money-bill-wave-alt:before {
+  content: "\f53b";
+}
+
+.ap-money-check:before {
+  content: "\f53c";
+}
+
+.ap-money-check-alt:before {
+  content: "\f53d";
+}
+
+.ap-monument:before {
+  content: "\f5a6";
+}
+
+.ap-moon:before {
+  content: "\f186";
+}
+
+.ap-mortar-pestle:before {
+  content: "\f5a7";
+}
+
+.ap-mosque:before {
+  content: "\f678";
+}
+
+.ap-motorcycle:before {
+  content: "\f21c";
+}
+
+.ap-mountain:before {
+  content: "\f6fc";
+}
+
+.ap-mouse-pointer:before {
+  content: "\f245";
+}
+
+.ap-mug-hot:before {
+  content: "\f7b6";
+}
+
+.ap-music:before {
+  content: "\f001";
+}
+
+.ap-napster:before {
+  content: "\f3d2";
+}
+
+.ap-neos:before {
+  content: "\f612";
+}
+
+.ap-network-wired:before {
+  content: "\f6ff";
+}
+
+.ap-neuter:before {
+  content: "\f22c";
+}
+
+.ap-newspaper:before {
+  content: "\f1ea";
+}
+
+.ap-nimblr:before {
+  content: "\f5a8";
+}
+
+.ap-node:before {
+  content: "\f419";
+}
+
+.ap-node-js:before {
+  content: "\f3d3";
+}
+
+.ap-not-equal:before {
+  content: "\f53e";
+}
+
+.ap-notes-medical:before {
+  content: "\f481";
+}
+
+.ap-npm:before {
+  content: "\f3d4";
+}
+
+.ap-ns8:before {
+  content: "\f3d5";
+}
+
+.ap-nutritionix:before {
+  content: "\f3d6";
+}
+
+.ap-object-group:before {
+  content: "\f247";
+}
+
+.ap-object-ungroup:before {
+  content: "\f248";
+}
+
+.ap-odnoklassniki:before {
+  content: "\f263";
+}
+
+.ap-odnoklassniki-square:before {
+  content: "\f264";
+}
+
+.ap-oil-can:before {
+  content: "\f613";
+}
+
+.ap-old-republic:before {
+  content: "\f510";
+}
+
+.ap-om:before {
+  content: "\f679";
+}
+
+.ap-opencart:before {
+  content: "\f23d";
+}
+
+.ap-openid:before {
+  content: "\f19b";
+}
+
+.ap-opera:before {
+  content: "\f26a";
+}
+
+.ap-optin-monster:before {
+  content: "\f23c";
+}
+
+.ap-osi:before {
+  content: "\f41a";
+}
+
+.ap-otter:before {
+  content: "\f700";
+}
+
+.ap-outdent:before {
+  content: "\f03b";
+}
+
+.ap-page4:before {
+  content: "\f3d7";
+}
+
+.ap-pagelines:before {
+  content: "\f18c";
+}
+
+.ap-pager:before {
+  content: "\f815";
+}
+
+.ap-paint-brush:before {
+  content: "\f1fc";
+}
+
+.ap-paint-roller:before {
+  content: "\f5aa";
+}
+
+.ap-palette:before {
+  content: "\f53f";
+}
+
+.ap-palfed:before {
+  content: "\f3d8";
+}
+
+.ap-pallet:before {
+  content: "\f482";
+}
+
+.ap-paper-plane:before {
+  content: "\f1d8";
+}
+
+.ap-paperclip:before {
+  content: "\f0c6";
+}
+
+.ap-parachute-box:before {
+  content: "\f4cd";
+}
+
+.ap-paragraph:before {
+  content: "\f1dd";
+}
+
+.ap-parking:before {
+  content: "\f540";
+}
+
+.ap-passport:before {
+  content: "\f5ab";
+}
+
+.ap-pastafarianism:before {
+  content: "\f67b";
+}
+
+.ap-paste:before {
+  content: "\f0ea";
+}
+
+.ap-patreon:before {
+  content: "\f3d9";
+}
+
+.ap-pause:before {
+  content: "\f04c";
+}
+
+.ap-pause-circle:before {
+  content: "\f28b";
+}
+
+.ap-paw:before {
+  content: "\f1b0";
+}
+
+.ap-paypal:before {
+  content: "\f1ed";
+}
+
+.ap-peace:before {
+  content: "\f67c";
+}
+
+.ap-pen:before {
+  content: "\f304";
+}
+
+.ap-pen-alt:before {
+  content: "\f305";
+}
+
+.ap-pen-fancy:before {
+  content: "\f5ac";
+}
+
+.ap-pen-nib:before {
+  content: "\f5ad";
+}
+
+.ap-pen-square:before {
+  content: "\f14b";
+}
+
+.ap-pencil-alt:before {
+  content: "\f303";
+}
+
+.ap-pencil-ruler:before {
+  content: "\f5ae";
+}
+
+.ap-penny-arcade:before {
+  content: "\f704";
+}
+
+.ap-people-carry:before {
+  content: "\f4ce";
+}
+
+.ap-pepper-hot:before {
+  content: "\f816";
+}
+
+.ap-percent:before {
+  content: "\f295";
+}
+
+.ap-percentage:before {
+  content: "\f541";
+}
+
+.ap-periscope:before {
+  content: "\f3da";
+}
+
+.ap-person-booth:before {
+  content: "\f756";
+}
+
+.ap-phabricator:before {
+  content: "\f3db";
+}
+
+.ap-phoenix-framework:before {
+  content: "\f3dc";
+}
+
+.ap-phoenix-squadron:before {
+  content: "\f511";
+}
+
+.ap-phone:before {
+  content: "\f095";
+}
+
+.ap-phone-alt:before {
+  content: "\f879";
+}
+
+.ap-phone-slash:before {
+  content: "\f3dd";
+}
+
+.ap-phone-square:before {
+  content: "\f098";
+}
+
+.ap-phone-square-alt:before {
+  content: "\f87b";
+}
+
+.ap-phone-volume:before {
+  content: "\f2a0";
+}
+
+.ap-photo-video:before {
+  content: "\f87c";
+}
+
+.ap-php:before {
+  content: "\f457";
+}
+
+.ap-pied-piper:before {
+  content: "\f2ae";
+}
+
+.ap-pied-piper-alt:before {
+  content: "\f1a8";
+}
+
+.ap-pied-piper-hat:before {
+  content: "\f4e5";
+}
+
+.ap-pied-piper-pp:before {
+  content: "\f1a7";
+}
+
+.ap-piggy-bank:before {
+  content: "\f4d3";
+}
+
+.ap-pills:before {
+  content: "\f484";
+}
+
+.ap-pinterest:before {
+  content: "\f0d2";
+}
+
+.ap-pinterest-p:before {
+  content: "\f231";
+}
+
+.ap-pinterest-square:before {
+  content: "\f0d3";
+}
+
+.ap-pizza-slice:before {
+  content: "\f818";
+}
+
+.ap-place-of-worship:before {
+  content: "\f67f";
+}
+
+.ap-plane:before {
+  content: "\f072";
+}
+
+.ap-plane-arrival:before {
+  content: "\f5af";
+}
+
+.ap-plane-departure:before {
+  content: "\f5b0";
+}
+
+.ap-play:before {
+  content: "\f04b";
+}
+
+.ap-play-circle:before {
+  content: "\f144";
+}
+
+.ap-playstation:before {
+  content: "\f3df";
+}
+
+.ap-plug:before {
+  content: "\f1e6";
+}
+
+.ap-plus:before {
+  content: "\f067";
+}
+
+.ap-plus-circle:before {
+  content: "\f055";
+}
+
+.ap-plus-square:before {
+  content: "\f0fe";
+}
+
+.ap-podcast:before {
+  content: "\f2ce";
+}
+
+.ap-poll:before {
+  content: "\f681";
+}
+
+.ap-poll-h:before {
+  content: "\f682";
+}
+
+.ap-poo:before {
+  content: "\f2fe";
+}
+
+.ap-poo-storm:before {
+  content: "\f75a";
+}
+
+.ap-poop:before {
+  content: "\f619";
+}
+
+.ap-portrait:before {
+  content: "\f3e0";
+}
+
+.ap-pound-sign:before {
+  content: "\f154";
+}
+
+.ap-power-off:before {
+  content: "\f011";
+}
+
+.ap-pray:before {
+  content: "\f683";
+}
+
+.ap-praying-hands:before {
+  content: "\f684";
+}
+
+.ap-prescription:before {
+  content: "\f5b1";
+}
+
+.ap-prescription-bottle:before {
+  content: "\f485";
+}
+
+.ap-prescription-bottle-alt:before {
+  content: "\f486";
+}
+
+.ap-print:before {
+  content: "\f02f";
+}
+
+.ap-procedures:before {
+  content: "\f487";
+}
+
+.ap-product-hunt:before {
+  content: "\f288";
+}
+
+.ap-project-diagram:before {
+  content: "\f542";
+}
+
+.ap-pushed:before {
+  content: "\f3e1";
+}
+
+.ap-puzzle-piece:before {
+  content: "\f12e";
+}
+
+.ap-python:before {
+  content: "\f3e2";
+}
+
+.ap-qq:before {
+  content: "\f1d6";
+}
+
+.ap-qrcode:before {
+  content: "\f029";
+}
+
+.ap-question:before {
+  content: "\f128";
+}
+
+.ap-question-circle:before {
+  content: "\f059";
+}
+
+.ap-quidditch:before {
+  content: "\f458";
+}
+
+.ap-quinscape:before {
+  content: "\f459";
+}
+
+.ap-quora:before {
+  content: "\f2c4";
+}
+
+.ap-quote-left:before {
+  content: "\f10d";
+}
+
+.ap-quote-right:before {
+  content: "\f10e";
+}
+
+.ap-quran:before {
+  content: "\f687";
+}
+
+.ap-r-project:before {
+  content: "\f4f7";
+}
+
+.ap-radiation:before {
+  content: "\f7b9";
+}
+
+.ap-radiation-alt:before {
+  content: "\f7ba";
+}
+
+.ap-rainbow:before {
+  content: "\f75b";
+}
+
+.ap-random:before {
+  content: "\f074";
+}
+
+.ap-raspberry-pi:before {
+  content: "\f7bb";
+}
+
+.ap-ravelry:before {
+  content: "\f2d9";
+}
+
+.ap-react:before {
+  content: "\f41b";
+}
+
+.ap-reacteurope:before {
+  content: "\f75d";
+}
+
+.ap-readme:before {
+  content: "\f4d5";
+}
+
+.ap-rebel:before {
+  content: "\f1d0";
+}
+
+.ap-receipt:before {
+  content: "\f543";
+}
+
+.ap-recycle:before {
+  content: "\f1b8";
+}
+
+.ap-red-river:before {
+  content: "\f3e3";
+}
+
+.ap-reddit:before {
+  content: "\f1a1";
+}
+
+.ap-reddit-alien:before {
+  content: "\f281";
+}
+
+.ap-reddit-square:before {
+  content: "\f1a2";
+}
+
+.ap-redhat:before {
+  content: "\f7bc";
+}
+
+.ap-redo:before {
+  content: "\f01e";
+}
+
+.ap-redo-alt:before {
+  content: "\f2f9";
+}
+
+.ap-registered:before {
+  content: "\f25d";
+}
+
+.ap-remove-format:before {
+  content: "\f87d";
+}
+
+.ap-renren:before {
+  content: "\f18b";
+}
+
+.ap-reply:before {
+  content: "\f3e5";
+}
+
+.ap-reply-all:before {
+  content: "\f122";
+}
+
+.ap-replyd:before {
+  content: "\f3e6";
+}
+
+.ap-republican:before {
+  content: "\f75e";
+}
+
+.ap-researchgate:before {
+  content: "\f4f8";
+}
+
+.ap-resolving:before {
+  content: "\f3e7";
+}
+
+.ap-restroom:before {
+  content: "\f7bd";
+}
+
+.ap-retweet:before {
+  content: "\f079";
+}
+
+.ap-rev:before {
+  content: "\f5b2";
+}
+
+.ap-ribbon:before {
+  content: "\f4d6";
+}
+
+.ap-ring:before {
+  content: "\f70b";
+}
+
+.ap-road:before {
+  content: "\f018";
+}
+
+.ap-robot:before {
+  content: "\f544";
+}
+
+.ap-rocket:before {
+  content: "\f135";
+}
+
+.ap-rocketchat:before {
+  content: "\f3e8";
+}
+
+.ap-rockrms:before {
+  content: "\f3e9";
+}
+
+.ap-route:before {
+  content: "\f4d7";
+}
+
+.ap-rss:before {
+  content: "\f09e";
+}
+
+.ap-rss-square:before {
+  content: "\f143";
+}
+
+.ap-ruble-sign:before {
+  content: "\f158";
+}
+
+.ap-ruler:before {
+  content: "\f545";
+}
+
+.ap-ruler-combined:before {
+  content: "\f546";
+}
+
+.ap-ruler-horizontal:before {
+  content: "\f547";
+}
+
+.ap-ruler-vertical:before {
+  content: "\f548";
+}
+
+.ap-running:before {
+  content: "\f70c";
+}
+
+.ap-rupee-sign:before {
+  content: "\f156";
+}
+
+.ap-sad-cry:before {
+  content: "\f5b3";
+}
+
+.ap-sad-tear:before {
+  content: "\f5b4";
+}
+
+.ap-safari:before {
+  content: "\f267";
+}
+
+.ap-salesforce:before {
+  content: "\f83b";
+}
+
+.ap-sass:before {
+  content: "\f41e";
+}
+
+.ap-satellite:before {
+  content: "\f7bf";
+}
+
+.ap-satellite-dish:before {
+  content: "\f7c0";
+}
+
+.ap-save:before {
+  content: "\f0c7";
+}
+
+.ap-schlix:before {
+  content: "\f3ea";
+}
+
+.ap-school:before {
+  content: "\f549";
+}
+
+.ap-screwdriver:before {
+  content: "\f54a";
+}
+
+.ap-scribd:before {
+  content: "\f28a";
+}
+
+.ap-scroll:before {
+  content: "\f70e";
+}
+
+.ap-sd-card:before {
+  content: "\f7c2";
+}
+
+.ap-search:before {
+  content: "\f002";
+}
+
+.ap-search-dollar:before {
+  content: "\f688";
+}
+
+.ap-search-location:before {
+  content: "\f689";
+}
+
+.ap-search-minus:before {
+  content: "\f010";
+}
+
+.ap-search-plus:before {
+  content: "\f00e";
+}
+
+.ap-searchengin:before {
+  content: "\f3eb";
+}
+
+.ap-seedling:before {
+  content: "\f4d8";
+}
+
+.ap-sellcast:before {
+  content: "\f2da";
+}
+
+.ap-sellsy:before {
+  content: "\f213";
+}
+
+.ap-server:before {
+  content: "\f233";
+}
+
+.ap-servicestack:before {
+  content: "\f3ec";
+}
+
+.ap-shapes:before {
+  content: "\f61f";
+}
+
+.ap-share:before {
+  content: "\f064";
+}
+
+.ap-share-alt:before {
+  content: "\f1e0";
+}
+
+.ap-share-alt-square:before {
+  content: "\f1e1";
+}
+
+.ap-share-square:before {
+  content: "\f14d";
+}
+
+.ap-shekel-sign:before {
+  content: "\f20b";
+}
+
+.ap-shield-alt:before {
+  content: "\f3ed";
+}
+
+.ap-ship:before {
+  content: "\f21a";
+}
+
+.ap-shipping-fast:before {
+  content: "\f48b";
+}
+
+.ap-shirtsinbulk:before {
+  content: "\f214";
+}
+
+.ap-shoe-prints:before {
+  content: "\f54b";
+}
+
+.ap-shopping-bag:before {
+  content: "\f290";
+}
+
+.ap-shopping-basket:before {
+  content: "\f291";
+}
+
+.ap-shopping-cart:before {
+  content: "\f07a";
+}
+
+.ap-shopware:before {
+  content: "\f5b5";
+}
+
+.ap-shower:before {
+  content: "\f2cc";
+}
+
+.ap-shuttle-van:before {
+  content: "\f5b6";
+}
+
+.ap-sign:before {
+  content: "\f4d9";
+}
+
+.ap-sign-in-alt:before {
+  content: "\f2f6";
+}
+
+.ap-sign-language:before {
+  content: "\f2a7";
+}
+
+.ap-sign-out-alt:before {
+  content: "\f2f5";
+}
+
+.ap-signal:before {
+  content: "\f012";
+}
+
+.ap-signature:before {
+  content: "\f5b7";
+}
+
+.ap-sim-card:before {
+  content: "\f7c4";
+}
+
+.ap-simplybuilt:before {
+  content: "\f215";
+}
+
+.ap-sistrix:before {
+  content: "\f3ee";
+}
+
+.ap-sitemap:before {
+  content: "\f0e8";
+}
+
+.ap-sith:before {
+  content: "\f512";
+}
+
+.ap-skating:before {
+  content: "\f7c5";
+}
+
+.ap-sketch:before {
+  content: "\f7c6";
+}
+
+.ap-skiing:before {
+  content: "\f7c9";
+}
+
+.ap-skiing-nordic:before {
+  content: "\f7ca";
+}
+
+.ap-skull:before {
+  content: "\f54c";
+}
+
+.ap-skull-crossbones:before {
+  content: "\f714";
+}
+
+.ap-skyatlas:before {
+  content: "\f216";
+}
+
+.ap-skype:before {
+  content: "\f17e";
+}
+
+.ap-slack:before {
+  content: "\f198";
+}
+
+.ap-slack-hash:before {
+  content: "\f3ef";
+}
+
+.ap-slash:before {
+  content: "\f715";
+}
+
+.ap-sleigh:before {
+  content: "\f7cc";
+}
+
+.ap-sliders-h:before {
+  content: "\f1de";
+}
+
+.ap-slideshare:before {
+  content: "\f1e7";
+}
+
+.ap-smile:before {
+  content: "\f118";
+}
+
+.ap-smile-beam:before {
+  content: "\f5b8";
+}
+
+.ap-smile-wink:before {
+  content: "\f4da";
+}
+
+.ap-smog:before {
+  content: "\f75f";
+}
+
+.ap-smoking:before {
+  content: "\f48d";
+}
+
+.ap-smoking-ban:before {
+  content: "\f54d";
+}
+
+.ap-sms:before {
+  content: "\f7cd";
+}
+
+.ap-snapchat:before {
+  content: "\f2ab";
+}
+
+.ap-snapchat-ghost:before {
+  content: "\f2ac";
+}
+
+.ap-snapchat-square:before {
+  content: "\f2ad";
+}
+
+.ap-snowboarding:before {
+  content: "\f7ce";
+}
+
+.ap-snowflake:before {
+  content: "\f2dc";
+}
+
+.ap-snowman:before {
+  content: "\f7d0";
+}
+
+.ap-snowplow:before {
+  content: "\f7d2";
+}
+
+.ap-socks:before {
+  content: "\f696";
+}
+
+.ap-solar-panel:before {
+  content: "\f5ba";
+}
+
+.ap-sort:before {
+  content: "\f0dc";
+}
+
+.ap-sort-alpha-down:before {
+  content: "\f15d";
+}
+
+.ap-sort-alpha-down-alt:before {
+  content: "\f881";
+}
+
+.ap-sort-alpha-up:before {
+  content: "\f15e";
+}
+
+.ap-sort-alpha-up-alt:before {
+  content: "\f882";
+}
+
+.ap-sort-amount-down:before {
+  content: "\f160";
+}
+
+.ap-sort-amount-down-alt:before {
+  content: "\f884";
+}
+
+.ap-sort-amount-up:before {
+  content: "\f161";
+}
+
+.ap-sort-amount-up-alt:before {
+  content: "\f885";
+}
+
+.ap-sort-down:before {
+  content: "\f0dd";
+}
+
+.ap-sort-numeric-down:before {
+  content: "\f162";
+}
+
+.ap-sort-numeric-down-alt:before {
+  content: "\f886";
+}
+
+.ap-sort-numeric-up:before {
+  content: "\f163";
+}
+
+.ap-sort-numeric-up-alt:before {
+  content: "\f887";
+}
+
+.ap-sort-up:before {
+  content: "\f0de";
+}
+
+.ap-soundcloud:before {
+  content: "\f1be";
+}
+
+.ap-sourcetree:before {
+  content: "\f7d3";
+}
+
+.ap-spa:before {
+  content: "\f5bb";
+}
+
+.ap-space-shuttle:before {
+  content: "\f197";
+}
+
+.ap-speakap:before {
+  content: "\f3f3";
+}
+
+.ap-speaker-deck:before {
+  content: "\f83c";
+}
+
+.ap-spell-check:before {
+  content: "\f891";
+}
+
+.ap-spider:before {
+  content: "\f717";
+}
+
+.ap-spinner:before {
+  content: "\f110";
+}
+
+.ap-splotch:before {
+  content: "\f5bc";
+}
+
+.ap-spotify:before {
+  content: "\f1bc";
+}
+
+.ap-spray-can:before {
+  content: "\f5bd";
+}
+
+.ap-square:before {
+  content: "\f0c8";
+}
+
+.ap-square-full:before {
+  content: "\f45c";
+}
+
+.ap-square-root-alt:before {
+  content: "\f698";
+}
+
+.ap-squarespace:before {
+  content: "\f5be";
+}
+
+.ap-stack-exchange:before {
+  content: "\f18d";
+}
+
+.ap-stack-overflow:before {
+  content: "\f16c";
+}
+
+.ap-stackpath:before {
+  content: "\f842";
+}
+
+.ap-stamp:before {
+  content: "\f5bf";
+}
+
+.ap-star:before {
+  content: "\f005";
+}
+
+.ap-star-and-crescent:before {
+  content: "\f699";
+}
+
+.ap-star-half:before {
+  content: "\f089";
+}
+
+.ap-star-half-alt:before {
+  content: "\f5c0";
+}
+
+.ap-star-of-david:before {
+  content: "\f69a";
+}
+
+.ap-star-of-life:before {
+  content: "\f621";
+}
+
+.ap-staylinked:before {
+  content: "\f3f5";
+}
+
+.ap-steam:before {
+  content: "\f1b6";
+}
+
+.ap-steam-square:before {
+  content: "\f1b7";
+}
+
+.ap-steam-symbol:before {
+  content: "\f3f6";
+}
+
+.ap-step-backward:before {
+  content: "\f048";
+}
+
+.ap-step-forward:before {
+  content: "\f051";
+}
+
+.ap-stethoscope:before {
+  content: "\f0f1";
+}
+
+.ap-sticker-mule:before {
+  content: "\f3f7";
+}
+
+.ap-sticky-note:before {
+  content: "\f249";
+}
+
+.ap-stop:before {
+  content: "\f04d";
+}
+
+.ap-stop-circle:before {
+  content: "\f28d";
+}
+
+.ap-stopwatch:before {
+  content: "\f2f2";
+}
+
+.ap-store:before {
+  content: "\f54e";
+}
+
+.ap-store-alt:before {
+  content: "\f54f";
+}
+
+.ap-strava:before {
+  content: "\f428";
+}
+
+.ap-stream:before {
+  content: "\f550";
+}
+
+.ap-street-view:before {
+  content: "\f21d";
+}
+
+.ap-strikethrough:before {
+  content: "\f0cc";
+}
+
+.ap-stripe:before {
+  content: "\f429";
+}
+
+.ap-stripe-s:before {
+  content: "\f42a";
+}
+
+.ap-stroopwafel:before {
+  content: "\f551";
+}
+
+.ap-studiovinari:before {
+  content: "\f3f8";
+}
+
+.ap-stumbleupon:before {
+  content: "\f1a4";
+}
+
+.ap-stumbleupon-circle:before {
+  content: "\f1a3";
+}
+
+.ap-subscript:before {
+  content: "\f12c";
+}
+
+.ap-subway:before {
+  content: "\f239";
+}
+
+.ap-suitcase:before {
+  content: "\f0f2";
+}
+
+.ap-suitcase-rolling:before {
+  content: "\f5c1";
+}
+
+.ap-sun:before {
+  content: "\f185";
+}
+
+.ap-superpowers:before {
+  content: "\f2dd";
+}
+
+.ap-superscript:before {
+  content: "\f12b";
+}
+
+.ap-supple:before {
+  content: "\f3f9";
+}
+
+.ap-surprise:before {
+  content: "\f5c2";
+}
+
+.ap-suse:before {
+  content: "\f7d6";
+}
+
+.ap-swatchbook:before {
+  content: "\f5c3";
+}
+
+.ap-swimmer:before {
+  content: "\f5c4";
+}
+
+.ap-swimming-pool:before {
+  content: "\f5c5";
+}
+
+.ap-symfony:before {
+  content: "\f83d";
+}
+
+.ap-synagogue:before {
+  content: "\f69b";
+}
+
+.ap-sync:before {
+  content: "\f021";
+}
+
+.ap-sync-alt:before {
+  content: "\f2f1";
+}
+
+.ap-syringe:before {
+  content: "\f48e";
+}
+
+.ap-table:before {
+  content: "\f0ce";
+}
+
+.ap-table-tennis:before {
+  content: "\f45d";
+}
+
+.ap-tablet:before {
+  content: "\f10a";
+}
+
+.ap-tablet-alt:before {
+  content: "\f3fa";
+}
+
+.ap-tablets:before {
+  content: "\f490";
+}
+
+.ap-tachometer-alt:before {
+  content: "\f3fd";
+}
+
+.ap-tag:before {
+  content: "\f02b";
+}
+
+.ap-tags:before {
+  content: "\f02c";
+}
+
+.ap-tape:before {
+  content: "\f4db";
+}
+
+.ap-tasks:before {
+  content: "\f0ae";
+}
+
+.ap-taxi:before {
+  content: "\f1ba";
+}
+
+.ap-teamspeak:before {
+  content: "\f4f9";
+}
+
+.ap-teeth:before {
+  content: "\f62e";
+}
+
+.ap-teeth-open:before {
+  content: "\f62f";
+}
+
+.ap-telegram:before {
+  content: "\f2c6";
+}
+
+.ap-telegram-plane:before {
+  content: "\f3fe";
+}
+
+.ap-temperature-high:before {
+  content: "\f769";
+}
+
+.ap-temperature-low:before {
+  content: "\f76b";
+}
+
+.ap-tencent-weibo:before {
+  content: "\f1d5";
+}
+
+.ap-tenge:before {
+  content: "\f7d7";
+}
+
+.ap-terminal:before {
+  content: "\f120";
+}
+
+.ap-text-height:before {
+  content: "\f034";
+}
+
+.ap-text-width:before {
+  content: "\f035";
+}
+
+.ap-th:before {
+  content: "\f00a";
+}
+
+.ap-th-large:before {
+  content: "\f009";
+}
+
+.ap-th-list:before {
+  content: "\f00b";
+}
+
+.ap-the-red-yeti:before {
+  content: "\f69d";
+}
+
+.ap-theater-masks:before {
+  content: "\f630";
+}
+
+.ap-themeco:before {
+  content: "\f5c6";
+}
+
+.ap-themeisle:before {
+  content: "\f2b2";
+}
+
+.ap-thermometer:before {
+  content: "\f491";
+}
+
+.ap-thermometer-empty:before {
+  content: "\f2cb";
+}
+
+.ap-thermometer-full:before {
+  content: "\f2c7";
+}
+
+.ap-thermometer-half:before {
+  content: "\f2c9";
+}
+
+.ap-thermometer-quarter:before {
+  content: "\f2ca";
+}
+
+.ap-thermometer-three-quarters:before {
+  content: "\f2c8";
+}
+
+.ap-think-peaks:before {
+  content: "\f731";
+}
+
+.ap-thumbs-down:before {
+  content: "\f165";
+}
+
+.ap-thumbs-up:before {
+  content: "\f164";
+}
+
+.ap-thumbtack:before {
+  content: "\f08d";
+}
+
+.ap-ticket-alt:before {
+  content: "\f3ff";
+}
+
+.ap-times:before {
+  content: "\f00d";
+}
+
+.ap-times-circle:before {
+  content: "\f057";
+}
+
+.ap-tint:before {
+  content: "\f043";
+}
+
+.ap-tint-slash:before {
+  content: "\f5c7";
+}
+
+.ap-tired:before {
+  content: "\f5c8";
+}
+
+.ap-toggle-off:before {
+  content: "\f204";
+}
+
+.ap-toggle-on:before {
+  content: "\f205";
+}
+
+.ap-toilet:before {
+  content: "\f7d8";
+}
+
+.ap-toilet-paper:before {
+  content: "\f71e";
+}
+
+.ap-toolbox:before {
+  content: "\f552";
+}
+
+.ap-tools:before {
+  content: "\f7d9";
+}
+
+.ap-tooth:before {
+  content: "\f5c9";
+}
+
+.ap-torah:before {
+  content: "\f6a0";
+}
+
+.ap-torii-gate:before {
+  content: "\f6a1";
+}
+
+.ap-tractor:before {
+  content: "\f722";
+}
+
+.ap-trade-federation:before {
+  content: "\f513";
+}
+
+.ap-trademark:before {
+  content: "\f25c";
+}
+
+.ap-traffic-light:before {
+  content: "\f637";
+}
+
+.ap-train:before {
+  content: "\f238";
+}
+
+.ap-tram:before {
+  content: "\f7da";
+}
+
+.ap-transgender:before {
+  content: "\f224";
+}
+
+.ap-transgender-alt:before {
+  content: "\f225";
+}
+
+.ap-trash:before {
+  content: "\f1f8";
+}
+
+.ap-trash-alt:before {
+  content: "\f2ed";
+}
+
+.ap-trash-restore:before {
+  content: "\f829";
+}
+
+.ap-trash-restore-alt:before {
+  content: "\f82a";
+}
+
+.ap-tree:before {
+  content: "\f1bb";
+}
+
+.ap-trello:before {
+  content: "\f181";
+}
+
+.ap-tripadvisor:before {
+  content: "\f262";
+}
+
+.ap-trophy:before {
+  content: "\f091";
+}
+
+.ap-truck:before {
+  content: "\f0d1";
+}
+
+.ap-truck-loading:before {
+  content: "\f4de";
+}
+
+.ap-truck-monster:before {
+  content: "\f63b";
+}
+
+.ap-truck-moving:before {
+  content: "\f4df";
+}
+
+.ap-truck-pickup:before {
+  content: "\f63c";
+}
+
+.ap-tshirt:before {
+  content: "\f553";
+}
+
+.ap-tty:before {
+  content: "\f1e4";
+}
+
+.ap-tumblr:before {
+  content: "\f173";
+}
+
+.ap-tumblr-square:before {
+  content: "\f174";
+}
+
+.ap-tv:before {
+  content: "\f26c";
+}
+
+.ap-twitch:before {
+  content: "\f1e8";
+}
+
+.ap-twitter:before {
+  content: "\f099";
+}
+
+.ap-twitter-square:before {
+  content: "\f081";
+}
+
+.ap-typo3:before {
+  content: "\f42b";
+}
+
+.ap-uber:before {
+  content: "\f402";
+}
+
+.ap-ubuntu:before {
+  content: "\f7df";
+}
+
+.ap-uikit:before {
+  content: "\f403";
+}
+
+.ap-umbrella:before {
+  content: "\f0e9";
+}
+
+.ap-umbrella-beach:before {
+  content: "\f5ca";
+}
+
+.ap-underline:before {
+  content: "\f0cd";
+}
+
+.ap-undo:before {
+  content: "\f0e2";
+}
+
+.ap-undo-alt:before {
+  content: "\f2ea";
+}
+
+.ap-uniregistry:before {
+  content: "\f404";
+}
+
+.ap-universal-access:before {
+  content: "\f29a";
+}
+
+.ap-university:before {
+  content: "\f19c";
+}
+
+.ap-unlink:before {
+  content: "\f127";
+}
+
+.ap-unlock:before {
+  content: "\f09c";
+}
+
+.ap-unlock-alt:before {
+  content: "\f13e";
+}
+
+.ap-untappd:before {
+  content: "\f405";
+}
+
+.ap-upload:before {
+  content: "\f093";
+}
+
+.ap-ups:before {
+  content: "\f7e0";
+}
+
+.ap-usb:before {
+  content: "\f287";
+}
+
+.ap-user:before {
+  content: "\f007";
+}
+
+.ap-user-alt:before {
+  content: "\f406";
+}
+
+.ap-user-alt-slash:before {
+  content: "\f4fa";
+}
+
+.ap-user-astronaut:before {
+  content: "\f4fb";
+}
+
+.ap-user-check:before {
+  content: "\f4fc";
+}
+
+.ap-user-circle:before {
+  content: "\f2bd";
+}
+
+.ap-user-clock:before {
+  content: "\f4fd";
+}
+
+.ap-user-cog:before {
+  content: "\f4fe";
+}
+
+.ap-user-edit:before {
+  content: "\f4ff";
+}
+
+.ap-user-friends:before {
+  content: "\f500";
+}
+
+.ap-user-graduate:before {
+  content: "\f501";
+}
+
+.ap-user-injured:before {
+  content: "\f728";
+}
+
+.ap-user-lock:before {
+  content: "\f502";
+}
+
+.ap-user-md:before {
+  content: "\f0f0";
+}
+
+.ap-user-minus:before {
+  content: "\f503";
+}
+
+.ap-user-ninja:before {
+  content: "\f504";
+}
+
+.ap-user-nurse:before {
+  content: "\f82f";
+}
+
+.ap-user-plus:before {
+  content: "\f234";
+}
+
+.ap-user-secret:before {
+  content: "\f21b";
+}
+
+.ap-user-shield:before {
+  content: "\f505";
+}
+
+.ap-user-slash:before {
+  content: "\f506";
+}
+
+.ap-user-tag:before {
+  content: "\f507";
+}
+
+.ap-user-tie:before {
+  content: "\f508";
+}
+
+.ap-user-times:before {
+  content: "\f235";
+}
+
+.ap-users:before {
+  content: "\f0c0";
+}
+
+.ap-users-cog:before {
+  content: "\f509";
+}
+
+.ap-usps:before {
+  content: "\f7e1";
+}
+
+.ap-ussunnah:before {
+  content: "\f407";
+}
+
+.ap-utensil-spoon:before {
+  content: "\f2e5";
+}
+
+.ap-utensils:before {
+  content: "\f2e7";
+}
+
+.ap-vaadin:before {
+  content: "\f408";
+}
+
+.ap-vector-square:before {
+  content: "\f5cb";
+}
+
+.ap-venus:before {
+  content: "\f221";
+}
+
+.ap-venus-double:before {
+  content: "\f226";
+}
+
+.ap-venus-mars:before {
+  content: "\f228";
+}
+
+.ap-viacoin:before {
+  content: "\f237";
+}
+
+.ap-viadeo:before {
+  content: "\f2a9";
+}
+
+.ap-viadeo-square:before {
+  content: "\f2aa";
+}
+
+.ap-vial:before {
+  content: "\f492";
+}
+
+.ap-vials:before {
+  content: "\f493";
+}
+
+.ap-viber:before {
+  content: "\f409";
+}
+
+.ap-video:before {
+  content: "\f03d";
+}
+
+.ap-video-slash:before {
+  content: "\f4e2";
+}
+
+.ap-vihara:before {
+  content: "\f6a7";
+}
+
+.ap-vimeo:before {
+  content: "\f40a";
+}
+
+.ap-vimeo-square:before {
+  content: "\f194";
+}
+
+.ap-vimeo-v:before {
+  content: "\f27d";
+}
+
+.ap-vine:before {
+  content: "\f1ca";
+}
+
+.ap-vk:before {
+  content: "\f189";
+}
+
+.ap-vnv:before {
+  content: "\f40b";
+}
+
+.ap-voicemail:before {
+  content: "\f897";
+}
+
+.ap-volleyball-ball:before {
+  content: "\f45f";
+}
+
+.ap-volume-down:before {
+  content: "\f027";
+}
+
+.ap-volume-mute:before {
+  content: "\f6a9";
+}
+
+.ap-volume-off:before {
+  content: "\f026";
+}
+
+.ap-volume-up:before {
+  content: "\f028";
+}
+
+.ap-vote-yea:before {
+  content: "\f772";
+}
+
+.ap-vr-cardboard:before {
+  content: "\f729";
+}
+
+.ap-vuejs:before {
+  content: "\f41f";
+}
+
+.ap-walking:before {
+  content: "\f554";
+}
+
+.ap-wallet:before {
+  content: "\f555";
+}
+
+.ap-warehouse:before {
+  content: "\f494";
+}
+
+.ap-water:before {
+  content: "\f773";
+}
+
+.ap-wave-square:before {
+  content: "\f83e";
+}
+
+.ap-waze:before {
+  content: "\f83f";
+}
+
+.ap-weebly:before {
+  content: "\f5cc";
+}
+
+.ap-weibo:before {
+  content: "\f18a";
+}
+
+.ap-weight:before {
+  content: "\f496";
+}
+
+.ap-weight-hanging:before {
+  content: "\f5cd";
+}
+
+.ap-weixin:before {
+  content: "\f1d7";
+}
+
+.ap-whatsapp:before {
+  content: "\f232";
+}
+
+.ap-whatsapp-square:before {
+  content: "\f40c";
+}
+
+.ap-wheelchair:before {
+  content: "\f193";
+}
+
+.ap-whmcs:before {
+  content: "\f40d";
+}
+
+.ap-wifi:before {
+  content: "\f1eb";
+}
+
+.ap-wikipedia-w:before {
+  content: "\f266";
+}
+
+.ap-wind:before {
+  content: "\f72e";
+}
+
+.ap-window-close:before {
+  content: "\f410";
+}
+
+.ap-window-maximize:before {
+  content: "\f2d0";
+}
+
+.ap-window-minimize:before {
+  content: "\f2d1";
+}
+
+.ap-window-restore:before {
+  content: "\f2d2";
+}
+
+.ap-windows:before {
+  content: "\f17a";
+}
+
+.ap-wine-bottle:before {
+  content: "\f72f";
+}
+
+.ap-wine-glass:before {
+  content: "\f4e3";
+}
+
+.ap-wine-glass-alt:before {
+  content: "\f5ce";
+}
+
+.ap-wix:before {
+  content: "\f5cf";
+}
+
+.ap-wizards-of-the-coast:before {
+  content: "\f730";
+}
+
+.ap-wolf-pack-battalion:before {
+  content: "\f514";
+}
+
+.ap-won-sign:before {
+  content: "\f159";
+}
+
+.ap-wordpress:before {
+  content: "\f19a";
+}
+
+.ap-wordpress-simple:before {
+  content: "\f411";
+}
+
+.ap-wpbeginner:before {
+  content: "\f297";
+}
+
+.ap-wpexplorer:before {
+  content: "\f2de";
+}
+
+.ap-wpforms:before {
+  content: "\f298";
+}
+
+.ap-wpressr:before {
+  content: "\f3e4";
+}
+
+.ap-wrench:before {
+  content: "\f0ad";
+}
+
+.ap-x-ray:before {
+  content: "\f497";
+}
+
+.ap-xbox:before {
+  content: "\f412";
+}
+
+.ap-xing:before {
+  content: "\f168";
+}
+
+.ap-xing-square:before {
+  content: "\f169";
+}
+
+.ap-y-combinator:before {
+  content: "\f23b";
+}
+
+.ap-yahoo:before {
+  content: "\f19e";
+}
+
+.ap-yammer:before {
+  content: "\f840";
+}
+
+.ap-yandex:before {
+  content: "\f413";
+}
+
+.ap-yandex-international:before {
+  content: "\f414";
+}
+
+.ap-yarn:before {
+  content: "\f7e3";
+}
+
+.ap-yelp:before {
+  content: "\f1e9";
+}
+
+.ap-yen-sign:before {
+  content: "\f157";
+}
+
+.ap-yin-yang:before {
+  content: "\f6ad";
+}
+
+.ap-yoast:before {
+  content: "\f2b1";
+}
+
+.ap-youtube:before {
+  content: "\f167";
+}
+
+.ap-youtube-square:before {
+  content: "\f431";
+}
+
+.ap-zhihu:before {
+  content: "\f63f";
+}
+
+.sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.sr-only-focusable:active, .sr-only-focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+/*!
+ * Font Awesome Free 5.9.0 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ */
+@font-face {
+  font-family: 'Font Awesome 5 Free';
+  font-style: normal;
+  font-weight: 400;
+  font-display: auto;
+  src: url("../font/fa-regular-400.eot");
+  src: url("../font/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("../font/fa-regular-400.woff2") format("woff2"), url("../font/fa-regular-400.woff") format("woff"), url("../font/fa-regular-400.ttf") format("truetype"), url("../font/fa-regular-400.svg#fontawesome") format("svg");
+}
+
+.far {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+/*!
+ * Font Awesome Free 5.9.0 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ */
+@font-face {
+  font-family: 'Font Awesome 5 Free';
+  font-style: normal;
+  font-weight: 900;
+  font-display: auto;
+  src: url("../font/fa-solid-900.eot");
+  src: url("../font/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../font/fa-solid-900.woff2") format("woff2"), url("../font/fa-solid-900.woff") format("woff"), url("../font/fa-solid-900.ttf") format("truetype"), url("../font/fa-solid-900.svg#fontawesome") format("svg");
+}
+
+.fa,
+.fas,
+.icon {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+}
+
+/*!
+ * Font Awesome Free 5.9.0 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ */
+.ap.ap-glass:before {
+  content: "\f000";
+}
+
+.ap.ap-meetup {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-star-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-star-o:before {
+  content: "\f005";
+}
+
+.ap.ap-remove:before {
+  content: "\f00d";
+}
+
+.ap.ap-close:before {
+  content: "\f00d";
+}
+
+.ap.ap-gear:before {
+  content: "\f013";
+}
+
+.ap.ap-trash-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-trash-o:before {
+  content: "\f2ed";
+}
+
+.ap.ap-file-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-file-o:before {
+  content: "\f15b";
+}
+
+.ap.ap-clock-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-clock-o:before {
+  content: "\f017";
+}
+
+.ap.ap-arrow-circle-o-down {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-arrow-circle-o-down:before {
+  content: "\f358";
+}
+
+.ap.ap-arrow-circle-o-up {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-arrow-circle-o-up:before {
+  content: "\f35b";
+}
+
+.ap.ap-play-circle-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-play-circle-o:before {
+  content: "\f144";
+}
+
+.ap.ap-repeat:before {
+  content: "\f01e";
+}
+
+.ap.ap-rotate-right:before {
+  content: "\f01e";
+}
+
+.ap.ap-refresh:before {
+  content: "\f021";
+}
+
+.ap.ap-list-alt {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-dedent:before {
+  content: "\f03b";
+}
+
+.ap.ap-video-camera:before {
+  content: "\f03d";
+}
+
+.ap.ap-picture-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-picture-o:before {
+  content: "\f03e";
+}
+
+.ap.ap-photo {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-photo:before {
+  content: "\f03e";
+}
+
+.ap.ap-image {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-image:before {
+  content: "\f03e";
+}
+
+.ap.ap-pencil:before {
+  content: "\f303";
+}
+
+.ap.ap-map-marker:before {
+  content: "\f3c5";
+}
+
+.ap.ap-pencil-square-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-pencil-square-o:before {
+  content: "\f044";
+}
+
+.ap.ap-share-square-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-share-square-o:before {
+  content: "\f14d";
+}
+
+.ap.ap-check-square-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-check-square-o:before {
+  content: "\f14a";
+}
+
+.ap.ap-arrows:before {
+  content: "\f0b2";
+}
+
+.ap.ap-times-circle-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-times-circle-o:before {
+  content: "\f057";
+}
+
+.ap.ap-check-circle-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-check-circle-o:before {
+  content: "\f058";
+}
+
+.ap.ap-mail-forward:before {
+  content: "\f064";
+}
+
+.ap.ap-eye {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-eye-slash {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-warning:before {
+  content: "\f071";
+}
+
+.ap.ap-calendar:before {
+  content: "\f073";
+}
+
+.ap.ap-arrows-v:before {
+  content: "\f338";
+}
+
+.ap.ap-arrows-h:before {
+  content: "\f337";
+}
+
+.ap.ap-bar-chart {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-bar-chart:before {
+  content: "\f080";
+}
+
+.ap.ap-bar-chart-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-bar-chart-o:before {
+  content: "\f080";
+}
+
+.ap.ap-twitter-square {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-facebook-square {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-gears:before {
+  content: "\f085";
+}
+
+.ap.ap-thumbs-o-up {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-thumbs-o-up:before {
+  content: "\f164";
+}
+
+.ap.ap-thumbs-o-down {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-thumbs-o-down:before {
+  content: "\f165";
+}
+
+.ap.ap-heart-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-heart-o:before {
+  content: "\f004";
+}
+
+.ap.ap-sign-out:before {
+  content: "\f2f5";
+}
+
+.ap.ap-linkedin-square {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-linkedin-square:before {
+  content: "\f08c";
+}
+
+.ap.ap-thumb-tack:before {
+  content: "\f08d";
+}
+
+.ap.ap-external-link:before {
+  content: "\f35d";
+}
+
+.ap.ap-sign-in:before {
+  content: "\f2f6";
+}
+
+.ap.ap-github-square {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-lemon-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-lemon-o:before {
+  content: "\f094";
+}
+
+.ap.ap-square-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-square-o:before {
+  content: "\f0c8";
+}
+
+.ap.ap-bookmark-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-bookmark-o:before {
+  content: "\f02e";
+}
+
+.ap.ap-twitter {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-facebook {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-facebook:before {
+  content: "\f39e";
+}
+
+.ap.ap-facebook-f {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-facebook-f:before {
+  content: "\f39e";
+}
+
+.ap.ap-github {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-credit-card {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-feed:before {
+  content: "\f09e";
+}
+
+.ap.ap-hdd-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-hdd-o:before {
+  content: "\f0a0";
+}
+
+.ap.ap-hand-o-right {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-hand-o-right:before {
+  content: "\f0a4";
+}
+
+.ap.ap-hand-o-left {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-hand-o-left:before {
+  content: "\f0a5";
+}
+
+.ap.ap-hand-o-up {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-hand-o-up:before {
+  content: "\f0a6";
+}
+
+.ap.ap-hand-o-down {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-hand-o-down:before {
+  content: "\f0a7";
+}
+
+.ap.ap-arrows-alt:before {
+  content: "\f31e";
+}
+
+.ap.ap-group:before {
+  content: "\f0c0";
+}
+
+.ap.ap-chain:before {
+  content: "\f0c1";
+}
+
+.ap.ap-scissors:before {
+  content: "\f0c4";
+}
+
+.ap.ap-files-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-files-o:before {
+  content: "\f0c5";
+}
+
+.ap.ap-floppy-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-floppy-o:before {
+  content: "\f0c7";
+}
+
+.ap.ap-navicon:before {
+  content: "\f0c9";
+}
+
+.ap.ap-reorder:before {
+  content: "\f0c9";
+}
+
+.ap.ap-pinterest {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-pinterest-square {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-google-plus-square {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-google-plus {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-google-plus:before {
+  content: "\f0d5";
+}
+
+.ap.ap-money {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-money:before {
+  content: "\f3d1";
+}
+
+.ap.ap-unsorted:before {
+  content: "\f0dc";
+}
+
+.ap.ap-sort-desc:before {
+  content: "\f0dd";
+}
+
+.ap.ap-sort-asc:before {
+  content: "\f0de";
+}
+
+.ap.ap-linkedin {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-linkedin:before {
+  content: "\f0e1";
+}
+
+.ap.ap-rotate-left:before {
+  content: "\f0e2";
+}
+
+.ap.ap-legal:before {
+  content: "\f0e3";
+}
+
+.ap.ap-tachometer:before {
+  content: "\f3fd";
+}
+
+.ap.ap-dashboard:before {
+  content: "\f3fd";
+}
+
+.ap.ap-comment-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-comment-o:before {
+  content: "\f075";
+}
+
+.ap.ap-comments-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-comments-o:before {
+  content: "\f086";
+}
+
+.ap.ap-flash:before {
+  content: "\f0e7";
+}
+
+.ap.ap-clipboard {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-paste {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-paste:before {
+  content: "\f328";
+}
+
+.ap.ap-lightbulb-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-lightbulb-o:before {
+  content: "\f0eb";
+}
+
+.ap.ap-exchange:before {
+  content: "\f362";
+}
+
+.ap.ap-cloud-download:before {
+  content: "\f381";
+}
+
+.ap.ap-cloud-upload:before {
+  content: "\f382";
+}
+
+.ap.ap-bell-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-bell-o:before {
+  content: "\f0f3";
+}
+
+.ap.ap-cutlery:before {
+  content: "\f2e7";
+}
+
+.ap.ap-file-text-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-file-text-o:before {
+  content: "\f15c";
+}
+
+.ap.ap-building-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-building-o:before {
+  content: "\f1ad";
+}
+
+.ap.ap-hospital-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-hospital-o:before {
+  content: "\f0f8";
+}
+
+.ap.ap-tablet:before {
+  content: "\f3fa";
+}
+
+.ap.ap-mobile:before {
+  content: "\f3cd";
+}
+
+.ap.ap-mobile-phone:before {
+  content: "\f3cd";
+}
+
+.ap.ap-circle-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-circle-o:before {
+  content: "\f111";
+}
+
+.ap.ap-mail-reply:before {
+  content: "\f3e5";
+}
+
+.ap.ap-github-alt {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-folder-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-folder-o:before {
+  content: "\f07b";
+}
+
+.ap.ap-folder-open-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-folder-open-o:before {
+  content: "\f07c";
+}
+
+.ap.ap-smile-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-smile-o:before {
+  content: "\f118";
+}
+
+.ap.ap-frown-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-frown-o:before {
+  content: "\f119";
+}
+
+.ap.ap-meh-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-meh-o:before {
+  content: "\f11a";
+}
+
+.ap.ap-keyboard-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-keyboard-o:before {
+  content: "\f11c";
+}
+
+.ap.ap-flag-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-flag-o:before {
+  content: "\f024";
+}
+
+.ap.ap-mail-reply-all:before {
+  content: "\f122";
+}
+
+.ap.ap-star-half-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-star-half-o:before {
+  content: "\f089";
+}
+
+.ap.ap-star-half-empty {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-star-half-empty:before {
+  content: "\f089";
+}
+
+.ap.ap-star-half-full {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-star-half-full:before {
+  content: "\f089";
+}
+
+.ap.ap-code-fork:before {
+  content: "\f126";
+}
+
+.ap.ap-chain-broken:before {
+  content: "\f127";
+}
+
+.ap.ap-shield:before {
+  content: "\f3ed";
+}
+
+.ap.ap-calendar-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-calendar-o:before {
+  content: "\f133";
+}
+
+.ap.ap-maxcdn {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-html5 {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-css3 {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-ticket:before {
+  content: "\f3ff";
+}
+
+.ap.ap-minus-square-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-minus-square-o:before {
+  content: "\f146";
+}
+
+.ap.ap-level-up:before {
+  content: "\f3bf";
+}
+
+.ap.ap-level-down:before {
+  content: "\f3be";
+}
+
+.ap.ap-pencil-square:before {
+  content: "\f14b";
+}
+
+.ap.ap-external-link-square:before {
+  content: "\f360";
+}
+
+.ap.ap-compass {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-caret-square-o-down {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-caret-square-o-down:before {
+  content: "\f150";
+}
+
+.ap.ap-toggle-down {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-toggle-down:before {
+  content: "\f150";
+}
+
+.ap.ap-caret-square-o-up {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-caret-square-o-up:before {
+  content: "\f151";
+}
+
+.ap.ap-toggle-up {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-toggle-up:before {
+  content: "\f151";
+}
+
+.ap.ap-caret-square-o-right {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-caret-square-o-right:before {
+  content: "\f152";
+}
+
+.ap.ap-toggle-right {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-toggle-right:before {
+  content: "\f152";
+}
+
+.ap.ap-eur:before {
+  content: "\f153";
+}
+
+.ap.ap-euro:before {
+  content: "\f153";
+}
+
+.ap.ap-gbp:before {
+  content: "\f154";
+}
+
+.ap.ap-usd:before {
+  content: "\f155";
+}
+
+.ap.ap-dollar:before {
+  content: "\f155";
+}
+
+.ap.ap-inr:before {
+  content: "\f156";
+}
+
+.ap.ap-rupee:before {
+  content: "\f156";
+}
+
+.ap.ap-jpy:before {
+  content: "\f157";
+}
+
+.ap.ap-cny:before {
+  content: "\f157";
+}
+
+.ap.ap-rmb:before {
+  content: "\f157";
+}
+
+.ap.ap-yen:before {
+  content: "\f157";
+}
+
+.ap.ap-rub:before {
+  content: "\f158";
+}
+
+.ap.ap-ruble:before {
+  content: "\f158";
+}
+
+.ap.ap-rouble:before {
+  content: "\f158";
+}
+
+.ap.ap-krw:before {
+  content: "\f159";
+}
+
+.ap.ap-won:before {
+  content: "\f159";
+}
+
+.ap.ap-btc {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-bitcoin {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-bitcoin:before {
+  content: "\f15a";
+}
+
+.ap.ap-file-text:before {
+  content: "\f15c";
+}
+
+.ap.ap-sort-alpha-asc:before {
+  content: "\f15d";
+}
+
+.ap.ap-sort-alpha-desc:before {
+  content: "\f15e";
+}
+
+.ap.ap-sort-amount-asc:before {
+  content: "\f160";
+}
+
+.ap.ap-sort-amount-desc:before {
+  content: "\f161";
+}
+
+.ap.ap-sort-numeric-asc:before {
+  content: "\f162";
+}
+
+.ap.ap-sort-numeric-desc:before {
+  content: "\f163";
+}
+
+.ap.ap-youtube-square {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-youtube {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-xing {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-xing-square {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-youtube-play {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-youtube-play:before {
+  content: "\f167";
+}
+
+.ap.ap-dropbox {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-stack-overflow {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-instagram {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-flickr {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-adn {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-bitbucket {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-bitbucket-square {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-bitbucket-square:before {
+  content: "\f171";
+}
+
+.ap.ap-tumblr {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-tumblr-square {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-long-arrow-down:before {
+  content: "\f309";
+}
+
+.ap.ap-long-arrow-up:before {
+  content: "\f30c";
+}
+
+.ap.ap-long-arrow-left:before {
+  content: "\f30a";
+}
+
+.ap.ap-long-arrow-right:before {
+  content: "\f30b";
+}
+
+.ap.ap-apple {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-windows {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-android {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-linux {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-dribbble {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-skype {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-foursquare {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-trello {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-gratipay {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-gittip {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-gittip:before {
+  content: "\f184";
+}
+
+.ap.ap-sun-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-sun-o:before {
+  content: "\f185";
+}
+
+.ap.ap-moon-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-moon-o:before {
+  content: "\f186";
+}
+
+.ap.ap-vk {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-weibo {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-renren {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-pagelines {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-stack-exchange {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-arrow-circle-o-right {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-arrow-circle-o-right:before {
+  content: "\f35a";
+}
+
+.ap.ap-arrow-circle-o-left {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-arrow-circle-o-left:before {
+  content: "\f359";
+}
+
+.ap.ap-caret-square-o-left {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-caret-square-o-left:before {
+  content: "\f191";
+}
+
+.ap.ap-toggle-left {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-toggle-left:before {
+  content: "\f191";
+}
+
+.ap.ap-dot-circle-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-dot-circle-o:before {
+  content: "\f192";
+}
+
+.ap.ap-vimeo-square {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-try:before {
+  content: "\f195";
+}
+
+.ap.ap-turkish-lira:before {
+  content: "\f195";
+}
+
+.ap.ap-plus-square-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-plus-square-o:before {
+  content: "\f0fe";
+}
+
+.ap.ap-slack {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-wordpress {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-openid {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-institution:before {
+  content: "\f19c";
+}
+
+.ap.ap-bank:before {
+  content: "\f19c";
+}
+
+.ap.ap-mortar-board:before {
+  content: "\f19d";
+}
+
+.ap.ap-yahoo {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-google {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-reddit {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-reddit-square {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-stumbleupon-circle {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-stumbleupon {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-delicious {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-digg {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-pied-piper-pp {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-pied-piper-alt {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-drupal {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-joomla {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-spoon:before {
+  content: "\f2e5";
+}
+
+.ap.ap-behance {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-behance-square {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-steam {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-steam-square {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-automobile:before {
+  content: "\f1b9";
+}
+
+.ap.ap-cab:before {
+  content: "\f1ba";
+}
+
+.ap.ap-envelope-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-envelope-o:before {
+  content: "\f0e0";
+}
+
+.ap.ap-deviantart {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-soundcloud {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-file-pdf-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-file-pdf-o:before {
+  content: "\f1c1";
+}
+
+.ap.ap-file-word-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-file-word-o:before {
+  content: "\f1c2";
+}
+
+.ap.ap-file-excel-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-file-excel-o:before {
+  content: "\f1c3";
+}
+
+.ap.ap-file-powerpoint-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-file-powerpoint-o:before {
+  content: "\f1c4";
+}
+
+.ap.ap-file-image-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-file-image-o:before {
+  content: "\f1c5";
+}
+
+.ap.ap-file-photo-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-file-photo-o:before {
+  content: "\f1c5";
+}
+
+.ap.ap-file-picture-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-file-picture-o:before {
+  content: "\f1c5";
+}
+
+.ap.ap-file-archive-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-file-archive-o:before {
+  content: "\f1c6";
+}
+
+.ap.ap-file-zip-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-file-zip-o:before {
+  content: "\f1c6";
+}
+
+.ap.ap-file-audio-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-file-audio-o:before {
+  content: "\f1c7";
+}
+
+.ap.ap-file-sound-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-file-sound-o:before {
+  content: "\f1c7";
+}
+
+.ap.ap-file-video-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-file-video-o:before {
+  content: "\f1c8";
+}
+
+.ap.ap-file-movie-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-file-movie-o:before {
+  content: "\f1c8";
+}
+
+.ap.ap-file-code-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-file-code-o:before {
+  content: "\f1c9";
+}
+
+.ap.ap-vine {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-codepen {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-jsfiddle {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-life-ring {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-life-bouy {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-life-bouy:before {
+  content: "\f1cd";
+}
+
+.ap.ap-life-buoy {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-life-buoy:before {
+  content: "\f1cd";
+}
+
+.ap.ap-life-saver {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-life-saver:before {
+  content: "\f1cd";
+}
+
+.ap.ap-support {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-support:before {
+  content: "\f1cd";
+}
+
+.ap.ap-circle-o-notch:before {
+  content: "\f1ce";
+}
+
+.ap.ap-rebel {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-ra {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-ra:before {
+  content: "\f1d0";
+}
+
+.ap.ap-resistance {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-resistance:before {
+  content: "\f1d0";
+}
+
+.ap.ap-empire {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-ge {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-ge:before {
+  content: "\f1d1";
+}
+
+.ap.ap-git-square {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-git {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-hacker-news {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-y-combinator-square {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-y-combinator-square:before {
+  content: "\f1d4";
+}
+
+.ap.ap-yc-square {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-yc-square:before {
+  content: "\f1d4";
+}
+
+.ap.ap-tencent-weibo {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-qq {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-weixin {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-wechat {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-wechat:before {
+  content: "\f1d7";
+}
+
+.ap.ap-send:before {
+  content: "\f1d8";
+}
+
+.ap.ap-paper-plane-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-paper-plane-o:before {
+  content: "\f1d8";
+}
+
+.ap.ap-send-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-send-o:before {
+  content: "\f1d8";
+}
+
+.ap.ap-circle-thin {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-circle-thin:before {
+  content: "\f111";
+}
+
+.ap.ap-header:before {
+  content: "\f1dc";
+}
+
+.ap.ap-sliders:before {
+  content: "\f1de";
+}
+
+.ap.ap-futbol-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-futbol-o:before {
+  content: "\f1e3";
+}
+
+.ap.ap-soccer-ball-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-soccer-ball-o:before {
+  content: "\f1e3";
+}
+
+.ap.ap-slideshare {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-twitch {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-yelp {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-newspaper-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-newspaper-o:before {
+  content: "\f1ea";
+}
+
+.ap.ap-paypal {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-google-wallet {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-cc-visa {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-cc-mastercard {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-cc-discover {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-cc-amex {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-cc-paypal {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-cc-stripe {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-bell-slash-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-bell-slash-o:before {
+  content: "\f1f6";
+}
+
+.ap.ap-trash:before {
+  content: "\f2ed";
+}
+
+.ap.ap-copyright {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-eyedropper:before {
+  content: "\f1fb";
+}
+
+.ap.ap-area-chart:before {
+  content: "\f1fe";
+}
+
+.ap.ap-pie-chart:before {
+  content: "\f200";
+}
+
+.ap.ap-line-chart:before {
+  content: "\f201";
+}
+
+.ap.ap-lastfm {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-lastfm-square {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-ioxhost {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-angellist {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-cc {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-cc:before {
+  content: "\f20a";
+}
+
+.ap.ap-ils:before {
+  content: "\f20b";
+}
+
+.ap.ap-shekel:before {
+  content: "\f20b";
+}
+
+.ap.ap-sheqel:before {
+  content: "\f20b";
+}
+
+.ap.ap-meanpath {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-meanpath:before {
+  content: "\f2b4";
+}
+
+.ap.ap-buysellads {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-connectdevelop {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-dashcube {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-forumbee {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-leanpub {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-sellsy {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-shirtsinbulk {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-simplybuilt {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-skyatlas {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-diamond {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-diamond:before {
+  content: "\f3a5";
+}
+
+.ap.ap-intersex:before {
+  content: "\f224";
+}
+
+.ap.ap-facebook-official {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-facebook-official:before {
+  content: "\f09a";
+}
+
+.ap.ap-pinterest-p {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-whatsapp {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-hotel:before {
+  content: "\f236";
+}
+
+.ap.ap-viacoin {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-medium {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-y-combinator {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-yc {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-yc:before {
+  content: "\f23b";
+}
+
+.ap.ap-optin-monster {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-opencart {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-expeditedssl {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-battery-4:before {
+  content: "\f240";
+}
+
+.ap.ap-battery:before {
+  content: "\f240";
+}
+
+.ap.ap-battery-3:before {
+  content: "\f241";
+}
+
+.ap.ap-battery-2:before {
+  content: "\f242";
+}
+
+.ap.ap-battery-1:before {
+  content: "\f243";
+}
+
+.ap.ap-battery-0:before {
+  content: "\f244";
+}
+
+.ap.ap-object-group {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-object-ungroup {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-sticky-note-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-sticky-note-o:before {
+  content: "\f249";
+}
+
+.ap.ap-cc-jcb {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-cc-diners-club {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-clone {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-hourglass-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-hourglass-o:before {
+  content: "\f254";
+}
+
+.ap.ap-hourglass-1:before {
+  content: "\f251";
+}
+
+.ap.ap-hourglass-2:before {
+  content: "\f252";
+}
+
+.ap.ap-hourglass-3:before {
+  content: "\f253";
+}
+
+.ap.ap-hand-rock-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-hand-rock-o:before {
+  content: "\f255";
+}
+
+.ap.ap-hand-grab-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-hand-grab-o:before {
+  content: "\f255";
+}
+
+.ap.ap-hand-paper-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-hand-paper-o:before {
+  content: "\f256";
+}
+
+.ap.ap-hand-stop-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-hand-stop-o:before {
+  content: "\f256";
+}
+
+.ap.ap-hand-scissors-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-hand-scissors-o:before {
+  content: "\f257";
+}
+
+.ap.ap-hand-lizard-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-hand-lizard-o:before {
+  content: "\f258";
+}
+
+.ap.ap-hand-spock-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-hand-spock-o:before {
+  content: "\f259";
+}
+
+.ap.ap-hand-pointer-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-hand-pointer-o:before {
+  content: "\f25a";
+}
+
+.ap.ap-hand-peace-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-hand-peace-o:before {
+  content: "\f25b";
+}
+
+.ap.ap-registered {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-creative-commons {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-gg {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-gg-circle {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-tripadvisor {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-odnoklassniki {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-odnoklassniki-square {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-get-pocket {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-wikipedia-w {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-safari {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-chrome {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-firefox {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-opera {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-internet-explorer {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-television:before {
+  content: "\f26c";
+}
+
+.ap.ap-contao {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-500px {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-amazon {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-calendar-plus-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-calendar-plus-o:before {
+  content: "\f271";
+}
+
+.ap.ap-calendar-minus-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-calendar-minus-o:before {
+  content: "\f272";
+}
+
+.ap.ap-calendar-times-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-calendar-times-o:before {
+  content: "\f273";
+}
+
+.ap.ap-calendar-check-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-calendar-check-o:before {
+  content: "\f274";
+}
+
+.ap.ap-map-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-map-o:before {
+  content: "\f279";
+}
+
+.ap.ap-commenting:before {
+  content: "\f4ad";
+}
+
+.ap.ap-commenting-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-commenting-o:before {
+  content: "\f4ad";
+}
+
+.ap.ap-houzz {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-vimeo {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-vimeo:before {
+  content: "\f27d";
+}
+
+.ap.ap-black-tie {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-fonticons {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-reddit-alien {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-edge {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-credit-card-alt:before {
+  content: "\f09d";
+}
+
+.ap.ap-codiepie {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-modx {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-fort-awesome {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-usb {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-product-hunt {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-mixcloud {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-scribd {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-pause-circle-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-pause-circle-o:before {
+  content: "\f28b";
+}
+
+.ap.ap-stop-circle-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-stop-circle-o:before {
+  content: "\f28d";
+}
+
+.ap.ap-bluetooth {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-bluetooth-b {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-gitlab {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-wpbeginner {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-wpforms {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-envira {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-wheelchair-alt {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-wheelchair-alt:before {
+  content: "\f368";
+}
+
+.ap.ap-question-circle-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-question-circle-o:before {
+  content: "\f059";
+}
+
+.ap.ap-volume-control-phone:before {
+  content: "\f2a0";
+}
+
+.ap.ap-asl-interpreting:before {
+  content: "\f2a3";
+}
+
+.ap.ap-deafness:before {
+  content: "\f2a4";
+}
+
+.ap.ap-hard-of-hearing:before {
+  content: "\f2a4";
+}
+
+.ap.ap-glide {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-glide-g {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-signing:before {
+  content: "\f2a7";
+}
+
+.ap.ap-viadeo {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-viadeo-square {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-snapchat {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-snapchat-ghost {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-snapchat-square {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-pied-piper {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-first-order {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-yoast {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-themeisle {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-google-plus-official {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-google-plus-official:before {
+  content: "\f2b3";
+}
+
+.ap.ap-google-plus-circle {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-google-plus-circle:before {
+  content: "\f2b3";
+}
+
+.ap.ap-font-awesome {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-fa {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-fa:before {
+  content: "\f2b4";
+}
+
+.ap.ap-handshake-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-handshake-o:before {
+  content: "\f2b5";
+}
+
+.ap.ap-envelope-open-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-envelope-open-o:before {
+  content: "\f2b6";
+}
+
+.ap.ap-linode {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-address-book-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-address-book-o:before {
+  content: "\f2b9";
+}
+
+.ap.ap-vcard:before {
+  content: "\f2bb";
+}
+
+.ap.ap-address-card-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-address-card-o:before {
+  content: "\f2bb";
+}
+
+.ap.ap-vcard-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-vcard-o:before {
+  content: "\f2bb";
+}
+
+.ap.ap-user-circle-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-user-circle-o:before {
+  content: "\f2bd";
+}
+
+.ap.ap-user-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-user-o:before {
+  content: "\f007";
+}
+
+.ap.ap-id-badge {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-drivers-license:before {
+  content: "\f2c2";
+}
+
+.ap.ap-id-card-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-id-card-o:before {
+  content: "\f2c2";
+}
+
+.ap.ap-drivers-license-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-drivers-license-o:before {
+  content: "\f2c2";
+}
+
+.ap.ap-quora {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-free-code-camp {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-telegram {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-thermometer-4:before {
+  content: "\f2c7";
+}
+
+.ap.ap-thermometer:before {
+  content: "\f2c7";
+}
+
+.ap.ap-thermometer-3:before {
+  content: "\f2c8";
+}
+
+.ap.ap-thermometer-2:before {
+  content: "\f2c9";
+}
+
+.ap.ap-thermometer-1:before {
+  content: "\f2ca";
+}
+
+.ap.ap-thermometer-0:before {
+  content: "\f2cb";
+}
+
+.ap.ap-bathtub:before {
+  content: "\f2cd";
+}
+
+.ap.ap-s15:before {
+  content: "\f2cd";
+}
+
+.ap.ap-window-maximize {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-window-restore {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-times-rectangle:before {
+  content: "\f410";
+}
+
+.ap.ap-window-close-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-window-close-o:before {
+  content: "\f410";
+}
+
+.ap.ap-times-rectangle-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-times-rectangle-o:before {
+  content: "\f410";
+}
+
+.ap.ap-bandcamp {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-grav {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-etsy {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-imdb {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-ravelry {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-eercast {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-eercast:before {
+  content: "\f2da";
+}
+
+.ap.ap-snowflake-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.ap.ap-snowflake-o:before {
+  content: "\f2dc";
+}
+
+.ap.ap-superpowers {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-wpexplorer {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.ap.ap-spotify {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
 /***
  ** Atomic Parts Contents
   - Bg Style
@@ -4859,7 +13465,6 @@ input.btn.lofty {
 */
 .icon {
   display: inline-block;
-  font: normal normal normal 14px/1 FontAwesome;
 }
 
 .icon.round {
@@ -4958,76 +13563,24 @@ input.btn.lofty {
   color: #EF8B80;
 }
 
+.icon.ap-glass, .icon.ap-envelope-o, .icon.ap-star-o, .icon.ap-remove, .icon.ap-gear, .icon.ap-trash-o, .icon.ap-file-o, .icon.ap-clock-o, .icon.ap-arrow-circle-o-down, .icon.ap-arrow-circle-o-up, .icon.ap-play-circle-o, .icon.ap-rotate-right, .icon.ap-repeat, .icon.ap-refresh, .icon.ap-pencil, .icon.ap-share-square-o, .icon.ap-check-square-o, .icon.ap-arrows, .icon.ap-times-circle-o, .icon.ap-check-circle-o, .icon.ap-arrows-v, .icon.ap-arrows-h, .icon.ap-twitter-square, .icon.ap-facebook-square, .icon.ap-thumbs-o-up, .icon.ap-thumbs-o-down, .icon.ap-heart-o, .icon.ap-sign-out, .icon.ap-linkedin-square, .icon.ap-external-link, .icon.ap-sign-in, .icon.ap-github-square, .icon.ap-square-o, .icon.ap-bookmark-o, .icon.ap-twitter, .icon.ap-facebook-f, .icon.ap-facebook, .icon.ap-github, .icon.ap-pinterest, .icon.ap-pinterest-square, .icon.ap-google-plus-square, .icon.ap-google-plus, .icon.ap-linkedin, .icon.ap-dashboard, .icon.ap-tachometer, .icon.ap-comment-o, .icon.ap-comments-o, .icon.ap-exchange, .icon.ap-cloud-download, .icon.ap-cloud-upload, .icon.ap-bell-o, .icon.ap-cutlery, .icon.ap-file-text-o, .icon.ap-building-o, .icon.ap-circle-o, .icon.ap-mail-reply, .icon.ap-reply, .icon.ap-github-alt, .icon.ap-folder-o, .icon.ap-folder-open-o, .icon.ap-smile-o, .icon.ap-frown-o, .icon.ap-meh-o, .icon.ap-flag-o, .icon.ap-star-half-empty, .icon.ap-star-half-full, .icon.ap-star-half-o, .icon.ap-shield, .icon.ap-maxcdn, .icon.ap-html5, .icon.ap-css3, .icon.ap-ticket, .icon.ap-minus-square-o, .icon.ap-level-up, .icon.ap-level-down, .icon.ap-external-link-square, .icon.ap-bitcoin, .icon.ap-btc, .icon.ap-youtube-square, .icon.ap-youtube, .icon.ap-xing, .icon.ap-xing-square, .icon.ap-youtube-play, .icon.ap-dropbox, .icon.ap-stack-overflow, .icon.ap-instagram, .icon.ap-flickr, .icon.ap-adn, .icon.ap-bitbucket, .icon.ap-bitbucket-square, .icon.ap-tumblr, .icon.ap-tumblr-square, .icon.ap-long-arrow-down, .icon.ap-long-arrow-up, .icon.ap-long-arrow-left, .icon.ap-long-arrow-right, .icon.ap-apple, .icon.ap-windows, .icon.ap-android, .icon.ap-linux, .icon.ap-dribbble, .icon.ap-skype, .icon.ap-foursquare, .icon.ap-trello, .icon.ap-gittip, .icon.ap-gratipay, .icon.ap-vk, .icon.ap-weibo, .icon.ap-renren, .icon.ap-pagelines, .icon.ap-stack-exchange, .icon.ap-arrow-circle-o-right, .icon.ap-arrow-circle-o-left, .icon.ap-vimeo-square, .icon.ap-plus-square-o, .icon.ap-slack, .icon.ap-wordpress, .icon.ap-openid, .icon.ap-yahoo, .icon.ap-google, .icon.ap-reddit, .icon.ap-reddit-square, .icon.ap-stumbleupon-circle, .icon.ap-stumbleupon, .icon.ap-delicious, .icon.ap-digg, .icon.ap-pied-piper, .icon.ap-pied-piper-alt, .icon.ap-drupal, .icon.ap-joomla, .icon.ap-spoon, .icon.ap-behance, .icon.ap-behance-square, .icon.ap-steam, .icon.ap-steam-square, .icon.ap-spotify, .icon.ap-deviantart, .icon.ap-soundcloud, .icon.ap-vine, .icon.ap-codepen, .icon.ap-jsfiddle, .icon.ap-ra, .icon.ap-rebel, .icon.ap-ge, .icon.ap-empire, .icon.ap-git-square, .icon.ap-git, .icon.ap-hacker-news, .icon.ap-tencent-weibo, .icon.ap-qq, .icon.ap-wechat, .icon.ap-weixin, .icon.ap-send-o, .icon.ap-paper-plane-o, .icon.ap-circle-thin, .icon.ap-slideshare, .icon.ap-twitch, .icon.ap-yelp, .icon.ap-paypal, .icon.ap-google-wallet, .icon.ap-cc-visa, .icon.ap-cc-mastercard, .icon.ap-cc-discover, .icon.ap-cc-amex, .icon.ap-cc-paypal, .icon.ap-cc-stripe, .icon.ap-bell-slash-o, .icon.ap-lastfm, .icon.ap-lastfm-square, .icon.ap-ioxhost, .icon.ap-angellist, .icon.ap-meanpath, .icon.ap-buysellads, .icon.ap-connectdevelop, .icon.ap-dashcube, .icon.ap-forumbee, .icon.ap-leanpub, .icon.ap-sellsy, .icon.ap-shirtsinbulk, .icon.ap-simplybuilt, .icon.ap-skyatlas, .icon.ap-diamond, .icon.ap-facebook-official, .icon.ap-pinterest-p, .icon.ap-whatsapp, .icon.ap-viacoin, .icon.ap-medium-logo, .icon.ap-500px, .icon.ap-amazon, .icon.ap-black-tie, .icon.ap-cc-diners-club, .icon.ap-cc-jcb, .icon.ap-chrome, .icon.ap-commenting, .icon.ap-commenting-o, .icon.ap-contao, .icon.ap-creative-commons, .icon.ap-expeditedssl, .icon.ap-firefox, .icon.ap-fonticons, .icon.ap-get-pocket, .icon.ap-gg, .icon.ap-gg-circle, .icon.ap-hourglass-o, .icon.ap-houzz, .icon.ap-internet-explorer, .icon.ap-map-o, .icon.ap-odnoklassniki, .icon.ap-odnoklassniki-square, .icon.ap-opencart, .icon.ap-opera, .icon.ap-optin-monster, .icon.ap-safari, .icon.ap-sticky-note-o, .icon.ap-tripadvisor, .icon.ap-vimeo, .icon.ap-wikipedia-w, .icon.ap-yc, .icon.ap-y-combinator, .icon.ap-yc-square, .icon.ap-y-combinator-square, .icon.ap-bluetooth, .icon.ap-bluetooth-b, .icon.ap-codiepie, .icon.ap-credit-card-alt, .icon.ap-edge, .icon.ap-fort-awesome, .icon.ap-mixcloud, .icon.ap-modx, .icon.ap-pause-circle-o, .icon.ap-product-hunt, .icon.ap-reddit-alien, .icon.ap-scribd, .icon.ap-stop-circle-o, .icon.ap-usb, .icon.ap-envira, .icon.ap-font-awesome, .icon.ap-fa, .icon.ap-first-order, .icon.ap-gitlab, .icon.ap-glide, .icon.ap-glide-g, .icon.ap-question-circle-o, .icon.ap-signing, .icon.ap-snapchat, .icon.ap-snapchat-ghost, .icon.ap-snapchat-square, .icon.ap-themeisle, .icon.ap-viadeo, .icon.ap-viadeo-square, .icon.ap-wheelchair-alt, .icon.ap-wpbeginner, .icon.ap-wpforms, .icon.ap-yoast {
+  font: normal normal normal 14px/1 FontAwesome;
+}
+
 .icon.ap-glass::before {
   content: "\f000";
-}
-
-.icon.ap-music::before {
-  content: "\f001";
-}
-
-.icon.ap-search::before {
-  content: "\f002";
 }
 
 .icon.ap-envelope-o::before {
   content: "\f003";
 }
 
-.icon.ap-heart::before {
-  content: "\f004";
-}
-
-.icon.ap-star::before {
-  content: "\f005";
-}
-
 .icon.ap-star-o::before {
   content: "\f006";
 }
 
-.icon.ap-user::before {
-  content: "\f007";
-}
-
-.icon.ap-film::before {
-  content: "\f008";
-}
-
-.icon.ap-th-large::before {
-  content: "\f009";
-}
-
-.icon.ap-th::before {
-  content: "\f00a";
-}
-
-.icon.ap-th-list::before {
-  content: "\f00b";
-}
-
-.icon.ap-check::before {
-  content: "\f00c";
-}
-
 .icon.ap-remove::before, .icon.ap-close::before, .icon.ap-times::before {
   content: "\f00d";
-}
-
-.icon.ap-search-plus::before {
-  content: "\f00e";
-}
-
-.icon.ap-search-minus::before {
-  content: "\f010";
-}
-
-.icon.ap-power-off::before {
-  content: "\f011";
-}
-
-.icon.ap-signal::before {
-  content: "\f012";
 }
 
 .icon.ap-gear::before, .icon.ap-cog::before {
@@ -5038,10 +13591,6 @@ input.btn.lofty {
   content: "\f014";
 }
 
-.icon.ap-home::before {
-  content: "\f015";
-}
-
 .icon.ap-file-o::before {
   content: "\f016";
 }
@@ -5050,24 +13599,12 @@ input.btn.lofty {
   content: "\f017";
 }
 
-.icon.ap-road::before {
-  content: "\f018";
-}
-
-.icon.ap-download::before {
-  content: "\f019";
-}
-
 .icon.ap-arrow-circle-o-down::before {
   content: "\f01a";
 }
 
 .icon.ap-arrow-circle-o-up::before {
   content: "\f01b";
-}
-
-.icon.ap-inbox::before {
-  content: "\f01c";
 }
 
 .icon.ap-play-circle-o::before {
@@ -5082,112 +13619,8 @@ input.btn.lofty {
   content: "\f021";
 }
 
-.icon.ap-list-alt::before {
-  content: "\f022";
-}
-
-.icon.ap-lock::before {
-  content: "\f023";
-}
-
-.icon.ap-flag::before {
-  content: "\f024";
-}
-
-.icon.ap-headphones::before {
-  content: "\f025";
-}
-
-.icon.ap-volume-off::before {
-  content: "\f026";
-}
-
-.icon.ap-volume-down::before {
-  content: "\f027";
-}
-
-.icon.ap-volume-up::before {
-  content: "\f028";
-}
-
-.icon.ap-qrcode::before {
-  content: "\f029";
-}
-
-.icon.ap-barcode::before {
-  content: "\f02a";
-}
-
-.icon.ap-tag::before {
-  content: "\f02b";
-}
-
-.icon.ap-tags::before {
-  content: "\f02c";
-}
-
-.icon.ap-book::before {
-  content: "\f02d";
-}
-
-.icon.ap-bookmark::before {
-  content: "\f02e";
-}
-
-.icon.ap-print::before {
-  content: "\f02f";
-}
-
-.icon.ap-camera::before {
-  content: "\f030";
-}
-
-.icon.ap-font::before {
-  content: "\f031";
-}
-
-.icon.ap-bold::before {
-  content: "\f032";
-}
-
-.icon.ap-italic::before {
-  content: "\f033";
-}
-
-.icon.ap-text-height::before {
-  content: "\f034";
-}
-
-.icon.ap-text-width::before {
-  content: "\f035";
-}
-
-.icon.ap-align-left::before {
-  content: "\f036";
-}
-
-.icon.ap-align-center::before {
-  content: "\f037";
-}
-
-.icon.ap-align-right::before {
-  content: "\f038";
-}
-
-.icon.ap-align-justify::before {
-  content: "\f039";
-}
-
-.icon.ap-list::before {
-  content: "\f03a";
-}
-
 .icon.ap-dedent::before, .icon.ap-outdent::before {
   content: "\f03b";
-}
-
-.icon.ap-indent::before {
-  content: "\f03c";
 }
 
 .icon.ap-video-camera::before {
@@ -5202,19 +13635,7 @@ input.btn.lofty {
   content: "\f040";
 }
 
-.icon.ap-map-marker::before {
-  content: "\f041";
-}
-
-.icon.ap-adjust::before {
-  content: "\f042";
-}
-
-.icon.ap-tint::before {
-  content: "\f043";
-}
-
-.icon.ap-edit::before, .icon.ap-pencil-square-o::before {
+.icon.ap-pencil-square-o::before {
   content: "\f044";
 }
 
@@ -5230,82 +13651,6 @@ input.btn.lofty {
   content: "\f047";
 }
 
-.icon.ap-step-backward::before {
-  content: "\f048";
-}
-
-.icon.ap-fast-backward::before {
-  content: "\f049";
-}
-
-.icon.ap-backward::before {
-  content: "\f04a";
-}
-
-.icon.ap-play::before {
-  content: "\f04b";
-}
-
-.icon.ap-pause::before {
-  content: "\f04c";
-}
-
-.icon.ap-stop::before {
-  content: "\f04d";
-}
-
-.icon.ap-forward::before {
-  content: "\f04e";
-}
-
-.icon.ap-fast-forward::before {
-  content: "\f050";
-}
-
-.icon.ap-step-forward::before {
-  content: "\f051";
-}
-
-.icon.ap-eject::before {
-  content: "\f052";
-}
-
-.icon.ap-chevron-left::before {
-  content: "\f053";
-}
-
-.icon.ap-chevron-right::before {
-  content: "\f054";
-}
-
-.icon.ap-plus-circle::before {
-  content: "\f055";
-}
-
-.icon.ap-minus-circle::before {
-  content: "\f056";
-}
-
-.icon.ap-times-circle::before {
-  content: "\f057";
-}
-
-.icon.ap-check-circle::before {
-  content: "\f058";
-}
-
-.icon.ap-question-circle::before {
-  content: "\f059";
-}
-
-.icon.ap-info-circle::before {
-  content: "\f05a";
-}
-
-.icon.ap-crosshairs::before {
-  content: "\f05b";
-}
-
 .icon.ap-times-circle-o::before {
   content: "\f05c";
 }
@@ -5314,120 +13659,8 @@ input.btn.lofty {
   content: "\f05d";
 }
 
-.icon.ap-ban::before {
-  content: "\f05e";
-}
-
-.icon.ap-arrow-left::before {
-  content: "\f060";
-}
-
-.icon.ap-arrow-right::before {
-  content: "\f061";
-}
-
-.icon.ap-arrow-up::before {
-  content: "\f062";
-}
-
-.icon.ap-arrow-down::before {
-  content: "\f063";
-}
-
-.icon.ap-mail-forward::before, .icon.ap-share::before {
-  content: "\f064";
-}
-
-.icon.ap-expand::before {
-  content: "\f065";
-}
-
-.icon.ap-compress::before {
-  content: "\f066";
-}
-
-.icon.ap-plus::before {
-  content: "\f067";
-}
-
-.icon.ap-minus::before {
-  content: "\f068";
-}
-
-.icon.ap-asterisk::before {
-  content: "\f069";
-}
-
-.icon.ap-exclamation-circle::before {
-  content: "\f06a";
-}
-
-.icon.ap-gift::before {
-  content: "\f06b";
-}
-
-.icon.ap-leaf::before {
-  content: "\f06c";
-}
-
-.icon.ap-fire::before {
-  content: "\f06d";
-}
-
-.icon.ap-eye::before {
-  content: "\f06e";
-}
-
-.icon.ap-eye-slash::before {
-  content: "\f070";
-}
-
 .icon.ap-warning::before, .icon.ap-exclamation-triangle::before {
   content: "\f071";
-}
-
-.icon.ap-plane::before {
-  content: "\f072";
-}
-
-.icon.ap-calendar::before {
-  content: "\f073";
-}
-
-.icon.ap-random::before {
-  content: "\f074";
-}
-
-.icon.ap-comment::before {
-  content: "\f075";
-}
-
-.icon.ap-magnet::before {
-  content: "\f076";
-}
-
-.icon.ap-chevron-up::before {
-  content: "\f077";
-}
-
-.icon.ap-chevron-down::before {
-  content: "\f078";
-}
-
-.icon.ap-retweet::before {
-  content: "\f079";
-}
-
-.icon.ap-shopping-cart::before {
-  content: "\f07a";
-}
-
-.icon.ap-folder::before {
-  content: "\f07b";
-}
-
-.icon.ap-folder-open::before {
-  content: "\f07c";
 }
 
 .icon.ap-arrows-v::before {
@@ -5450,20 +13683,8 @@ input.btn.lofty {
   content: "\f082";
 }
 
-.icon.ap-camera-retro::before {
-  content: "\f083";
-}
-
-.icon.ap-key::before {
-  content: "\f084";
-}
-
 .icon.ap-gears::before, .icon.ap-cogs::before {
   content: "\f085";
-}
-
-.icon.ap-comments::before {
-  content: "\f086";
 }
 
 .icon.ap-thumbs-o-up::before {
@@ -5472,10 +13693,6 @@ input.btn.lofty {
 
 .icon.ap-thumbs-o-down::before {
   content: "\f088";
-}
-
-.icon.ap-star-half::before {
-  content: "\f089";
 }
 
 .icon.ap-heart-o::before {
@@ -5502,24 +13719,12 @@ input.btn.lofty {
   content: "\f090";
 }
 
-.icon.ap-trophy::before {
-  content: "\f091";
-}
-
 .icon.ap-github-square::before {
   content: "\f092";
 }
 
-.icon.ap-upload::before {
-  content: "\f093";
-}
-
 .icon.ap-lemon-o::before {
   content: "\f094";
-}
-
-.icon.ap-phone::before {
-  content: "\f095";
 }
 
 .icon.ap-square-o::before {
@@ -5528,10 +13733,6 @@ input.btn.lofty {
 
 .icon.ap-bookmark-o::before {
   content: "\f097";
-}
-
-.icon.ap-phone-square::before {
-  content: "\f098";
 }
 
 .icon.ap-twitter::before {
@@ -5546,32 +13747,8 @@ input.btn.lofty {
   content: "\f09b";
 }
 
-.icon.ap-unlock::before {
-  content: "\f09c";
-}
-
-.icon.ap-credit-card::before {
-  content: "\f09d";
-}
-
-.icon.ap-rss::before {
-  content: "\f09e";
-}
-
 .icon.ap-hdd-o::before {
   content: "\f0a0";
-}
-
-.icon.ap-bullhorn::before {
-  content: "\f0a1";
-}
-
-.icon.ap-bell::before {
-  content: "\f0f3";
-}
-
-.icon.ap-certificate::before {
-  content: "\f0a3";
 }
 
 .icon.ap-hand-o-right::before {
@@ -5590,60 +13767,12 @@ input.btn.lofty {
   content: "\f0a7";
 }
 
-.icon.ap-arrow-circle-left::before {
-  content: "\f0a8";
-}
-
-.icon.ap-arrow-circle-right::before {
-  content: "\f0a9";
-}
-
-.icon.ap-arrow-circle-up::before {
-  content: "\f0aa";
-}
-
-.icon.ap-arrow-circle-down::before {
-  content: "\f0ab";
-}
-
-.icon.ap-globe::before {
-  content: "\f0ac";
-}
-
-.icon.ap-wrench::before {
-  content: "\f0ad";
-}
-
-.icon.ap-tasks::before {
-  content: "\f0ae";
-}
-
-.icon.ap-filter::before {
-  content: "\f0b0";
-}
-
-.icon.ap-briefcase::before {
-  content: "\f0b1";
-}
-
-.icon.ap-arrows-alt::before {
-  content: "\f0b2";
-}
-
 .icon.ap-group::before, .icon.ap-users::before {
   content: "\f0c0";
 }
 
 .icon.ap-chain::before, .icon.ap-link::before {
   content: "\f0c1";
-}
-
-.icon.ap-cloud::before {
-  content: "\f0c2";
-}
-
-.icon.ap-flask::before {
-  content: "\f0c3";
 }
 
 .icon.ap-cut::before, .icon.ap-scissors::before {
@@ -5654,48 +13783,12 @@ input.btn.lofty {
   content: "\f0c5";
 }
 
-.icon.ap-paperclip::before {
-  content: "\f0c6";
-}
-
 .icon.ap-save::before, .icon.ap-floppy-o::before {
   content: "\f0c7";
 }
 
-.icon.ap-square::before {
-  content: "\f0c8";
-}
-
 .icon.ap-navicon::before, .icon.ap-reorder::before, .icon.ap-bars::before {
   content: "\f0c9";
-}
-
-.icon.ap-list-ul::before {
-  content: "\f0ca";
-}
-
-.icon.ap-list-ol::before {
-  content: "\f0cb";
-}
-
-.icon.ap-strikethrough::before {
-  content: "\f0cc";
-}
-
-.icon.ap-underline::before {
-  content: "\f0cd";
-}
-
-.icon.ap-table::before {
-  content: "\f0ce";
-}
-
-.icon.ap-magic::before {
-  content: "\f0d0";
-}
-
-.icon.ap-truck::before {
-  content: "\f0d1";
 }
 
 .icon.ap-pinterest::before {
@@ -5718,26 +13811,6 @@ input.btn.lofty {
   content: "\f0d6";
 }
 
-.icon.ap-caret-down::before {
-  content: "\f0d7";
-}
-
-.icon.ap-caret-up::before {
-  content: "\f0d8";
-}
-
-.icon.ap-caret-left::before {
-  content: "\f0d9";
-}
-
-.icon.ap-caret-right::before {
-  content: "\f0da";
-}
-
-.icon.ap-columns::before {
-  content: "\f0db";
-}
-
 .icon.ap-unsorted::before, .icon.ap-sort::before {
   content: "\f0dc";
 }
@@ -5748,10 +13821,6 @@ input.btn.lofty {
 
 .icon.ap-sort-up::before, .icon.ap-sort-asc::before {
   content: "\f0de";
-}
-
-.icon.ap-envelope::before {
-  content: "\f0e0";
 }
 
 .icon.ap-linkedin::before {
@@ -5782,18 +13851,6 @@ input.btn.lofty {
   content: "\f0e7";
 }
 
-.icon.ap-sitemap::before {
-  content: "\f0e8";
-}
-
-.icon.ap-umbrella::before {
-  content: "\f0e9";
-}
-
-.icon.ap-paste::before, .icon.ap-clipboard::before {
-  content: "\f0ea";
-}
-
 .icon.ap-lightbulb-o::before {
   content: "\f0eb";
 }
@@ -5810,24 +13867,8 @@ input.btn.lofty {
   content: "\f0ee";
 }
 
-.icon.ap-user-md::before {
-  content: "\f0f0";
-}
-
-.icon.ap-stethoscope::before {
-  content: "\f0f1";
-}
-
-.icon.ap-suitcase::before {
-  content: "\f0f2";
-}
-
 .icon.ap-bell-o::before {
   content: "\f0a2";
-}
-
-.icon.ap-coffee::before {
-  content: "\f0f4";
 }
 
 .icon.ap-cutlery::before {
@@ -5846,96 +13887,12 @@ input.btn.lofty {
   content: "\f0f8";
 }
 
-.icon.ap-ambulance::before {
-  content: "\f0f9";
-}
-
-.icon.ap-medkit::before {
-  content: "\f0fa";
-}
-
-.icon.ap-fighter-jet::before {
-  content: "\f0fb";
-}
-
-.icon.ap-beer::before {
-  content: "\f0fc";
-}
-
-.icon.ap-h-square::before {
-  content: "\f0fd";
-}
-
-.icon.ap-plus-square::before {
-  content: "\f0fe";
-}
-
-.icon.ap-angle-double-left::before {
-  content: "\f100";
-}
-
-.icon.ap-angle-double-right::before {
-  content: "\f101";
-}
-
-.icon.ap-angle-double-up::before {
-  content: "\f102";
-}
-
-.icon.ap-angle-double-down::before {
-  content: "\f103";
-}
-
-.icon.ap-angle-left::before {
-  content: "\f104";
-}
-
-.icon.ap-angle-right::before {
-  content: "\f105";
-}
-
-.icon.ap-angle-up::before {
-  content: "\f106";
-}
-
-.icon.ap-angle-down::before {
-  content: "\f107";
-}
-
-.icon.ap-desktop::before {
-  content: "\f108";
-}
-
-.icon.ap-laptop::before {
-  content: "\f109";
-}
-
-.icon.ap-tablet::before {
-  content: "\f10a";
-}
-
 .icon.ap-mobile-phone::before, .icon.ap-mobile::before {
   content: "\f10b";
 }
 
 .icon.ap-circle-o::before {
   content: "\f10c";
-}
-
-.icon.ap-quote-left::before {
-  content: "\f10d";
-}
-
-.icon.ap-quote-right::before {
-  content: "\f10e";
-}
-
-.icon.ap-spinner::before {
-  content: "\f110";
-}
-
-.icon.ap-circle::before {
-  content: "\f111";
 }
 
 .icon.ap-mail-reply::before, .icon.ap-reply::before {
@@ -5966,28 +13923,12 @@ input.btn.lofty {
   content: "\f11a";
 }
 
-.icon.ap-gamepad::before {
-  content: "\f11b";
-}
-
 .icon.ap-keyboard-o::before {
   content: "\f11c";
 }
 
 .icon.ap-flag-o::before {
   content: "\f11d";
-}
-
-.icon.ap-flag-checkered::before {
-  content: "\f11e";
-}
-
-.icon.ap-terminal::before {
-  content: "\f120";
-}
-
-.icon.ap-code::before {
-  content: "\f121";
 }
 
 .icon.ap-mail-reply-all::before, .icon.ap-reply-all::before {
@@ -5998,56 +13939,12 @@ input.btn.lofty {
   content: "\f123";
 }
 
-.icon.ap-location-arrow::before {
-  content: "\f124";
-}
-
-.icon.ap-crop::before {
-  content: "\f125";
-}
-
 .icon.ap-code-fork::before {
   content: "\f126";
 }
 
 .icon.ap-unlink::before, .icon.ap-chain-broken::before {
   content: "\f127";
-}
-
-.icon.ap-question::before {
-  content: "\f128";
-}
-
-.icon.ap-info::before {
-  content: "\f129";
-}
-
-.icon.ap-exclamation::before {
-  content: "\f12a";
-}
-
-.icon.ap-superscript::before {
-  content: "\f12b";
-}
-
-.icon.ap-subscript::before {
-  content: "\f12c";
-}
-
-.icon.ap-eraser::before {
-  content: "\f12d";
-}
-
-.icon.ap-puzzle-piece::before {
-  content: "\f12e";
-}
-
-.icon.ap-microphone::before {
-  content: "\f130";
-}
-
-.icon.ap-microphone-slash::before {
-  content: "\f131";
 }
 
 .icon.ap-shield::before {
@@ -6058,32 +13955,8 @@ input.btn.lofty {
   content: "\f133";
 }
 
-.icon.ap-fire-extinguisher::before {
-  content: "\f134";
-}
-
-.icon.ap-rocket::before {
-  content: "\f135";
-}
-
 .icon.ap-maxcdn::before {
   content: "\f136";
-}
-
-.icon.ap-chevron-circle-left::before {
-  content: "\f137";
-}
-
-.icon.ap-chevron-circle-right::before {
-  content: "\f138";
-}
-
-.icon.ap-chevron-circle-up::before {
-  content: "\f139";
-}
-
-.icon.ap-chevron-circle-down::before {
-  content: "\f13a";
 }
 
 .icon.ap-html5::before {
@@ -6094,40 +13967,8 @@ input.btn.lofty {
   content: "\f13c";
 }
 
-.icon.ap-anchor::before {
-  content: "\f13d";
-}
-
-.icon.ap-unlock-alt::before {
-  content: "\f13e";
-}
-
-.icon.ap-bullseye::before {
-  content: "\f140";
-}
-
-.icon.ap-ellipsis-h::before {
-  content: "\f141";
-}
-
-.icon.ap-ellipsis-v::before {
-  content: "\f142";
-}
-
-.icon.ap-rss-square::before {
-  content: "\f143";
-}
-
-.icon.ap-play-circle::before {
-  content: "\f144";
-}
-
 .icon.ap-ticket::before {
   content: "\f145";
-}
-
-.icon.ap-minus-square::before {
-  content: "\f146";
 }
 
 .icon.ap-minus-square-o::before {
@@ -6142,24 +13983,12 @@ input.btn.lofty {
   content: "\f149";
 }
 
-.icon.ap-check-square::before {
-  content: "\f14a";
-}
-
 .icon.ap-pencil-square::before {
   content: "\f14b";
 }
 
 .icon.ap-external-link-square::before {
   content: "\f14c";
-}
-
-.icon.ap-share-square::before {
-  content: "\f14d";
-}
-
-.icon.ap-compass::before {
-  content: "\f14e";
 }
 
 .icon.ap-toggle-down::before, .icon.ap-caret-square-o-down::before {
@@ -6236,14 +14065,6 @@ input.btn.lofty {
 
 .icon.ap-sort-numeric-desc::before {
   content: "\f163";
-}
-
-.icon.ap-thumbs-up::before {
-  content: "\f164";
-}
-
-.icon.ap-thumbs-down::before {
-  content: "\f165";
 }
 
 .icon.ap-youtube-square::before {
@@ -6350,14 +14171,6 @@ input.btn.lofty {
   content: "\f181";
 }
 
-.icon.ap-female::before {
-  content: "\f182";
-}
-
-.icon.ap-male::before {
-  content: "\f183";
-}
-
 .icon.ap-gittip::before, .icon.ap-gratipay::before {
   content: "\f184";
 }
@@ -6414,10 +14227,6 @@ input.btn.lofty {
   content: "\f192";
 }
 
-.icon.ap-wheelchair::before {
-  content: "\f193";
-}
-
 .icon.ap-vimeo-square::before {
   content: "\f194";
 }
@@ -6430,16 +14239,8 @@ input.btn.lofty {
   content: "\f196";
 }
 
-.icon.ap-space-shuttle::before {
-  content: "\f197";
-}
-
 .icon.ap-slack::before {
   content: "\f198";
-}
-
-.icon.ap-envelope-square::before {
-  content: "\f199";
 }
 
 .icon.ap-wordpress::before {
@@ -6506,36 +14307,8 @@ input.btn.lofty {
   content: "\f1aa";
 }
 
-.icon.ap-language::before {
-  content: "\f1ab";
-}
-
-.icon.ap-fax::before {
-  content: "\f1ac";
-}
-
-.icon.ap-building::before {
-  content: "\f1ad";
-}
-
-.icon.ap-child::before {
-  content: "\f1ae";
-}
-
-.icon.ap-paw::before {
-  content: "\f1b0";
-}
-
 .icon.ap-spoon::before {
   content: "\f1b1";
-}
-
-.icon.ap-cube::before {
-  content: "\f1b2";
-}
-
-.icon.ap-cubes::before {
-  content: "\f1b3";
 }
 
 .icon.ap-behance::before {
@@ -6554,20 +14327,12 @@ input.btn.lofty {
   content: "\f1b7";
 }
 
-.icon.ap-recycle::before {
-  content: "\f1b8";
-}
-
 .icon.ap-automobile::before, .icon.ap-car::before {
   content: "\f1b9";
 }
 
 .icon.ap-cab::before, .icon.ap-taxi::before {
   content: "\f1ba";
-}
-
-.icon.ap-tree::before {
-  content: "\f1bb";
 }
 
 .icon.ap-spotify::before {
@@ -6580,10 +14345,6 @@ input.btn.lofty {
 
 .icon.ap-soundcloud::before {
   content: "\f1be";
-}
-
-.icon.ap-database::before {
-  content: "\f1c0";
 }
 
 .icon.ap-file-pdf-o::before {
@@ -6682,11 +14443,7 @@ input.btn.lofty {
   content: "\f1d9";
 }
 
-.icon.ap-history::before {
-  content: "\f1da";
-}
-
-.icon.ap-genderless::before, .icon.ap-circle-thin::before {
+.icon.ap-circle-thin::before {
   content: "\f1db";
 }
 
@@ -6694,40 +14451,12 @@ input.btn.lofty {
   content: "\f1dc";
 }
 
-.icon.ap-paragraph::before {
-  content: "\f1dd";
-}
-
 .icon.ap-sliders::before {
   content: "\f1de";
 }
 
-.icon.ap-share-alt::before {
-  content: "\f1e0";
-}
-
-.icon.ap-share-alt-square::before {
-  content: "\f1e1";
-}
-
-.icon.ap-bomb::before {
-  content: "\f1e2";
-}
-
 .icon.ap-soccer-ball-o::before, .icon.ap-futbol-o::before {
   content: "\f1e3";
-}
-
-.icon.ap-tty::before {
-  content: "\f1e4";
-}
-
-.icon.ap-binoculars::before {
-  content: "\f1e5";
-}
-
-.icon.ap-plug::before {
-  content: "\f1e6";
 }
 
 .icon.ap-slideshare::before {
@@ -6744,14 +14473,6 @@ input.btn.lofty {
 
 .icon.ap-newspaper-o::before {
   content: "\f1ea";
-}
-
-.icon.ap-wifi::before {
-  content: "\f1eb";
-}
-
-.icon.ap-calculator::before {
-  content: "\f1ec";
 }
 
 .icon.ap-paypal::before {
@@ -6786,36 +14507,12 @@ input.btn.lofty {
   content: "\f1f5";
 }
 
-.icon.ap-bell-slash::before {
-  content: "\f1f6";
-}
-
 .icon.ap-bell-slash-o::before {
   content: "\f1f7";
 }
 
-.icon.ap-trash::before {
-  content: "\f1f8";
-}
-
-.icon.ap-copyright::before {
-  content: "\f1f9";
-}
-
-.icon.ap-at::before {
-  content: "\f1fa";
-}
-
 .icon.ap-eyedropper::before {
   content: "\f1fb";
-}
-
-.icon.ap-paint-brush::before {
-  content: "\f1fc";
-}
-
-.icon.ap-birthday-cake::before {
-  content: "\f1fd";
 }
 
 .icon.ap-area-chart::before {
@@ -6836,22 +14533,6 @@ input.btn.lofty {
 
 .icon.ap-lastfm-square::before {
   content: "\f203";
-}
-
-.icon.ap-toggle-off::before {
-  content: "\f204";
-}
-
-.icon.ap-toggle-on::before {
-  content: "\f205";
-}
-
-.icon.ap-bicycle::before {
-  content: "\f206";
-}
-
-.icon.ap-bus::before {
-  content: "\f207";
 }
 
 .icon.ap-ioxhost::before {
@@ -6910,84 +14591,8 @@ input.btn.lofty {
   content: "\f216";
 }
 
-.icon.ap-cart-plus::before {
-  content: "\f217";
-}
-
-.icon.ap-cart-arrow-down::before {
-  content: "\f218";
-}
-
 .icon.ap-diamond::before {
   content: "\f219";
-}
-
-.icon.ap-ship::before {
-  content: "\f21a";
-}
-
-.icon.ap-user-secret::before {
-  content: "\f21b";
-}
-
-.icon.ap-motorcycle::before {
-  content: "\f21c";
-}
-
-.icon.ap-street-view::before {
-  content: "\f21d";
-}
-
-.icon.ap-heartbeat::before {
-  content: "\f21e";
-}
-
-.icon.ap-venus::before {
-  content: "\f221";
-}
-
-.icon.ap-mars::before {
-  content: "\f222";
-}
-
-.icon.ap-mercury::before {
-  content: "\f223";
-}
-
-.icon.ap-transgender::before {
-  content: "\f224";
-}
-
-.icon.ap-transgender-alt::before {
-  content: "\f225";
-}
-
-.icon.ap-venus-double::before {
-  content: "\f226";
-}
-
-.icon.ap-mars-double::before {
-  content: "\f227";
-}
-
-.icon.ap-venus-mars::before {
-  content: "\f228";
-}
-
-.icon.ap-mars-stroke::before {
-  content: "\f229";
-}
-
-.icon.ap-mars-stroke-v::before {
-  content: "\f22a";
-}
-
-.icon.ap-mars-stroke-h::before {
-  content: "\f22b";
-}
-
-.icon.ap-neuter::before {
-  content: "\f22c";
 }
 
 .icon.ap-facebook-official::before {
@@ -7002,32 +14607,8 @@ input.btn.lofty {
   content: "\f232";
 }
 
-.icon.ap-server::before {
-  content: "\f233";
-}
-
-.icon.ap-user-plus::before {
-  content: "\f234";
-}
-
-.icon.ap-user-times::before {
-  content: "\f235";
-}
-
-.icon.ap-hotel::before, .icon.ap-bed::before {
-  content: "\f236";
-}
-
 .icon.ap-viacoin::before {
   content: "\f237";
-}
-
-.icon.ap-train::before {
-  content: "\f238";
-}
-
-.icon.ap-subway::before {
-  content: "\f239";
 }
 
 .icon.ap-medium-logo::before {
@@ -7042,27 +14623,23 @@ input.btn.lofty {
   content: "\f270";
 }
 
-.icon.ap-balance-scale::before {
-  content: "\f24e";
-}
-
-.icon.ap-battery-empty::before, .icon.ap-battery-0::before {
+.icon.ap-battery-0::before {
   content: "\f244";
 }
 
-.icon.ap-battery-quarter::before, .icon.ap-battery-1::before {
+.icon.ap-battery-1::before {
   content: "\f243";
 }
 
-.icon.ap-battery-half::before, .icon.ap-battery-2::before {
+.icon.ap-battery-2::before {
   content: "\f242";
 }
 
-.icon.ap-battery-three-quarters::before, .icon.ap-battery-3::before {
+.icon.ap-battery-3::before {
   content: "\f241";
 }
 
-.icon.ap-battery-full::before, .icon.ap-battery-4::before {
+.icon.ap-battery-4::before {
   content: "\f240";
 }
 
@@ -7096,10 +14673,6 @@ input.btn.lofty {
 
 .icon.ap-chrome::before {
   content: "\f268";
-}
-
-.icon.ap-clone::before {
-  content: "\f24d";
 }
 
 .icon.ap-commenting::before {
@@ -7170,10 +14743,6 @@ input.btn.lofty {
   content: "\f259";
 }
 
-.icon.ap-hourglass::before {
-  content: "\f254";
-}
-
 .icon.ap-hourglass-o::before {
   content: "\f250";
 }
@@ -7194,44 +14763,12 @@ input.btn.lofty {
   content: "\f27c";
 }
 
-.icon.ap-i-cursor::before {
-  content: "\f246";
-}
-
-.icon.ap-industry::before {
-  content: "\f275";
-}
-
 .icon.ap-internet-explorer::before {
   content: "\f26b";
 }
 
-.icon.ap-map::before {
-  content: "\f279";
-}
-
 .icon.ap-map-o::before {
   content: "\f278";
-}
-
-.icon.ap-map-pin::before {
-  content: "\f276";
-}
-
-.icon.ap-map-signs::before {
-  content: "\f277";
-}
-
-.icon.ap-mouse-pointer::before {
-  content: "\f245";
-}
-
-.icon.ap-object-group::before {
-  content: "\f247";
-}
-
-.icon.ap-object-ungroup::before {
-  content: "\f248";
 }
 
 .icon.ap-odnoklassniki::before {
@@ -7254,28 +14791,16 @@ input.btn.lofty {
   content: "\f23c";
 }
 
-.icon.ap-registered::before {
-  content: "\f25d";
-}
-
 .icon.ap-safari::before {
   content: "\f267";
-}
-
-.icon.ap-sticky-note::before {
-  content: "\f249";
 }
 
 .icon.ap-sticky-note-o::before {
   content: "\f24a";
 }
 
-.icon.ap-tv::before, .icon.ap-television::before {
+.icon.ap-television::before {
   content: "\f26c";
-}
-
-.icon.ap-trademark::before {
-  content: "\f25c";
 }
 
 .icon.ap-tripadvisor::before {
@@ -7322,10 +14847,6 @@ input.btn.lofty {
   content: "\f286";
 }
 
-.icon.ap-hashtag::before {
-  content: "\f292";
-}
-
 .icon.ap-mixcloud::before {
   content: "\f289";
 }
@@ -7334,16 +14855,8 @@ input.btn.lofty {
   content: "\f285";
 }
 
-.icon.ap-pause-circle::before {
-  content: "\f28b";
-}
-
 .icon.ap-pause-circle-o::before {
   content: "\f28c";
-}
-
-.icon.ap-percent::before {
-  content: "\f295";
 }
 
 .icon.ap-product-hunt::before {
@@ -7358,18 +14871,6 @@ input.btn.lofty {
   content: "\f28a";
 }
 
-.icon.ap-shopping-bag::before {
-  content: "\f290";
-}
-
-.icon.ap-shopping-basket::before {
-  content: "\f291";
-}
-
-.icon.ap-stop-circle::before {
-  content: "\f28d";
-}
-
 .icon.ap-stop-circle-o::before {
   content: "\f28e";
 }
@@ -7378,24 +14879,8 @@ input.btn.lofty {
   content: "\f287";
 }
 
-.icon.ap-american-sign-language-interpreting::before, .icon.ap-asl-interpreting::before {
+.icon.ap-asl-interpreting::before {
   content: "\f2a3";
-}
-
-.icon.ap-assistive-listening-systems::before {
-  content: "\f2a2";
-}
-
-.icon.ap-audio-description::before {
-  content: "\f29e";
-}
-
-.icon.ap-blind::before {
-  content: "\f29d";
-}
-
-.icon.ap-braille::before {
-  content: "\f2a1";
 }
 
 .icon.ap-deaf::before, .icon.ap-deafness::before {
@@ -7430,15 +14915,11 @@ input.btn.lofty {
   content: "\f2a4";
 }
 
-.icon.ap-low-vision::before {
-  content: "\f2a8";
-}
-
 .icon.ap-question-circle-o::before {
   content: "\f29c";
 }
 
-.icon.ap-sign-language::before, .icon.ap-signing::before {
+.icon.ap-signing::before {
   content: "\f2a7";
 }
 
@@ -7456,10 +14937,6 @@ input.btn.lofty {
 
 .icon.ap-themeisle::before {
   content: "\f2b2";
-}
-
-.icon.ap-universal-access::before {
-  content: "\f29a";
 }
 
 .icon.ap-viadeo::before {
