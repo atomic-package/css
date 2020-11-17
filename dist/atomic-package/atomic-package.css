@@ -105,7 +105,6 @@ input, select {
 
 button {
   -webkit-appearance: none;
-  -moz-appearance: none;
   appearance: none;
   border: none;
   background: none;
@@ -117,7 +116,6 @@ input[type="checkbox"],
 input[type="radio"],
 select {
   -webkit-appearance: none;
-  -moz-appearance: none;
   appearance: none;
   outline: none;
 }
@@ -173,7 +171,6 @@ select {
 
 textarea {
   -webkit-appearance: none;
-  -moz-appearance: none;
   appearance: none;
   resize: none;
 }
@@ -10452,11 +10449,11 @@ readers do not read off random characters that represent icons */
 :not(pre) > kbd,
 :not(pre) > samp {
   font-size: 12px;
-  font-family: Consolas,monospace,serif;
-  color: #D05;
+  font-family: Consolas, monospace, serif;
+  color: #d05;
   white-space: nowrap;
   padding: 0 4px;
-  border: 1px solid #E5E5E5;
+  border: 1px solid #e5e5e5;
   border-radius: 3px;
   background: #fafafa;
 }
@@ -10464,12 +10461,12 @@ readers do not read off random characters that represent icons */
 pre {
   padding: 10px;
   background: #fafafa;
-  font: 12px/18px Consolas,monospace,serif;
+  font: 12px/18px Consolas, monospace, serif;
   color: #666;
   -moz-tab-size: 4;
   tab-size: 4;
   overflow: auto;
-  border: 1px solid #E5E5E5;
+  border: 1px solid #e5e5e5;
   border-radius: 3px;
 }
 
@@ -10517,6 +10514,11 @@ pre {
 .text.center,
 .string.center {
   text-align: center;
+}
+
+.text.right,
+.string.right {
+  text-align: right;
 }
 
 .text.strong,
@@ -13635,7 +13637,7 @@ input.btn.lofty {
   content: "\f040";
 }
 
-.icon.ap-pencil-square-o::before {
+.icon.ap-edit::before, .icon.ap-pencil-square-o::before {
   content: "\f044";
 }
 

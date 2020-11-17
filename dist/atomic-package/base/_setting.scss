@@ -40,24 +40,6 @@ $linkMainColor: #3598DB;
 */
 $fontFamily: Helvetica Neue, Arial, sans-serif, 'Hiragino Kaku Gothic Pro', 'メイリオ';
 
-// @import "~@fortawesome/fontawesome-free/css/all.css";
-
-// @import "../../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
-
-// @import "~@fortawesome/fontawesome-free/scss/fontawesome";
-
-//@import "../../../node_modules/@fortawesome/fontawesome-free/scss/variables";
-//@import "/node_modules/@fortawesome/fontawesome-free/scss/mixins";
-//@import "/node_modules/@fortawesome/fontawesome-free/scss/core";
-//@import "/node_modules/@fortawesome/fontawesome-free/scss/larger";
-//@import "/node_modules/@fortawesome/fontawesome-free/scss/fixed-width";
-//@import "/node_modules/@fortawesome/fontawesome-free/scss/list";
-//@import "/node_modules/@fortawesome/fontawesome-free/scss/animated";
-//@import "/node_modules/@fortawesome/fontawesome-free/scss/rotated-flipped";
-//@import "/node_modules/@fortawesome/fontawesome-free/scss/stacked";
-//@import "/node_modules/@fortawesome/fontawesome-free/scss/icons";
-//@import "/node_modules/@fortawesome/fontawesome-free/scss/screen-reader";
-
 @font-face {
   font-family: 'FontAwesome';
   src: url("#{$fontPath}fontawesome-webfont.woff2") format('woff2'),
@@ -71,7 +53,6 @@ $fontFamily: Helvetica Neue, Arial, sans-serif, 'Hiragino Kaku Gothic Pro', 'メ
  * Width Variables
 */
 $thumbnailWidth: 45px;
-
 
 /*
  * Layout Variables
